@@ -1,0 +1,137 @@
+body{
+	background-image:url(../images/global/page-bg.jpg);
+}
+
+.contentImg
+{
+	postition:absolute;
+	top:0;
+	left:0;
+	x-index:1;
+}
+
+.key{
+	postition:absolute;
+	margin-top:18px;
+	left:0;
+	x-index:2;
+}
+
+#coverageTable{
+	x-index:3;
+	width:100%;
+	margin-top:120px;
+	border-spacing: 0;
+	padding:0;
+	border:none;
+}
+
+thead tr{
+	height:50px;
+	line-height:50px;
+	text-align:center;
+}
+
+.tbody
+{
+}
+
+.col1{
+	background-color:#9bd1ee;
+	color:black;
+	width:30%;
+	text-align:left;
+	padding-left:5px;
+}
+
+.col2{
+	background-color:#3f3a66;
+	width:14%;
+	text-align:center;
+	font-weight:bold;
+}
+.col3{
+	background-color:#2aaff8;
+	width:14%;
+	text-align:center;
+	font-weight:bold;
+}
+.col4{
+	background-color:#cccccc;
+	width:14%;
+	text-align:center;
+}
+.col5{
+	background-color:#e9eaea;
+	width:14%;
+	text-align:center;
+}
+.col6{
+	background-color:#cccccc;
+	width:14%;
+	text-align:center;
+}
+
+.row-spacer{
+	height:8px;
+	background-color:#transparent;
+}
+
+.row{
+	height:30px;
+	opacity:.5;	
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+}
+
+.bayer, .abbott, .roche{
+	display:none;
+}
+.bayer.selected, .abbott.selected, .roche.selected{
+	display:block;
+}
+
+.selected{
+	opacity:1;	
+}
+
+.selected span.verio, .selected span.ultra{
+	display:block;	
+}
+
+.ddl-col{
+	text-align:center;
+	padding:0px;
+}
+.dropdown, .dropdown dd, .dropdown dt, .dropdown ul { margin:0px; padding:0px; -webkit-tap-highlight-color: transparent; }
+.dropdown dd { position:relative; z-index:999; }
+.dropdown a { 
+	color:#FFFFFF; 
+	text-decoration:none; 
+	outline:none;
+	font-family: Gotham-Medium;
+	font-size: 16px;
+}
+
+.dropdown dt a {
+	background:#9bd1ee url(../images/5.2/dd-arrow3.png) no-repeat right center; 
+	background-size: 25px 15px;
+	padding-right:30px;
+	display:block; 
+	border:none; 
+}
+.dropdown dt a span {display:block; margin-left:10px; }
+.dropdown dd ul { 
+	background-color:#9bd1ee; 
+	display:none;
+	left:0px; 
+	position:absolute; 
+	top:2px; 
+	width:230px; 
+	list-style:none;
+	-webkit-box-shadow: 3px 3px 3px #b1b1b1;
+	/*border:1px dashed #ececec; */
+}
+.dropdown span.value { display:none;}
+.dropdown dd ul li a { display:block; border-bottom:1px dashed #ececec; -webkit-tap-highlight-color: transparent;}
+.dropdown dd ul li a.last {border:none;}
+

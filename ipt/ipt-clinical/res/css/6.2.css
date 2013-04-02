@@ -1,0 +1,21 @@
+.headings-a{
+	margin-top:220px;
+}
+
+.headings-b{
+	margin-top:245px;
+}
+
+#ping-1{
+	position:absolute;
+	top:225px;
+	left:1024px;
+	opacity:0;
+}
+
+#ping-2{
+	position:absolute;
+	top:305px;
+	left:-232px;
+	opacity:0;
+}

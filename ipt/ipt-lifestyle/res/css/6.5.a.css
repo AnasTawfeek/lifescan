@@ -1,0 +1,66 @@
+.headings{
+	margin-top:55px;
+}
+#imgMeters{
+	position:absolute;
+	left:492px;
+	top:270px;
+}
+.buttons{
+	margin-top: 75px; 
+	width:310px;
+}
+.buttons img{
+	margin-bottom: 12px;
+}
+
+#call-1{
+	position:absolute;
+	left: 550px;
+	top:417px;
+	display:none;
+}
+#call-2{
+	position:absolute;
+	left: 680px;
+	top:178px;
+	display:none;
+}
+#call-3{
+	position:absolute;
+	left: 292px;
+	top:260px;
+	display:none;
+}
+#call-4{
+	position:absolute;
+	left: 407px;
+	top:200px;
+	display:none;
+}
+
+#call-1-ref{
+	position:absolute;
+	left: 320px;
+	top:495px;
+	display:none;
+}
+
+#call-3-ref{
+	position:absolute;
+	left: 515px;
+	top:470px;
+	display:none;
+}
+
+#overlay{
+	position:absolute;
+	top:82px;
+	display:none;
+	z-index:999;
+}
+
+.footnote{
+	width:100%;
+	line-height:10px;
+}
