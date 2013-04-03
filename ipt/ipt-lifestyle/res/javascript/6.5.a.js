@@ -154,7 +154,14 @@ $(document).ready(function(){
 			$prev = null;
 		 }
 	});			 
-	 
+        
+        $('#chart-bolus').live('touchstart click', function(e){
+		e.stopPropagation(); e.preventDefault();
+		
+		$(this).attr("src", btnImages[8] );
+		jump("chart-bolus.html");								
+	});
+
 	$('.animationLayer').fadeIn('slow');		
 	$('.contentLayer').fadeIn('slow');
 			
