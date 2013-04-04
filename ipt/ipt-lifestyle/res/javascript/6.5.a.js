@@ -37,7 +37,9 @@ $(document).ready(function(){
 							imgpath+ "btn-1-on.png", 
 							imgpath+ "btn-2-on.png", 
 							imgpath+ "btn-3-on.png", 
-							imgpath+ "btn-4-on.png"
+							imgpath+ "btn-4-on.png",
+							imgpath+ "btn-chart-bolus-on.png",
+							imgpath+ "btn-chart-dose-on.png",
 							];			
 
 	// button setup...					
@@ -50,14 +52,18 @@ $(document).ready(function(){
 		{
 			resetState();			
 			btn.attr("src", btnImages[4] );
-			$('#call-1').fadeIn();			
+			$('#call-1').fadeIn();	
+			$('#chart-dose').fadeIn();			
+		
 			$prev = btn;
 		 }
 		 else
 		 {
 			btn.attr("src", btnImages[0] );
 			$('#call-1').fadeOut();
-			$('#call-1-ref').fadeOut();			
+			$('#call-1-ref').fadeOut();
+			$('#chart-dose').fadeOut();			
+			
 			$prev = null;
 		 }
 	});			
@@ -103,7 +109,9 @@ $(document).ready(function(){
 		{
 			resetState();			
 			btn.attr("src", btnImages[6] );
-			$('#call-3').fadeIn();				
+			$('#call-3').fadeIn();		
+			$('#chart-bolus').fadeIn();			
+		
 			$prev = btn;
 		 }
 		 else
@@ -111,6 +119,8 @@ $(document).ready(function(){
 			btn.attr("src", btnImages[2] );
 			$('#call-3-ref').fadeOut();
 			$('#call-3').fadeOut();
+			$('#chart-bolus').fadeOut();
+
 			$prev = null;
 		 }
 	});	
@@ -154,6 +164,14 @@ $(document).ready(function(){
 			$prev = null;
 		 }
 	});			 
+        
+	$('#chart-dose').live('touchstart click', function(e){
+		e.stopPropagation(); e.preventDefault();
+		
+		$(this).attr("src", btnImages[9] );		
+		jump("chart-dose.html");								
+	});	 
+	
         
         $('#chart-bolus').live('touchstart click', function(e){
 		e.stopPropagation(); e.preventDefault();

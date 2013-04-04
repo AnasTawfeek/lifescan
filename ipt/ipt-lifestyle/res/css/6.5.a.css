@@ -65,6 +65,13 @@
 	line-height:10px;
 }
 
+#chart-dose{
+	position:absolute;
+	left: 550px;
+	top:584px;
+	display:none;
+}
+
 #chart-bolus	{
 	position:absolute;
 	left: 292px;
