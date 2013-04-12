@@ -102,10 +102,11 @@
 
 #ref-1{
 	position:absolute;
-	bottom:90px;
-	left:-4px;
+	top:30px;
+	right:0px;
 	display:none;
 }
+
 #btn-ref-1{
 	width:570px; 
 	height:92px; 
