@@ -17,6 +17,7 @@ $(document).ready(function(){
 		
 		if(btn.hasClass('prev'))
 			page = "veeva:gotoSlide(ipt-home.zip, IPT_02-2013_POA)";
+			
 		else
 			page = "6.3.a.html";
 		

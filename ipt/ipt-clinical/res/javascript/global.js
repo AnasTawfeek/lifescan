@@ -27,6 +27,7 @@ $(document).ready(function(){
 	   	$('.animationLayer').fadeOut('fast');	   
 	  	$('.contentLayer').fadeOut('fast', function(){
 			document.location = "veeva:gotoSlide(ipt-home.zip, IPT_02-2013_POA)";	
+			
 		});		
 	 });
 			  
@@ -37,6 +38,7 @@ $(document).ready(function(){
 	   	$('.animationLayer').fadeOut('fast');
 	  	$('.contentLayer').fadeOut('fast', function(){
 			document.location = "veeva:gotoSlide(ipt-pa.zip, IPT_PayerAccess_02-2013_POA)";	
+
 		});
 	 });
 	 
