@@ -15,7 +15,7 @@ $(document).ready(function(){
 	$('.nav').live('touchstart click', function(e){
 		e.stopPropagation(); e.preventDefault();
 		
-		jump("6.3.b.html");			
+		jump("6.5.a.html");			
 	});
 	
 	function resetState(){					
