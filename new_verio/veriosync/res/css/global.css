@@ -1,8 +1,7 @@
-
 html{
 	margin:0px;
 	padding:0px;
-	width:1024px;
+	width:2048px;
 	height:768px;
 }
 
@@ -10,13 +9,12 @@ body {
 	background-color:#e0e0e0;
 	margin:0px;
 	padding:0px;
-	width:1024px;
-	height:768px;
 	background-image:url(../images/global/page-bg.jpg);
-	background-size: 1024px 768px;
-	background-position: top left;
 	background-repeat:no-repeat;
+	background-size: 2048px 1536px;
 	position:relative;
+	width:2048px;
+	height:768px;
 }
 
 .left{
@@ -56,8 +54,10 @@ body {
 
 
 header{
-	width: 100%;
-	height: 24px;
+	position:absolute;
+	top: 88px;
+	right: 141px;
+	height: 48px;
 }
 
 nav{
@@ -66,9 +66,9 @@ nav{
 
 footer
 {
-	width: 100%;
 	position:absolute;
-	bottom: 0px;
+	top:1364px;
+	left:1660px;
 	z-index:998;
 }
 
