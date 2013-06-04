@@ -1,14 +1,14 @@
 html{
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 	width:2048px;
 	height:768px;
 }
 
 body {
 	background-color:#e0e0e0;
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 	background-image:url(../images/global/page-bg.jpg);
 	background-repeat:no-repeat;
 	background-size: 2048px 1536px;
@@ -51,8 +51,6 @@ body {
 	-webkit-opacity: 0;
 }
 
-
-
 header{
 	position:absolute;
 	top: 88px;
@@ -84,42 +82,14 @@ footer
 	margin:0;
 }
 
-.contentLayer-wide
-{
-	width: 954px;
-	height: 657px;
-	position:absolute;
-	top: 50%;
-	left: 50%;
-	margin-left:-477px;
-	margin-top:-328px;
-	z-index:990;
-	/*border: 1px dashed blue;*/
-}
-
-.contentLayer
-{
-	width: 884px;
-	height: 658px;
-	position:absolute;
-	top: 50%;
-	left: 50%;
-	margin-left:-442px;
-	margin-top:-329px;
-	z-index:990;
-	/*border: 1px dashed blue;*/
-}
-
 .nav.prev{
 	position:absolute;
-	left:-54px;
-	bottom:100px;
-	opacity:.3;
+	left:41px;
+	top:1243px;
 }
 
 .nav.next{
 	position:absolute;
-	right:-54px;
-	bottom:100px;
-	opacity:.3;
+	right:41px;
+	top:1243px;
 }
