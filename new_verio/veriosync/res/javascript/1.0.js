@@ -29,8 +29,13 @@ $(document).ready(function(){
 
 	
 	// fade in the content...
-	$('.contentLayer').fadeIn(function(){
-		$('.animationLayer').fadeIn('slow');
-	});
+//	$('.contentLayer').fadeIn(function(){
+//		$('.animationLayer').fadeIn('slow');
+//	});
 	
+	// fade in the content...
+	$('#rightside').click(function(e) {
+   		$('#stats').addClass("showMe");     
+    });
+
 });

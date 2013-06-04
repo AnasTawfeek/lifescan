@@ -2,7 +2,7 @@ html{
 	margin:0;
 	padding:0;
 	width:2048px;
-	height:768px;
+	height:1536px;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 	background-size: 2048px 1536px;
 	position:relative;
 	width:2048px;
-	height:768px;
+	height:1536px;
 }
 
 .left{
