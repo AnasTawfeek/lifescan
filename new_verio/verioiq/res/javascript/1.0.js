@@ -2,43 +2,40 @@ $(document).ready(function(){
 
 	function jump(page)
 	{
+		$('.animationLayer').fadeOut();
 		$('.contentLayer').fadeOut( function(){				  					
 			document.location = page;			
 		});	
 	};
 	
-	$('.nav').live('touchstart click', function(e){
+		$('#face1').live('touchstart click', animateFace);
+		$('#face2').live('touchstart click', animateFace);
+		$('#face3').live('touchstart click', animateFace);
+		$('#face4').live('touchstart click', animateFace);
+		$('#face5').live('touchstart click', animateFace);
+		$('#face6').live('touchstart click', animateFace);
+
+	function animateFace(e) {
 		e.stopPropagation(); e.preventDefault();
-		var btn = $(this);
-		var page;
-		
-		if(btn.hasClass('prev'))
-			page = "start.html";
+		if($(this).hasClass('flip')) {
+			$(this).removeClass('flip');
+		}
 		else
-			page = "veeva:gotoSlide(home.zip)";
-		
-		jump(page);			
-	});
-	
-	$('.card').live('touchstart click', function(e){
-		e.stopPropagation(); e.preventDefault();
-		
-		$('.button').live('touchstart click', function(e){
-			e.stopPropagation(); e.preventDefault();
-			
-			jump("veeva:gotoSlide(home.zip)");					
-		});
-		
-		$('.click').addClass('flip');
-		
-		move("#card-container")
-			.ease('in-out')
-			.duration('1.1s')
-			.x(-215)
-			.end();					
-	});
+		{
+			$(this).addClass('flip');
+		}
+	}
+
+
 	
 	// fade in the content...
-	$('.contentLayer').fadeIn();
+//	$('.contentLayer').fadeIn(function(){
+//		$('.animationLayer').fadeIn('slow');
+//	});
+	
+	// fade in the content...
+	$('#rightside').click(function(e) {
+   		$('#stats').addClass("showMe");     
+    });
 
 });
