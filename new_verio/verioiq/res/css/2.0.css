@@ -1,0 +1,12 @@
+body{
+	background-image:url(../images/global/page-bg-anim.jpg);
+}
+.headings{
+	margin-top:280px;
+}			
+#verio{
+	position:absolute;
+	top:52px;
+	left:333px;
+	z-index:502;
+}

@@ -34,8 +34,10 @@ $(document).ready(function(){
 //	});
 	
 	// fade in the content...
-	$('.popup_btn').click(function() {
-   	  $('#ninetyfourpercent').addClass('showMe');
-          return false;
-        });
+  $('.popup_btn').click(function() {
+    $('#ninetyfourpercent').addClass('showMe');
+    return false;
+  });
+
+  
 });
