@@ -1,3 +1,4 @@
+
 .panel {
 	width: 242px;
 	height: 362px;
@@ -54,18 +55,23 @@
 .showHidden {
 			-webkit-transition: -webkit-mask-position 2s ease-in-out, opacity 1.5s ease-out;		
 			-webkit-mask-size: 200% 100%;
-			-webkit-mask-position: -1780px 0px;
+			-webkit-mask-position: 0px 0px;
 			-webkit-mask-image: -webkit-gradient(linear, left top, right top, 
-					color-stop(0.00,  rgba(0,0,0,1)),
-					color-stop(0.50,  rgba(0,0,0,1)),
-					color-stop(0.50001,  rgba(0,0,0,0)),
-					color-stop(1.00,  rgba(0,0,0,0)));
+					color-stop(0.00,  rgba(0,0,0,0)),
+					color-stop(0.50,  rgba(0,0,0,0)),
+					color-stop(0.50001,  rgba(0,0,0,1)),
+					color-stop(1.00,  rgba(0,0,0,1)));
 			opacity:0.7;
 			visibility:hidden;
+                            position: absolute;
+                            left: 146px;
+                            top: 263px;
+                            width: 1778px;
+                            z-index: 1000;
 		}
 		
 		.showMe {
-			-webkit-mask-position: 0 0;
+			-webkit-mask-position: -1780px 0;
 			opacity:1;
 			visibility:visible;
 		}

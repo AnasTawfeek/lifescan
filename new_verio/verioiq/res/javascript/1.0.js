@@ -1,11 +1,11 @@
 $(document).ready(function(){
-
+  
 	function jump(page)
 	{
-		$('.animationLayer').fadeOut();
-		$('.contentLayer').fadeOut( function(){				  					
-			document.location = page;			
-		});	
+	  $('.animationLayer').fadeOut();
+	  $('.contentLayer').fadeOut( function(){				  					
+	    document.location = page;			
+	  });	
 	};
 	
 		$('#face1').live('touchstart click', animateFace);
@@ -16,14 +16,14 @@ $(document).ready(function(){
 		$('#face6').live('touchstart click', animateFace);
 
 	function animateFace(e) {
-		e.stopPropagation(); e.preventDefault();
-		if($(this).hasClass('flip')) {
-			$(this).removeClass('flip');
-		}
-		else
-		{
-			$(this).addClass('flip');
-		}
+	  e.stopPropagation(); e.preventDefault();
+	  if($(this).hasClass('flip')) {
+	    $(this).removeClass('flip');
+	  }
+	  else
+	  {
+		  $(this).addClass('flip');
+	  }
 	}
 
 
@@ -34,8 +34,8 @@ $(document).ready(function(){
 //	});
 	
 	// fade in the content...
-	$('#rightside').click(function(e) {
-   		$('#stats').addClass("showMe");     
-    });
-
+	$('.popup_btn').click(function() {
+   	  $('#ninetyfourpercent').addClass('showMe');
+          return false;
+        });
 });
