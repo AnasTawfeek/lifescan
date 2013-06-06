@@ -56,24 +56,36 @@ header{
 	top: 88px;
 	right: 141px;
 	height: 48px;
+	z-index: 2000;
 }
 
 nav{
-
 }
 
 footer
 {
 	position:absolute;
-	top:1364px;
-	left:1660px;
+	top:1362px;
+	left:1661px;
 	z-index:998;
 }
 
-.animationLayer
+.animationLayer2
 {
-	width: 1024px;
-	height: 768px;
+	width: 2048px;
+	height: 1536px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	padding:0;
+	margin:0;
+}
+
+.contentLayer
+{
+	width: 2048px;
+	height: 1536px;
 	position:absolute;
 	top:0;
 	left:0;
@@ -92,4 +104,8 @@ footer
 	position:absolute;
 	right:41px;
 	top:1243px;
+}
+
+img {
+	border:0;
 }
