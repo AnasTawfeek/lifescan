@@ -5,33 +5,18 @@
 	display:none;
 }
 
-#phone_none {
+.copy {
 	position:absolute;
-	left:904px;
-	top:404px;
+	top:430px;
+	left:206px;
 }
 
-#phone_1 {
+.copy_phone {
 	position:absolute;
-	right:0px;
-	top:404px;
-	display:none;
+	top:459px;
+	left:798px;
 }
 
-#phone_2 {
-	position:absolute;
-	left:904px;
-	top:404px;
-	display:none;
-}
-
-#phone_3 {
-	position:absolute;
-	top:54px;
-	left:0;
-	display:none;
-	z-index:1000;
-}
 
 div {
 	position:relative;
@@ -41,4 +26,72 @@ div {
 	position:absolute;
 	top:0;
 	left:0;
+}
+
+#section1_2 {
+	display:none;
+}
+
+#section1_3 {
+	display:none;
+	z-index:2000;
+}
+
+#section1_4 {
+	display:none;
+	z-index:2000;
+}
+
+#apply_blood {
+	position:absolute;
+	top:736px;
+	left:725px;
+	z-index:3000;
+	display:none;
+}
+
+#sync {
+	position:absolute;
+	top:408px;
+	left:70px;
+	z-index:2000;
+	display:none;
+}
+
+#screen {
+	position:absolute;
+	left:56px;
+	top:223px;
+	z-index:2000;
+	display:none;
+}
+
+#particle_animation {
+	position:absolute;
+	top:506px;
+	left:614px;
+	z-index:2500;
+	display:none;
+}
+
+#phone {
+	position:absolute;
+	top:299px;
+	left:2048px;
+	z-index:2400;
+}
+
+.phone_screen {
+	position:absolute;
+	top:510px;
+	left:250px;
+	z-index:3400;
+}
+
+.phone_section {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:3400;
+	display:none;
 }
