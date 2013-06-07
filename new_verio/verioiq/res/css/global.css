@@ -1,20 +1,22 @@
+
 html{
-	margin:0;
-	padding:0;
-	width:2048px;
-	height:1536px;
+	margin:0px;
+	padding:0px;
+	width:1024px;
+	height:768px;
 }
 
 body {
 	background-color:#e0e0e0;
-	margin:0;
-	padding:0;
+	margin:0px;
+	padding:0px;
+	width:1024px;
+	height:768px;
 	background-image:url(../images/global/page-bg.jpg);
+	background-size: 1024px 768px;
+	background-position: top left;
 	background-repeat:no-repeat;
-	background-size: 2048px 1536px;
 	position:relative;
-	width:2048px;
-	height:1536px;
 }
 
 .left{
@@ -51,11 +53,11 @@ body {
 	-webkit-opacity: 0;
 }
 
+
+
 header{
-	position:absolute;
-	top: 88px;
-	right: 141px;
-	height: 48px;
+	width: 100%;
+	height: 24px;
 }
 
 nav{
@@ -64,9 +66,9 @@ nav{
 
 footer
 {
+	width: 100%;
 	position:absolute;
-	top:1364px;
-	left:1660px;
+	bottom: 0px;
 	z-index:998;
 }
 
@@ -82,14 +84,42 @@ footer
 	margin:0;
 }
 
+.contentLayer-wide
+{
+	width: 954px;
+	height: 657px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	margin-left:-477px;
+	margin-top:-328px;
+	z-index:990;
+	/*border: 1px dashed blue;*/
+}
+
+.contentLayer
+{
+	width: 884px;
+	height: 658px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	margin-left:-442px;
+	margin-top:-329px;
+	z-index:990;
+	/*border: 1px dashed blue;*/
+}
+
 .nav.prev{
 	position:absolute;
-	left:41px;
-	top:1243px;
+	left:-54px;
+	bottom:100px;
+	opacity:.3;
 }
 
 .nav.next{
 	position:absolute;
-	right:41px;
-	top:1243px;
+	right:-54px;
+	bottom:100px;
+	opacity:.3;
 }
