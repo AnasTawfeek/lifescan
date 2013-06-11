@@ -1,0 +1,108 @@
+body{
+	background-image:url(../images/global/page-bg.jpg);
+}
+
+.contentImg
+{
+	postition:absolute;
+	top:0;
+	left:0;
+	x-index:1;
+}
+
+.key{
+	margin-top:18px;
+	z-index:2;
+}
+
+#tableHolder {
+	position:absolute;
+	top:385px;
+	left: 140px;
+}
+
+#coverageTable{
+	z-index:3;
+	border-spacing: 0;
+	padding:0;
+	border:none;
+}
+
+thead tr{
+	height:102px;
+	line-height:102px;
+	text-align:center;
+}
+
+tbody tr td {
+	font-family: Gotham-Medium;
+	font-size: 36px;
+	line-height:36px;
+	padding:10px 0 6px 0;
+	margin:0;
+}
+
+tbody .col1{
+	background-color:#9bd1ee;
+}
+
+.col1{
+	color:black;
+	width:485px;
+	text-align:left;
+	padding-left:25px;
+}
+
+.col2{
+	background-color:#3f3a66;
+	width:251px;
+	text-align:center;
+	font-weight:bold;
+}
+.col3{
+	background-color:#2aaff8;
+	width:251px;
+	text-align:center;
+	font-weight:bold;
+}
+.col4{
+	background-color:#cccccc;
+	width:251px;
+	text-align:center;
+}
+.col5{
+	background-color:#e9eaea;
+	width:251px;
+	text-align:center;
+}
+.col6{
+	background-color:#cccccc;
+	width:251px;
+	text-align:center;
+}
+
+.row-spacer td {
+	height:13px;
+	background-color:#transparent;
+}
+
+.row{
+	height:30px;
+	opacity:.2;	
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+}
+
+.bayer, .abbott, .roche, .verio, .ultra {
+	display:none;
+}
+.bayer.selected, .abbott.selected, .roche.selected, .verio.selected, .ultra.selected {
+	display:block;
+}
+
+.selected {
+	opacity:1;	
+}
+
+tbody .selected td {
+	box-shadow: inset 0px 5px 10px rgba(0,0,0,0.7), 0px 10px 0px rgba(0,0,0,0);
+}

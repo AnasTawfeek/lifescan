@@ -1,0 +1,171 @@
+
+/* Embedded fonts ----------------------------------------- */
+
+@font-face {
+  	font-family: Gotham-Medium;
+  	src: url('../fonts/Gotham/Gotham-Medium.otf');
+}
+@font-face {
+  	font-family: Gotham-Bold;
+  	src: url('../fonts/Gotham/Gotham-Bold.otf');
+}
+@font-face {
+  	font-family: Gotham-Book;
+  	src: url('../fonts/Gotham/Gotham-Book.otf');
+}
+@font-face {
+  	font-family: GothamNarrow-Medium;
+  	src: url('../fonts/Gotham-Narrow/GothamNarrow-Medium.otf');
+}
+@font-face {
+  	font-family: GothamNarrow-Light;
+  	src: url('../fonts/Gotham-Narrow/GothamNarrow-Light.otf');
+}
+@font-face {
+  	font-family: GothamXNarrow-Medium;
+  	src: url('../fonts/Gotham-XNarrow/GothamXNarrow-Medium.otf');
+}
+
+/* Colors ----------------------------------------- */
+.light-blue{
+	color: #2aaff8;
+}
+.medium-blue{
+	color: #005daa;
+}
+.purple{
+	color: #3f3a66;
+}
+.light-gray{
+	color: #a0a0a0;
+}
+.medium-gray{
+	color: #999999;
+}
+.dark-gray{
+	color: #666666;
+}
+.white{
+	color: #FFFFFF;
+}
+.yellow{
+	color: #f4af00;
+}
+.black{
+	color: #000000;
+}
+
+/* Headings ----------------------------------------- */
+.head1{
+	font-family: Gotham-Medium;
+	font-size: 33px;
+	line-height:33px;
+	padding:0px;
+	margin:0;
+}
+.head2{
+	font-family: Gotham-Medium;
+	font-size: 33px;
+	line-height:33px;
+	padding:0px;
+	margin:0;
+}
+.head3{
+	font-family: Gotham-Medium;
+	font-size:31px;
+	font-weight:normal;
+    font-style:normal;
+	line-height:31px;
+	padding:0px;
+	margin:0;
+}
+.head4{
+	font-family: Gotham-Medium;
+	font-size: 25px;
+	font-weight:normal;
+    font-style:normal;
+	line-height:25px;
+	padding:0px;
+	margin:0 0 4px 0;
+}
+.head5{
+	font-family: Gotham-Medium;
+	font-size: 22px;
+	line-height:22px;
+	padding:0px;
+	margin:0;
+}
+
+/* Subheadings ----------------------------------------- */
+.subhead1{
+	font-family: Gotham-Medium;
+	font-size: 32px;
+	line-height:32px;
+	padding:0px;
+	margin:0 0 8px 0;
+}
+.subhead2{
+	font-family: Gotham-Medium;
+	font-size: 28px;
+	line-height:28px;
+	padding:0px;
+	margin:0 0 8px 0;
+}
+.subhead3{
+	font-family: Gotham-Medium;
+	font-size: 20px;
+	line-height:20px;
+	padding:0;
+	margin:0 0 6px 0;
+}
+
+/* Body text ----------------------------------------- */
+.text1{
+	font-family: Gotham-Book;
+	font-size: 20px;
+	line-height:20px;
+	padding:0px;
+	margin:0;
+}
+.text2{
+	font-family: Gotham-Medium;
+	font-size: 36px;
+	line-height:36px;
+	padding:0px;
+	margin:0;
+}
+.text3{
+	font-family: Gotham-Book;
+	font-size: 16px;
+	line-height:18px;
+	padding:0px;
+	margin:0;
+}
+.text4{
+	font-family: GothamNarrow-Medium;
+	font-size: 13px;
+	line-height:13px;
+	padding:0px;
+	margin:0;
+}
+.text5{
+	font-family: GothamNarrow-Light;
+	font-size: 13px;
+	line-height:13px;
+	padding:0px;
+	margin:0;
+}
+.text6{
+	font-family: GothamXNarrow-Medium;
+	font-size: 12px;
+	line-height:13px;
+	padding:0;
+	margin:0;
+}
+.text7{
+	font-family: Gotham-Medium;
+	font-size: 13px;
+	line-height:13px;
+	padding:0px;
+	margin:0;
+}
