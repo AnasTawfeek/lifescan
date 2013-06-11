@@ -1,0 +1,23 @@
+/* local overrides... */
+
+.headings{
+	margin-top:300px;
+}
+
+.drag-zone{
+	position:absolute;
+	float:left;
+	z-index:1;
+}
+
+.screens{
+	position:absolute;
+	top:120px; 
+	left:373px; 
+	display:none;
+}
+
+header{
+	position:absolute;
+	z-index:999;
+}
