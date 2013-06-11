@@ -1,9 +1,12 @@
 $(document).ready(function(){
 
-  function jump(page)
+    $('#contentLayer').fadeIn(600);			  					
+
+
+	window.jump=function(page)
   {
     $('.animationLayer').fadeOut();
-    $('.contentLayer').fadeOut( function(){				  					
+    $('#contentLayer').fadeOut( function(){				  					
       document.location = page;			
     });	
   };
