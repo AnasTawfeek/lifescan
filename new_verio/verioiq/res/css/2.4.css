@@ -17,6 +17,14 @@ body{
 	width:160px;
 }
 
+.head4 {
+    font-size: 27px;
+    line-height: 27px;
+    width: 115px;
+}
+
+
+
 /*
 #callout-test{
 	position:absolute;
