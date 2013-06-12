@@ -24,8 +24,8 @@ body{
 }
 #callout-easy{
 	position:absolute;
-	left: 475px;
-	top:339px;
+	left: 479px;
+        top: 335px;
 	display:none;
 }
 #callout-perf{
