@@ -11,7 +11,7 @@ $(document).ready(function(){
   $('.nav').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
     
-    jump("verio.html");			
+    jump("verioiq.html");			
   });
   
   $('#card').live('touchstart click', function(e){
