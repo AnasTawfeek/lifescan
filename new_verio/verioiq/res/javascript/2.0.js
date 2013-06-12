@@ -43,7 +43,7 @@ $(document).ready(function(){
   
   function launchVerio(){
     $('.step1').fadeOut();	
-   // player.play();						
+    player.play();						
   };
   
   var player = $("#player").get(0);		
