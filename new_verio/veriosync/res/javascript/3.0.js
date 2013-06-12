@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	function jump(page)
+	window.jump=function(page)
 	{
 		$('.animationLayer').fadeOut();
 		$('.contentLayer').fadeOut( function(){				  					
