@@ -7,14 +7,14 @@
 
 .copy {
 	position:absolute;
-	top:430px;
-	left:206px;
+	top:215px;
+	left:103px;
 }
 
 .copy_phone {
 	position:absolute;
-	top:459px;
-	left:798px;
+	top:230px;
+	left:399px;
 }
 
 
@@ -44,47 +44,47 @@ div {
 
 #apply_blood {
 	position:absolute;
-	top:736px;
-	left:725px;
+	top:368px;
+	left:363px;
 	z-index:3000;
 	display:none;
 }
 
 #sync {
 	position:absolute;
-	top:408px;
-	left:70px;
+	top:204px;
+	left:35px;
 	z-index:2000;
 	display:none;
 }
 
 #screen {
 	position:absolute;
-	left:56px;
-	top:223px;
+	left:28px;
+	top:111px;
 	z-index:2000;
 	display:none;
 }
 
 #particle_animation {
 	position:absolute;
-	top:506px;
-	left:614px;
+	top:252px;
+	left:309px;
 	z-index:2500;
 	display:none;
 }
 
 #phone {
 	position:absolute;
-	top:299px;
-	left:2048px;
+	top:150px;
+	left:1024px;
 	z-index:2400;
 }
 
 .phone_screen {
 	position:absolute;
-	top:510px;
-	left:250px;
+	top:255px;
+	left:125px;
 	z-index:3400;
 }
 

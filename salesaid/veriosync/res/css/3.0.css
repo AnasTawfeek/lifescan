@@ -7,27 +7,27 @@
 
 #phone_none {
 	position:absolute;
-	left:904px;
-	top:404px;
+	left:452px;
+	top:202px;
 }
 
 #phone_1 {
 	position:absolute;
 	right:0px;
-	top:404px;
+	top:202px;
 	display:none;
 }
 
 #phone_2 {
 	position:absolute;
-	left:904px;
-	top:404px;
+	left:420px;
+	top:202px;
 	display:none;
 }
 
 #phone_3 {
 	position:absolute;
-	top:54px;
+	top:27px;
 	left:0;
 	display:none;
 	z-index:1000;

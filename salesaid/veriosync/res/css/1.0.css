@@ -48,13 +48,13 @@
 .panel.flip .back {
 	z-index: 1000;
 	
-	-webkit-transform: rotateX(0deg) rotateY(0deg) translateY(-13px);
+	-webkit-transform: rotateX(0deg) rotateY(0deg) translateY(-7px);
 }
 
 .showHidden {
 			-webkit-transition: -webkit-mask-position 2s ease-in-out, opacity 1.5s ease-out;		
 			-webkit-mask-size: 200% 100%;
-			-webkit-mask-position: -1780px 0px;
+			-webkit-mask-position: -890px 0px;
 			-webkit-mask-image: -webkit-gradient(linear, left top, right top, 
 					color-stop(0.00,  rgba(0,0,0,1)),
 					color-stop(0.50,  rgba(0,0,0,1)),

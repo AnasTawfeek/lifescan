@@ -13,7 +13,7 @@ $(document).ready(function(){
 	window.moveStrip=function() {
 		if(bMoveStrip) return;
 		bMoveStrip=true;
-		$("#strip").animate({top: -140},1600,"swing",function() {
+		$("#strip").animate({top: -70},1600,"swing",function() {
 			$("#section1_1").fadeOut(500);
 			$("#section1_2").fadeIn(500,null,window.flashDrop);
 //			, function() {
@@ -51,14 +51,14 @@ $(document).ready(function(){
 			$('#particle_animation').show();
 			$('#particle_animation').get(0).play()
 			
-			$("#phone").animate({left: '1505'}, 900);
+			$("#phone").animate({left: '752'}, 900);
 		});
 	}
 
 	window.slidePhone=function() {
 		$("#device_holder").fadeOut(300);
 		$("#section1_4").fadeOut(500);
-		$("#phone").animate({left: '206'}, 2000, function() {
+		$("#phone").animate({left: '103'}, 2000, function() {
 			window.fadeInSection("#section_summary");
 		});
 	}
