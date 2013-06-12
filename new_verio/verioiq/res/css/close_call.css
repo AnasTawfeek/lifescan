@@ -1,0 +1,32 @@
+/* local overrides... */
+body{
+/*background-image:url(../images/2.2/bg.jpg);*/
+}
+
+.headings{
+    margin-top:300px;
+}
+
+
+
+header{
+    position:absolute;
+    z-index:999;
+}
+
+
+.fourpeople, .ninetyfourpercent {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+}
+
+.ninetyfourpercent {
+    display: none;
+}
+
+.prescribe_onetouch {
+    position: absolute;
+    left: 468px;
+    top: 135px;
+}

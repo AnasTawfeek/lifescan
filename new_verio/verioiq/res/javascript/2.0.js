@@ -16,9 +16,9 @@ $(document).ready(function(){
     var page;
     
     if(btn.hasClass('prev'))
-      page = "home.html";
+      page = "verioiq.html";
     else
-      page = "3.0.html";
+      page = "slide-2.1.html";
     
     jump(page);			
   });
@@ -106,3 +106,4 @@ $(document).ready(function(){
   // -----------------------------
 
 });
+ 
