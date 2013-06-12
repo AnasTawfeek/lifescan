@@ -1,0 +1,91 @@
+.mini_btn {
+    position: absolute;
+    left: 187px;
+    top: 203px;
+}
+
+.veriosync_btn {
+    position: absolute;
+    left: 705px;
+    top: 223px;
+}
+
+.intro_text {
+    position: absolute;
+    
+}
+
+.onetouch_verio_header {
+    position: absolute;
+    left: 290px;
+    top: 80px;
+}
+
+.veriosync_btn {
+    position: absolute;
+}
+
+.jnj_logo {
+    position: absolute;
+    top: 650px;
+    left: 75px;
+}
+
+.popup_btn {
+    position: absolute;
+    top: 660px;
+    left: 225px;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 88px;
+}
+
+
+
+.disclaimer
+{
+    position: absolute;
+    top: 687px;
+    left: 370px;
+}
+
+
+.intro1 {
+    top: 375px;
+    left: 387px;   
+    display: none;
+}
+
+.intro2 {
+    
+    top: 325px;
+    left: 423px;
+    
+    display: none;
+}
+
+.intro3 {
+    
+    top: 425px;
+    left: 385px;
+    display: none;
+    
+}
+
+.intro4 {
+    
+    top: 470px;
+    left: 384px;
+    display: none;
+    
+}
+
+
+.onetouch_verio_header {
+    top: 100px;
+    left: 295px;
+}

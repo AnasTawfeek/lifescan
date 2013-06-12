@@ -1,32 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">        		
-        <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
         <title>OneTouch</title>
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+		
 		<link rel="stylesheet" href="res/css/global.css?v=34" />
+		<link rel="stylesheet" href="res/css/1.0.css?v=34" />
         
-        <style>	
-			#logo{
-				width:180px;
-				position:absolute;
-				left:50%;
-				top:50%;
-				margin:-10px 0 0 -90px;
-				opacity:0.3;
-			}
-		</style>
+        <script src="res/javascript/jquery-1.8.3.min.js"></script> 
+    <script src="res/javascript/move.min.js"></script>
+		<script src="res/javascript/global.js?v=34"></script>
+        <script src="res/javascript/1.0.js?v=34"></script>	  
         
-        <script src="res/javascript/jquery-1.8.3.min.js"></script>		
-		<script src="res/javascript/move.min.js"></script>
-        <script src="res/javascript/global.js?v=34"></script>
-        <script src="res/javascript/0.0.js?v=34"></script>
-        
+    <meta charset="UTF-8">
 	</head>
 	<body>
- 
-		<img id="logo" src="res/images/global/splash-logo.png"   />   
-  		
+
+			<header>
+				<nav>
+					<a><img id="btn-home" src="res/images/global/btn-home.png" /></a>
+					<a><img id="btn-coverage" src="res/images/global/btn-coverage.png" /></a>
+					<a><img id="btn-portfolio" src="res/images/global/btn-portfolio.png" /></a>
+				</nav>
+			</header>
+	
+    <div id="contentLayer" style="display:none">
+    			<div id="stats" class="showHidden" style="position:absolute;left:71px;top:127px;z-index:20;">
+                	<img src="res/images/1.0/statistic.png" usemap="#Map2" />
+					<map name="Map2">
+						<area shape="rect" coords="1401,881,1515,969" href="javascript:jump('slide-2.0.html')">
+					</map>
+                </div>
+    
+    			<div id="faceHolder" style="position:absolute;left:71px;top:134px;">
+                		
+                        
+                        
+                        <div id="face3" class="click swing panel" style="float:left; z-index:1;position:absolute;left:442px;top:0px;">
+                            <div class="front">
+                              <img src="res/images/1.0/face3.jpg" />
+                            </div>
+                            <div class="back button">
+                              <img src="res/images/1.0/face3_back.png" />                          
+                            </div>
+                        </div>
+
+                        
+                        <div id="face2" class="click swing panel" style="float:left; z-index:1;position:absolute;left:221px;top:0px;">
+                            <div class="front">
+                              <img src="res/images/1.0/face2.jpg" />
+                            </div>
+                            <div class="back button">
+                              <img src="res/images/1.0/face2_back.png" />                          
+                            </div>
+                        </div>
+                        
+                       <div id="face1" class="click swing panel" style="float:left; z-index:1;position:absolute;left:0px;top:0px;">
+                            <div class="front">
+                              <img src="res/images/1.0/face1.jpg" />
+                            </div>
+                            <div class="back button">
+                              <img src="res/images/1.0/face1_back.png" />                          
+                            </div>
+                        </div>
+
+                        <div id="face6" class="click swing panel" style="float:left; z-index:1;position:absolute;left:442px;top:250px;">
+                            <div class="front">
+                              <img src="res/images/1.0/face6.jpg" />
+                            </div>
+                            <div class="back button">
+                              <img src="res/images/1.0/face6_back.png" />                          
+                            </div>
+                        </div>
+
+                        
+                        <div id="face5" class="click swing panel" style="float:left; z-index:1;position:absolute;left:221px;top:250px;">
+                            <div class="front">
+                              <img src="res/images/1.0/face5.jpg" />
+                            </div>
+                            <div class="back button">
+                              <img src="res/images/1.0/face5_back.png" />                          
+                            </div>
+                        </div>
+
+                        
+                        
+                       <div id="face4" class="click swing panel" style="float:left; z-index:1;position:absolute;left:0px;top:250px;">
+                            <div class="front">
+                              <img src="res/images/1.0/face4.jpg" />
+                            </div>
+                            <div class="back button">
+                              <img src="res/images/1.0/face6_back.png" />                          
+                            </div>
+                        </div>
+
+
+            	</div>
+                
+                <div id="rightside" style="position:absolute;left:732px;top:127px;"><img src="res/images/1.0/right_side.png" usemap="#Map" />
+                    <map name="Map">
+                      <area shape="rect" coords="155,409,204,446" href="#">
+                    </map>
+                </div>
+            
+            <a href="javascript:jump('slide-2.0.html');"><img src="res/images/global/btn-next.png" class="nav next" /></a>
+		</div>	          
+
+		<footer class="center">				
+           <img src="res/images/global/footer-logo.png" />                
+		</footer>
+        
 	</body>
+	
 </html>
