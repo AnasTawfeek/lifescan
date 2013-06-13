@@ -9,8 +9,13 @@ $(document).ready(function(){
 		});	
 	};
 	
+	$('#videoThumb img').live('touchstart click', function(e){
+		$("#videoThumb").hide();
+		$("#video").get(0).play();
+	});
+	
     var video = document.getElementsByTagName('video')[0];
 	video.addEventListener("ended", function () {
-      $("#copy").fadeIn(2000);
+      $("#copy").fadeTo(2000,1);
 	}, false);
 });

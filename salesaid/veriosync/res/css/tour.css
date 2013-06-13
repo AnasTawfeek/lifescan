@@ -68,10 +68,10 @@ div {
 
 #particle_animation {
 	position:absolute;
-	top:252px;
-	left:309px;
+	top:253px;
+	left:306px;
 	z-index:2500;
-	display:none;
+	display:none2;
 }
 
 #phone {

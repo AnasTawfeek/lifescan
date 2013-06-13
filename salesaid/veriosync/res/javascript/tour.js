@@ -37,22 +37,17 @@ $(document).ready(function(){
 		$("#screen").fadeIn(500);
 	}
 
+	$('#particle_animation').bind("ended", function() {
+		$('#particle_animation').hide();
+		setTimeout(window.slidePhone, 500);
+	});
+
 	window.showSync=function() {
 		window.bFlashSync=false;
+		$('#particle_animation').get(0).play()
 		$("#section1_3").fadeOut(500);
-		$("#section1_4").fadeIn(500,null,function() {
-			
-			var video = document.getElementsByTagName('video')[0];
-			video.addEventListener("ended", function () {
-//				$("#copy").fadeIn(2000);
-					$('#particle_animation').hide();
-					setTimeout(window.slidePhone, 500);
-				}, false);
-			$('#particle_animation').show();
-			$('#particle_animation').get(0).play()
-			
-			$("#phone").animate({left: '752'}, 900);
-		});
+		$("#section1_4").fadeIn(300);
+		$("#phone").animate({left: '752'}, 900);
 	}
 
 	window.slidePhone=function() {

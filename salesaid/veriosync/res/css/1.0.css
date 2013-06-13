@@ -11,9 +11,10 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+	width:221px;
+	height:250px;
+	overflow:hidden;
 	z-index: 900;
-	width: inherit;
-	height: inherit;
 
 	-webkit-transform: rotateX(0deg) rotateY(0deg);
 	-webkit-transform-style: preserve-3d;
@@ -29,12 +30,13 @@
 
 .panel .back {
 	float: none;
+	width:228px;
+	height:257px;
+	overflow:hidden;
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 800;
-	width: inherit;
-	height: inherit;	
 	-webkit-transform: rotateY(-180deg);
 	-webkit-transform-style: preserve-3d;
 	-webkit-backface-visibility: hidden;
