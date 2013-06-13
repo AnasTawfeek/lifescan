@@ -26,7 +26,7 @@ body{
 #ping{
 	position:absolute;
 	top:176px;
-	left:0px;		
+	left:-15px;		
 }
 #ping .co{
 	width:210px; 
@@ -36,7 +36,7 @@ body{
 #ultra2{
 	position:absolute;
 	top:165px;
-	left:330px;		
+	left:545px;		
 }
 #ultra2 .co{
 	width:224px; 
@@ -46,8 +46,15 @@ body{
 #verio{
 	position:absolute;
 	top:150px;
-	left:515px;			
+	left:280px;			
 }
+
+#veriosync {
+    position: absolute;
+    top: 140px;
+    left: 410px;
+}
+
 #verio .co{
 	width:170px; 
 	margin:-195px 0 0 -40px;
