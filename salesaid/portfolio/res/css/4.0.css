@@ -3,7 +3,7 @@ body{
 }
 
 .headings{
-	margin-top: 45px;
+	margin-bottom: 45px;
 }
 
 .meters{
@@ -25,18 +25,18 @@ body{
 
 #ping{
 	position:absolute;
-	top:176px;
-	left:-15px;		
+	top: 193px;
+        left: 8px;		
 }
 #ping .co{
 	width:210px; 
-	margin:-45px 0 0 82px;
+	margin: -115px 0 0 -12px;
 }
 
 #ultra2{
 	position:absolute;
-	top:165px;
-	left:545px;		
+        top: 165px;
+        left: 555px;
 }
 #ultra2 .co{
 	width:224px; 
@@ -45,19 +45,19 @@ body{
 
 #verio{
 	position:absolute;
-	top:150px;
-	left:280px;			
+	top: 150px;
+        left: 292px;
 }
 
 #veriosync {
     position: absolute;
-    top: 140px;
-    left: 410px;
+    top: 130px;
+    left: 430px;
 }
 
 #verio .co{
 	width:170px; 
-	margin:-195px 0 0 -40px;
+	margin: -170px 0 0 -55px;
 }
 #verio .arrow{
 	position:absolute;
@@ -67,8 +67,8 @@ body{
 
 #mini{
 	position:absolute;
-	top:150px;	
-	left:688px;			
+        top: 150px;
+        left: 707px;			
 }
 #mini .co{
 	width:218px; 
@@ -82,8 +82,8 @@ body{
 
 #delica{
 	position:absolute;
-	top:155px;
-	left:812px;				
+        top: 155px;
+        left: 812px;
 }
 #delica .co{
 	width:220px; 
