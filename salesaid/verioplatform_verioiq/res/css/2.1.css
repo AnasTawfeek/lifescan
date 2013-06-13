@@ -1,0 +1,57 @@
+/* local overrides... */
+body{
+	/*background-image:url(../images/2.1/bg-day.jpg);*/
+}
+
+.buttons{
+	margin-top: 50px; 
+	width:300px;
+}
+.buttons img{
+	margin-bottom: 8px;
+}
+
+#btn-tour{
+	position:absolute;
+	bottom:0px;
+}
+
+#callout-test{
+	position:absolute;
+	left: 375px;
+	top:51px;
+	display:none;
+}
+#callout-easy{
+	position:absolute;
+	left: 479px;
+        top: 335px;
+	display:none;
+}
+#callout-perf{
+	position:absolute;
+	left: 376px;
+	top:244px;
+	display:none;
+}
+#callout-illum{
+	position:absolute;
+	left: 457px;
+	top:185px;
+	display:none;
+}
+#callout-illum-dark{
+	position:absolute;
+	z-index:110;
+	display:none;
+}
+#overlay{
+	position:absolute;
+	top:82px;
+	display:none;
+	z-index:999;
+}
+#bg{
+	position:absolute;
+	z-index:1;
+}
