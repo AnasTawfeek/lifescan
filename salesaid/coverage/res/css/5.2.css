@@ -11,14 +11,14 @@ body{
 }
 
 .key{
-	margin-top:18px;
+	margin-top:5px;
 	z-index:2;
 }
 
 #tableHolder {
 	position:absolute;
-	top:385px;
-	left: 140px;
+	top:192px;
+	left: 70px;
 }
 
 #coverageTable{
@@ -29,16 +29,16 @@ body{
 }
 
 thead tr{
-	height:102px;
-	line-height:102px;
+	height:51px;
+	line-height:51px;
 	text-align:center;
 }
 
 tbody tr td {
 	font-family: Gotham-Medium;
-	font-size: 36px;
-	line-height:36px;
-	padding:10px 0 6px 0;
+	font-size: 18px;
+	line-height:18px;
+	padding:9px 0 5px 0;
 	margin:0;
 }
 
@@ -48,46 +48,50 @@ tbody .col1{
 
 .col1{
 	color:black;
-	width:485px;
+	width:243px;
 	text-align:left;
-	padding-left:25px;
+	padding-left:12px;
 }
 
 .col2{
 	background-color:#3f3a66;
-	width:251px;
+	width:125px;
 	text-align:center;
 	font-weight:bold;
 }
 .col3{
 	background-color:#2aaff8;
-	width:251px;
+	width:125px;
 	text-align:center;
 	font-weight:bold;
 }
 .col4{
 	background-color:#cccccc;
-	width:251px;
+	width:125px;
 	text-align:center;
 }
 .col5{
 	background-color:#e9eaea;
-	width:251px;
+	width:125px;
 	text-align:center;
 }
 .col6{
 	background-color:#cccccc;
-	width:251px;
+	width:125px;
 	text-align:center;
 }
 
 .row-spacer td {
-	height:13px;
+	height:7px;
 	background-color:#transparent;
+	font-size: 18px;
+	line-height:7px;
+	padding:0;
+	margin:0;
 }
 
 .row{
-	height:30px;
+	height:15px;
 	opacity:.2;	
 	/*background-color: rgba(255, 255, 255, 0.5);*/
 }
