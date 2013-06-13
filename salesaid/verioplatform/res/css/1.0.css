@@ -1,7 +1,14 @@
+header {
+    position: absolute;
+    top: 71px;
+    right: 61px;
+    height: 48px;
+}
+
 .mini_btn {
     position: absolute;
     left: 187px;
-    top: 203px;
+    top: 247px;
 }
 
 .veriosync_btn {
@@ -55,15 +62,16 @@
 
 
 .intro1 {
-    top: 375px;
-    left: 387px;   
     display: none;
+     
+ top: 325px;
+left: 391px;
 }
 
 .intro2 {
+    top: 375px;
+    left: 427px;   
     
-    top: 325px;
-    left: 423px;
     
     display: none;
 }

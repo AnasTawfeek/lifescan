@@ -40,7 +40,8 @@ body{
 }
 #ultra2 .co{
 	width:224px; 
-	margin:-155px 0 0 -55px;
+        margin: -190px 0 0 -55px;
+
 }
 
 #verio{
@@ -55,6 +56,11 @@ body{
     left: 430px;
 }
 
+#veriosync .co{
+	width:170px; 
+	margin: -170px 0 0 -55px;
+}
+
 #verio .co{
 	width:170px; 
 	margin: -170px 0 0 -55px;
@@ -62,7 +68,7 @@ body{
 #verio .arrow{
 	position:absolute;
 	bottom:1px;	
-	right:-6px;			
+	right:-16px;			
 }
 
 #mini{
@@ -72,7 +78,7 @@ body{
 }
 #mini .co{
 	width:218px; 
-	margin:-178px 0 0 -79px;
+	margin:-188px 0 0 -102px;
 }
 #mini .arrow{
 	position:absolute;
