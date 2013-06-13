@@ -1,0 +1,91 @@
+.panel {
+    width: 359px;
+    height: 273px;
+    position: relative;
+    background-color: transparent;
+    -webkit-perspective: 600px;
+}
+
+
+.panel .front {
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: inherit;
+    height: inherit;
+
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+
+    /* -- transition is the magic sauce for animation -- */
+    -webkit-transition: all .4s ease-in-out;
+}
+.panel.flip .front {
+    z-index: 900;
+    -webkit-transform: rotateY(180deg);	
+}
+
+.panel .back {
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 800;
+    width: inherit;
+    height: inherit;	
+    
+    -webkit-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+
+    /* -- transition is the magic sauce for animation -- */
+    -webkit-transition: all .4s ease-in-out;
+}
+
+.panel.flip .back {
+    z-index: 1000;
+    
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+}
+
+/* -- X axis rotation for click panel -- */
+.click .front {
+    cursor: pointer;
+    -webkit-transform: rotateX(0deg);
+}
+.click.flip .front {
+    -webkit-transform: rotateX(180deg);	
+}
+.click .back {
+    cursor: pointer;
+    -webkit-transform: rotateX(-180deg);
+}
+.click.flip .back {
+    -webkit-transform: rotateX(0deg);
+}
+
+
+/* -- swing like a gate -- */
+.swing .front,
+.swing .back {
+    width: 431px;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-duration: 1s;
+    -webkit-transform-origin: 431px 0;
+}
+.swing .front {
+    -webkit-transform: rotateY(0deg);
+}
+.swing .back {
+    -webkit-transform: rotateY(180deg) translateX(429px) translateZ(1px); 
+}
+
+.swing.flip .front {
+    -webkit-transform: rotateY(-180deg);
+}
+.swing.flip .back {
+    -webkit-transform: rotateY(0deg) translateX(429px) translateZ(1px);
+}

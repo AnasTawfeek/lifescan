@@ -1,62 +1,62 @@
 html{
-	margin:0;
-	padding:0;
-	width:2048px;
-	height:1536px;
+    margin:0;
+    padding:0;
+    width:1024px;
+    height:768px;
 }
 
 body {
-	background-color:#e0e0e0;
-	margin:0;
-	padding:0;
-	background-image:url(../images/global/page-bg.jpg);
-	background-repeat:no-repeat;
-	background-size: 2048px 1536px;
-	position:relative;
-	width:2048px;
-	height:1536px;
+    background-color:#e0e0e0;
+    margin:0;
+    padding:0;
+    background-image:url(../images/global/page-bg.jpg);
+    background-repeat:no-repeat;
+    background-size: 1024px 768px;
+    position:relative;
+    width:1024px;
+    height:768px;
 }
 
 .left{
-	float: left;
+    float: left;
 }
 
 .right{
-	float: right;
+    float: right;
 }
 
 .center{
-	text-align: center;
+    text-align: center;
 }
 
 .fl{
-	float: left;
+    float: left;
 }
 
 .fr{
-	float: right;
+    float: right;
 }
 
 .hide{
-	display:none;
+    display:none;
 }
 
 .invisible{
-	visibility:hidden;
+    visibility:hidden;
 }
 
 .trans
 {
-	opacity:0;
-	-webkit-opacity: 0;
+    opacity:0;
+    -webkit-opacity: 0;
 }
 
 header{
-	position:absolute;
-	top: 88px;
-	right: 141px;
-	height: 48px;
-	z-index: 2000;
+    position:absolute;
+    top: 44px;
+    right: 70px;
+    height: 24px;
+    z-index: 2000;
 }
 
 nav{
@@ -64,49 +64,49 @@ nav{
 
 footer
 {
-	position:absolute;
-	top:1362px;
-	left:1661px;
-	z-index:998;
+    position:absolute;
+    top: 681px;
+    left: 831px;
+    z-index:998;
 }
 
 .animationLayer2
 {
-	width: 2048px;
-	height: 1536px;
-	position:absolute;
-	top:0;
-	left:0;
-	z-index:0;
-	padding:0;
-	margin:0;
+    width: 1024px;
+    height: 768px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+    padding:0;
+    margin:0;
 }
 
 .contentLayer
 {
-	width: 2048px;
-	height: 1536px;
-	position:absolute;
-	top:0;
-	left:0;
-	z-index:0;
-	padding:0;
-	margin:0;
-	overflow:hidden;
+    width: 1024px;
+    height: 768px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+    padding:0;
+    margin:0;
+    overflow:hidden;
 }
 
 .nav.prev{
-	position:absolute;
-	left:41px;
-	top:1243px;
+    position:absolute;
+    left:21px;
+    top: 622px;
 }
 
 .nav.next{
-	position:absolute;
-	right:41px;
-	top:1243px;
+    position:absolute;
+    right:21px;
+    top: 622px;
 }
 
 img {
-	border:0;
+    border:0;
 }
