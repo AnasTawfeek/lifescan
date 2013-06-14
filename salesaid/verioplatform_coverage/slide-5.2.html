@@ -21,50 +21,54 @@
 	<body>
  
  		<div class="animationLayer">
-        	<img class="bgImg hide" src="res/images/5.2/bg.jpg"  />
+        	<img class="bgImg hide" src="res/images/5.2/bg.jpg" width="1024" height="768" />
         </div>
         
  		<div class="contentLayer">     	
         
         	<header>
 				<nav class="right">
-					<img id="btn-home" src="res/images/global/btn-home.png" style="float:left; margin-right:10px;" />
-					<img id="btn-portfolio" src="res/images/global/btn-portfolio.png"   />
+					<img id="btn-home" src="res/images/global/btn-home.png" height="24" style="float:left; margin-right:10px;" />
+					<img id="btn-portfolio" src="res/images/global/btn-portfolio.png" height="24"  />
 				</nav>
 			</header>   
             
-			<div id="tableHolder">
-			
             <table id="coverageTable">
                 <thead>
                     <tr>
-                        <td class="col1"></td>
-                        <td id="btn-verio" class="col2 subhead1 white">OneTouch&reg;<br>Verio&reg;IQ</td>
-                        <td id="btn-ultra" class="col3 subhead1 white">OneTouch&reg;<br>Ultra&reg;</td>
+                        <td class="ddl-col">
+                        	<dl id="ddlRegion" class="dropdown">
+                                <dt><a><span>Choose Region</span></a></dt>
+                                <dd>
+                                    <ul>
+                                        <li><a>West Region<span class="value">WE</span></a></li>
+                                        <li><a>South Central Region<span class="value">SC</span></a></li>
+                                        <li><a>South East Region<span class="value">SE</span></a></li>
+                                        <li><a>North Central Region<span class="value">NC</span></a></li>
+                                        <li><a class="last">North East Region<span class="value">NE</span></a></li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td class="col2 subhead1 white">OneTouch&reg;<br>Verio&reg;IQ</td>
+                        <td class="col3 subhead1 white">OneTouch&reg;<br>Ultra&reg;</td>
                         <td id="btn-bayer" class="col4 subhead1 dark-gray">Bayer</td>
                         <td id="btn-abbott" class="col5 subhead1 dark-gray">Abbott</td>
                         <td id="btn-roche" class="col6 subhead1 dark-gray">Roche</td>
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- rows load here via dom 
-					<tr><td class="col1">&lt;Plan name&gt;</td><td class="col2"></td><td class="col3"></td><td class="col4"></td><td class="col5"></td><td class="col6"></td></tr>
-					<tr class="row-spacer"><td colspan="6"></td></tr>
--->					
+                    <!-- rows load here via dom -->
                 </tbody>
             </table>
             
-            <div class="key" >
-				<img src="res/images/5.2/key.png" />
-			</div>
-			
-			</div>
-			            
+            <img class="key" src="res/images/5.2/key.png" height="25" />       
+            
             <footer>
-                <img class="right" src="res/images/global/footer-logo.png"  />
+                <img class="right" src="res/images/global/footer-logo.png" height="18" />
             </footer>	
             
-            <img src="res/images/global/btn-prev.png" class="nav prev"  />
+            <img src="res/images/global/btn-prev.png" class="nav prev" height="33" />
   
   		</div>        
         

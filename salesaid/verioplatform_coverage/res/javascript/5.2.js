@@ -11,8 +11,6 @@ $(document).ready(function(){
 	//document.location = "veeva:getDataForObject(User),fieldName(UserRole),setTerritory(result)"; // latest...
 		
 	var selectedCount = 0;
-	var verioActive=false;
-	var ultraActive=false;
 	var bayerActive=false;
 	var abbottActive=false;
 	var rocheActive=false;
@@ -74,9 +72,9 @@ $(document).ready(function(){
 			var dr = array.splice(0,6);
 			
 			rows += '<tr class="row">';
-			rows += '<td class="col1"><span>'+ dr[0] +'</span></td>';
-			rows += '<td class="col2"><span class="text2 verio white">'+ parseValue( dr[2] ) +'</span></td>';
-			rows += '<td class="col3"><span class="text2 ultra white">'+ parseValue( dr[1] ) +'</span></td>';
+			rows += '<td class="col1"><span style="font-family:Helvetica; font-size:12px;">'+ dr[0] +'</span></td>';
+			rows += '<td class="col2"><span class="text2 white verio">'+ parseValue( dr[2] ) +'</span></td>';
+			rows += '<td class="col3"><span class="text2 white ultra">'+ parseValue( dr[1] ) +'</span></td>';
 			rows += '<td class="col4"><span class="text2 dark-gray bayer">'+ parseValue( dr[3] ) +'</span></td>';
 			rows += '<td class="col5"><span class="text2 dark-gray abbott">'+ parseValue( dr[4] ) +'</span></td>';
 			rows += '<td class="col6"><span class="text2 dark-gray roche">'+ parseValue( dr[5] ) +'</span></td>';				
@@ -84,8 +82,6 @@ $(document).ready(function(){
 			rows += '<tr class="row-spacer"><td colspan="6"></td></tr>';
 		}
 	
-		verioActive = false;
-		ultraActive = false;
 		bayerActive = false;
 		abbottActive = false;
 		rocheActive = false;
@@ -100,14 +96,7 @@ $(document).ready(function(){
 		var cols = row.children('td').children('span');	
 						
 		if ( row.hasClass('selected') )
-		{
-			if(verioActive)
-				$( cols[1] ).removeClass('selected');
-			if(ultraActive)
-				$( cols[2] ).removeClass('selected');
-			if(bayerActive)	
-				$( cols[3] ).removeClass('selected');
-					
+		{			
 			if(bayerActive)	
 				$( cols[3] ).removeClass('selected');
 			if(abbottActive)	
@@ -120,11 +109,7 @@ $(document).ready(function(){
 		else
 		{
 			row.addClass('selected');
-	
-			if(verioActive)
-				$( cols[1] ).addClass('selected');
-			if(ultraActive)
-				$( cols[2] ).addClass('selected');
+			
 			if(bayerActive)	
 				$( cols[3] ).addClass('selected');
 			if(abbottActive)	
@@ -134,45 +119,6 @@ $(document).ready(function(){
 		}		
 	});
 	
-	$('#btn-verio').live('touchstart click', function(e){
-		e.stopPropagation(); e.preventDefault();
-						
-		verioActive = !verioActive;
-		var cols = $('.verio');
-		
-		cols.each(function(index, element) {
-			var col = $(this);
-			var row = col.parent().parent();
-			////console.log(row);
-			if(row.hasClass('selected') )
-			{
-				if ( col.hasClass('selected') )
-					col.removeClass('selected');
-				else
-					col.addClass('selected');
-			}						
-		});
-	});	
-
-	$('#btn-ultra').live('touchstart click', function(e){
-		e.stopPropagation(); e.preventDefault();
-						
-		ultraActive = !ultraActive;
-		var cols = $('.ultra');
-		
-		cols.each(function(index, element) {
-			var col = $(this);
-			var row = col.parent().parent();
-			////console.log(row);
-			if(row.hasClass('selected') )
-			{
-				if ( col.hasClass('selected') )
-					col.removeClass('selected');
-				else
-					col.addClass('selected');
-			}						
-		});
-	});		
 	
 	$('#btn-bayer').live('touchstart click', function(e){
 		e.stopPropagation(); e.preventDefault();
@@ -284,8 +230,7 @@ $(document).ready(function(){
 	function loadCoverage()
 	{			
 		//var code = territoryCode.substr(0,2);		
-		var csv;
-		territoryCode="SC";
+		var csv;	
 		
 		switch(territoryCode)
 		{

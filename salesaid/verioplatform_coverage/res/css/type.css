@@ -40,10 +40,10 @@
 	color: #a0a0a0;
 }
 .medium-gray{
-	color: #999999;
+	color: #666666;
 }
 .dark-gray{
-	color: #666666;
+	color: #999999;
 }
 .white{
 	color: #FFFFFF;
@@ -102,21 +102,21 @@
 	font-size: 16px;
 	line-height:16px;
 	padding:0px;
-	margin:0 0 8px 0;
+	margin:0 0 4px 0;
 }
 .subhead2{
 	font-family: Gotham-Medium;
 	font-size: 14px;
 	line-height:14px;
 	padding:0px;
-	margin:0 0 8px 0;
+	margin:0 0 4px 0;
 }
 .subhead3{
 	font-family: Gotham-Medium;
-	font-size: 10px;
-	line-height:10px;
+	font-size: 20px;
+	line-height:20px;
 	padding:0;
-	margin:0 0 6px 0;
+	margin:0 0 3px 0;
 }
 
 /* Body text ----------------------------------------- */
@@ -128,7 +128,7 @@
 	margin:0;
 }
 .text2{
-	font-family: Gotham-Medium;
+	font-family: Gotham-Book;
 	font-size: 18px;
 	line-height:18px;
 	padding:0px;
