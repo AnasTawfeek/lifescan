@@ -114,14 +114,12 @@ footer
 
 .nav.prev{
 	position:absolute;
-	left:-54px;
-	bottom:100px;
-	opacity:.3;
+	left:20px;
+	top:621px;
 }
 
 .nav.next{
 	position:absolute;
-	right:-54px;
-	bottom:100px;
-	opacity:.3;
+	right:20px;
+	top:621px;
 }
