@@ -13,7 +13,7 @@ $(document).ready(function(){
 		var page;
 		
 		if(btn.hasClass('prev'))
-			page = "veeva:gotoSlide(home.zip)";
+			page = "veeva:gotoSlide(verioplatform_ultramini.html)";
 		else
 			page = "slide-3.1.html";
 		
