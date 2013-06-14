@@ -1,8 +1,8 @@
 html{
 	margin:0;
 	padding:0;
-	width:2048px;
-	height:1536px;
+	width: 1024px;
+	height: 768px;
 }
 
 body {
@@ -13,8 +13,8 @@ body {
 	background-repeat:no-repeat;
 	background-size: 2048px 1536px;
 	position:relative;
-	width:2048px;
-	height:1536px;
+	width: 1024px;
+	height: 768px;
 }
 
 .left{
@@ -65,8 +65,8 @@ nav{
 footer
 {
 	position:absolute;
-	top:1364px;
-	left:1660px;
+	top:687px;
+	left: 830px;
 	z-index:998;
 }
 
@@ -84,12 +84,12 @@ footer
 
 .nav.prev{
 	position:absolute;
-	left:41px;
-	top:1243px;
+	left:20px;
+	top:622px;
 }
 
 .nav.next{
 	position:absolute;
-	right:41px;
-	top:1243px;
+	right:20px;
+	top:622px;
 }
