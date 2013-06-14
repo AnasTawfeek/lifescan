@@ -67,7 +67,7 @@ footer
 	position:absolute;
 	top:687px;
 	left: 830px;
-	z-index:998;
+	z-index:-50;
 }
 
 .animationLayer
