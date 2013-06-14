@@ -1,8 +1,8 @@
 html{
 	margin:0;
 	padding:0;
-	width:2048px;
-	height:1536px;
+	width: 1024px;
+	height: 768px;
 }
 
 body {
@@ -11,10 +11,10 @@ body {
 	padding:0;
 	background-image:url(../images/global/page-bg.jpg);
 	background-repeat:no-repeat;
-	background-size: 2048px 1536px;
+	background-size: 1024px 768px;
 	position:relative;
-	width:2048px;
-	height:1536px;
+	width: 1024px;
+	height: 768px;
 }
 
 .left{
@@ -65,9 +65,9 @@ nav{
 footer
 {
 	position:absolute;
-	top:1364px;
-	left:1660px;
-	z-index:998;
+	top:687px;
+	left: 830px;
+	z-index:-50;
 }
 
 .animationLayer
@@ -84,12 +84,12 @@ footer
 
 .nav.prev{
 	position:absolute;
-	left:41px;
-	top:1243px;
+	left:20px;
+	top:622px;
 }
 
 .nav.next{
 	position:absolute;
-	right:41px;
-	top:1243px;
+	right:20px;
+	top:622px;
 }
