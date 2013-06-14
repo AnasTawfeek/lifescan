@@ -24,7 +24,7 @@ $(document).ready(function(){
 	   
 	   	$('.animationLayer').fadeOut('fast');	   
 	  	$('.contentLayer').fadeOut('fast', function(){
-			document.location = "veeva:gotoSlide(verioplatform_start.zip)";	
+			document.location = "veeva:gotoSlide(verioplatform_start.zip, BGM_01-2012_POA)";	
 		});		
 	 });
 				  
@@ -34,7 +34,7 @@ $(document).ready(function(){
 	   
 	   	$('.animationLayer').fadeOut('fast');
 	  	$('.contentLayer').fadeOut('fast', function(){
-			document.location = "veeva:gotoSlide(verioplatform_coverage.zip)";	
+			document.location = "veeva:gotoSlide(verioplatform_coverage.zip, BGM_01-2012_POA)";	
 		});
 	 });
 	 
@@ -44,7 +44,7 @@ $(document).ready(function(){
 	   
 	   $('.animationLayer').fadeOut('fast');
 	   $('.contentLayer').fadeOut('fast', function(){
-			document.location = "veeva:gotoSlide(verioplatform_portfolio.zip)";	
+			document.location = "veeva:gotoSlide(verioplatform_portfolio.zip, BGM_01-2012_POA)";	
 		});
 	 });
 	 
