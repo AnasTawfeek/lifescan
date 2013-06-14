@@ -11,7 +11,7 @@ $(document).ready(function(){
   $('.nav').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
     
-    jump("verioiq.html");			
+    jump("slide-2.1.html");			
   });
   
   $('#card').live('touchstart click', function(e){
@@ -37,14 +37,9 @@ $(document).ready(function(){
   $('.contentLayer').fadeIn();
   
   $(".fourpeople").click(function() {
-    $(".ninetyfourpercent").show();
-    $(this).hide();
+    $('#stats').addClass("showMe");     
   });
 
-  $(".ninetyfourpercent").click(function() {
-    $(".fourpeople").show();
-    $(this).hide();
-  });
 });
 
 

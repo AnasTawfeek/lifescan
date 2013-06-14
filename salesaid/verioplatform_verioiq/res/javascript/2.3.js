@@ -14,7 +14,7 @@ $(document).ready(function(){
 		var page;
 		
 		if(btn.hasClass('prev'))
-			page = "slide-2.2.html";
+			page = "slide-2.1.html";
 		else
 			page = "slide-2.4.html";
 		

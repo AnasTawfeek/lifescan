@@ -3,45 +3,24 @@ body{
 	background-image:url(../animation/top.poster.jpg);
 }
 
+.headings{
+    position:absolute; 
+	left:70px;
+	top:360px;
+}
+
 .buttons{
-	margin: 210px 0 0 210px; 
+	position:absolute;
 	width:50px;
+	top:286px;
+	left:290px;
 }
 .buttons img{
 	margin-bottom: 23px;
 }
 
-.headings{
-	position:absolute; 
-	margin-top: 275px; 
-	width:160px;
-}
-
 .head4 {
     font-size: 27px;
     line-height: 27px;
-    width: 115px;
+    width: 145px;
 }
-
-
-
-/*
-#callout-test{
-	position:absolute;
-	left: 375px;
-	top:51px;
-	display:none;
-}
-#callout-easy{
-	position:absolute;
-	left: 475px;
-	top:300px;
-	display:none;
-}
-#callout-perf{
-	position:absolute;
-	left: 376px;
-	top:244px;
-	display:none;
-}
-*/

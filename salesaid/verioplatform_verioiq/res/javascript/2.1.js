@@ -17,7 +17,7 @@ $(document).ready(function(){
     var page;
     
     if(btn.hasClass('prev'))
-      page = "veeva:gotoSlide(home.zip)";
+      page = "slide-2.0.html";
     else
       page = "slide-2.5.html";
     
@@ -60,15 +60,19 @@ $(document).ready(function(){
   function showDark(){				
     $('#callout-illum-dark').fadeIn();	
     $('.head4:first').removeClass('purple').addClass('white');
+    $('.text1').removeClass('light-blue').addClass('purple');
+    $('#arrow').attr("src", imgpath+ "btn-tour-arrow-on.png" );
     $('#btn-test').attr("src", btn6.src );
     $('#btn-easy').attr("src", btn7.src );
     $('#btn-perf').attr("src", btn8.src );
-    //	$('footer img').attr("src", "res/images/global/footer-logo-white.png");
+    $('footer img').attr("src", "res/images/global/footer-logo-white.png");
   };
   
   function hideDark(){
     $('#callout-illum-dark').fadeOut();
     $('.head4:first').removeClass('white').addClass('purple');
+    $('.text1').removeClass('purple').addClass('light-blue');
+    $('#arrow').attr("src", imgpath+ "btn-tour-arrow.png" );
     $('#btn-test').attr("src", imgpath+ "btn-test.png" );
     $('#btn-easy').attr("src", imgpath+ "btn-easy.png" );
     $('#btn-perf').attr("src", imgpath+ "btn-perf.png" );

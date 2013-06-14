@@ -8,6 +8,20 @@ $(document).ready(function(){
     });	
   };
   
+  $('.nav').live('touchstart click', function(e){
+    e.stopPropagation(); e.preventDefault();
+    var btn = $(this);
+    var page;
+    
+    if(btn.hasClass('prev'))
+      page = "verioplatform_verioiq.html";
+    else
+      page = "slide-2.0.html";
+    
+    jump(page);			
+  });
+  
+  
   $('#face1').live('touchstart click', animateFace);
   $('#face2').live('touchstart click', animateFace);
   $('#face3').live('touchstart click', animateFace);

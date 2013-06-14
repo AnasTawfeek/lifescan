@@ -2,13 +2,20 @@ body {
 /*background-image:url('../images/2.3/bg.jpg');*/
 }
 
+.headings{
+    position:absolute; 
+	left:70px;
+	top:360px;
+}
+
+
 .disclaimer {
     position: absolute;
-    left: 750px;
-    top: 570px;
-    width: 250px;
+    left: 800px;
+    top: 605px;
+    width: 205px;
     font-size: 11px;
-    font-family: helvetica, arial;
+    font-family: GothamXNarrow-Medium;
     color: #666666;
 }
 
@@ -19,11 +26,6 @@ body {
     position: absolute;
 }
 
-.headings{
-    position:absolute; 
-    margin-top: 275px; 
-    width:160px;
-}
 
 #callout1
 {

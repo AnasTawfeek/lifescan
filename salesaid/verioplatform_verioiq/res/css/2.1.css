@@ -1,6 +1,8 @@
 /* local overrides... */
-body{
-	/*background-image:url(../images/2.1/bg-day.jpg);*/
+
+.head4{
+	font-size: 28px;
+	line-height:28px;
 }
 
 .buttons{
@@ -12,32 +14,31 @@ body{
 }
 
 #btn-tour{
-	position:absolute;
-	bottom:0px;
+	margin-top:80px;
 }
 
 #callout-test{
 	position:absolute;
-	left: 375px;
-	top:51px;
+	left: 445px;
+	top:106px;
 	display:none;
 }
 #callout-easy{
 	position:absolute;
-	left: 479px;
-        top: 335px;
+	left: 549px;
+    top: 390px;
 	display:none;
 }
 #callout-perf{
 	position:absolute;
-	left: 376px;
-	top:244px;
+	left: 446px;
+	top:300px;
 	display:none;
 }
 #callout-illum{
 	position:absolute;
-	left: 457px;
-	top:185px;
+	left: 527px;
+	top:241px;
 	display:none;
 }
 #callout-illum-dark{

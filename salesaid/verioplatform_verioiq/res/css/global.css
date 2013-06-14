@@ -17,6 +17,7 @@ body {
 	background-position: top left;
 	background-repeat:no-repeat;
 	position:relative;
+	overflow:hidden;
 }
 
 .left{
@@ -101,27 +102,25 @@ footer
 
 .contentLayer
 {
-	width: 884px;
-	height: 658px;
+	width: 1024px;
+	height: 768px;
 	position:absolute;
-	top: 50%;
-	left: 50%;
-	margin-left:-442px;
-	margin-top:-329px;
-	z-index:990;
-	/*border: 1px dashed blue;*/
+	top:0;
+	left:0;
+	z-index:0;
+	padding:0;
+	margin:0;
+	overflow:hidden;
 }
 
 .nav.prev{
 	position:absolute;
-	left:-54px;
-	bottom:100px;
-	opacity:.3;
+	left:20px;
+	top:679px;
 }
 
 .nav.next{
 	position:absolute;
-	right:-54px;
-	bottom:100px;
-	opacity:.3;
+	right:20px;
+	top:679px;
 }

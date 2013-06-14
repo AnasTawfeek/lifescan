@@ -19,7 +19,7 @@ $(document).ready(function(){
 		var page;
 		
 		if(btn.hasClass('prev'))
-			page = "slide-2.3.html";
+			page = "slide-2.1.html";
 		else
 			page = "slide-2.5.html";
 		
@@ -87,6 +87,7 @@ $(document).ready(function(){
 		if(!videoPlaying)
 		{		
 			showHeading(3);
+		    $('footer img').attr("src", "res/images/global/footer-logo.png");
 			videoPlaying = true;		
 			$(this).attr("src", images[3] );
 			activeButtonId = $(this).attr('id');
@@ -105,6 +106,7 @@ $(document).ready(function(){
 		if(!videoPlaying)
 		{	
 			showHeading(4);
+		    $('footer img').attr("src", "res/images/global/footer-logo.png");
 			videoPlaying = true;	
 			$(this).attr("src", images[4] );
 			activeButtonId = $(this).attr('id');
@@ -123,6 +125,7 @@ $(document).ready(function(){
 		if(!videoPlaying)
 		{			
 			showHeading(5);
+			$('footer img').attr("src", "res/images/global/footer-logo-white.png");
 			videoPlaying = true;	
 			$(this).attr("src", images[5] );
 			activeButtonId = $(this).attr('id');
