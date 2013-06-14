@@ -1,11 +1,11 @@
 $(document).ready(function(){
   
-  function jump(page)
+  window.jump=function(page)
   {
-    $( '.animationLayer').fadeOut();
-    $('.contentLayer').fadeOut( function(){				  					
-      document.location = page;			
-    });	
+		$('.animationLayer').fadeOut();
+		$('#contentLayer').fadeOut( function(){				  					
+			document.location = page;			
+		});	
   };
   
   $('#face1').live('touchstart click', animateFace);
@@ -34,10 +34,14 @@ $(document).ready(function(){
   //	});
   
   // fade in the content...
-  $('.popup_btn').click(function() {
+  $('.popup_btn').live('touchstart click', function(e){
     $('#ninetyfourpercent').addClass('showMe');
     return false;
   });
 
-  
+
+	$('.nav.next').live('touchstart click', function(e){
+		window.jump("slide-2.0.html");
+		return false;
+	});
 });

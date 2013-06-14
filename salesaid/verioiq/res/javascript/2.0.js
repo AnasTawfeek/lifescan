@@ -3,25 +3,24 @@ $(document).ready(function(){
 
   var imgpath = "res/images/2.0/";
   
-  function jump(page)
+  window.jump=function(page)
   {
-    $('.contentLayer').fadeOut( function(){				  					
-      document.location = page;			
-    });	
+		$('.animationLayer').fadeOut();
+		$('#contentLayer').fadeOut( function(){				  					
+			document.location = page;			
+		});	
   };
   
-  $('.nav').live('touchstart click', function(e){
-    e.stopPropagation(); e.preventDefault();
-    var btn = $(this);
-    var page;
-    
-    if(btn.hasClass('prev'))
-      page = "verioiq.html";
-    else
-      page = "slide-2.1.html";
-    
-    jump(page);			
-  });
+	$('.nav.next').live('touchstart click', function(e){
+		window.jump("slide-2.1.html");
+		return false;
+	});
+
+	$('.nav.prev').live('touchstart click', function(e){
+		window.jump("slide-1.0.html");
+		return false;
+	});
+
   
   function step2(){
     

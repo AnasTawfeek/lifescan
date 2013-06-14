@@ -1,14 +1,14 @@
-body{
-    background-image:url(../images/global/page-bg-anim.jpg);
-}
 
 .headings{
-    margin-top:280px;
-}			
+    position:absolute;
+    top:340px;
+    left:60px;
+    z-index:502;
+}
 
 #verio{
     position:absolute;
-    top:52px;
-    left:333px;
+    top:112px;
+    left:620px;
     z-index:502;
 }
