@@ -31,22 +31,22 @@ body {
 {
     height: 60px;
     width:275px;
-    top: 178px;
-    left: 58px;
+    top: 234px;
+	left: 132px;
 }	
 #callout2
 {
     height: 60px;
     width:340px;
-    top: 220px;
-    left: 410px;
+    top: 276px;
+    left: 480px;
 }	
 #callout3
 {
     height: 100px;
     width:340px;
-    top: 298px;
-    left: 426px;
+    top: 354px;
+    left: 496px;
 }	
 
 #footnote
