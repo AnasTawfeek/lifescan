@@ -16,6 +16,8 @@ $(document).ready(function(){
 	
     var video = document.getElementsByTagName('video')[0];
 	video.addEventListener("ended", function () {
+		$("#videoThumb").show();
+		$("#video").hide();
       $("#copy").fadeTo(2000,1);
 	}, false);
 });
