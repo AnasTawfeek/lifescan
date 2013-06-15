@@ -23,8 +23,8 @@ $(document).ready(function(){
 	   	$(this).attr("src", btn1.src );		
 	   
 	   	$('.animationLayer').fadeOut('fast');	   
-	  	$('.contentLayer').fadeOut('fast', function(){
-			document.location = "veeva:gotoSlide(home.zip, BGM_01-2012_POA)";	
+	  	$('body, .contentLayer').fadeOut('fast', function(){
+			document.location = "veeva:gotoSlide(verioplatform_start.zip, BGM_01-2012_POA)";	
 		});		
 	 });
 				  

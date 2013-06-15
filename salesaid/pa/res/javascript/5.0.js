@@ -4,7 +4,7 @@ $(document).ready(function(){
 	{
 		$('.contentImg').fadeOut();
 		$('.contentLayer').fadeOut( function(){				  					
-			document.location = page;			
+		//	document.location = page;			
 		});	
 	};
 	

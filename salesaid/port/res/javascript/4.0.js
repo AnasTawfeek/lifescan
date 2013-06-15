@@ -23,12 +23,22 @@ $(document).ready(function(){
   $('#verio .co').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
     
-    document.location = "veeva:gotoSlide(verio.zip, BGM_01-2012_POA)"; 
+    document.location = "veeva:gotoSlide(verioplatform_verioiq.zip, BGM_01-2012_POA)"; 
   });
   $('#mini .co').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
     
-    document.location = "veeva:gotoSlide(ultramini.zip, BGM_01-2012_POA)"; 
+    document.location = "veeva:gotoSlide(verioplatform_ultramini.zip, BGM_01-2012_POA)"; 
+  });
+
+  $(".mini_link").live('touchstart click', function(e) {
+    e.stopPropagation(); e.preventDefault();
+    document.location = "veeva:gotoSlide(verioplatform_ultramini.zip, BGM_01-2012_POA)";
+  });
+
+  $("#veriosync .arrow").live('touchstart click', function(e) {
+    e.stopPropagation(); e.preventDefault();
+    document.location = "veeva:gotoSlide(verioplatform_veriosync.zip, BGM_01-2012_POA)";
   });
   
   $('.button').live('touchstart click', function(e){
