@@ -10,7 +10,8 @@ $(document).ready(function(){
 	};
 	
 	$('#videoThumb img').live('touchstart click', function(e){
-		$("#videoThumb").hide();
+		$("#videoThumb").fadeOut(100);
+		$("#video").show();
 		$("#video").get(0).play();
 	});
 	
