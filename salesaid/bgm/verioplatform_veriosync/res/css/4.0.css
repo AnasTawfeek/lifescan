@@ -1,0 +1,18 @@
+.overlay {
+    left: 510px;
+    top: 135px;
+    display: none;
+    position: absolute;
+}
+
+.fourpeople {
+    left: 510px;
+    top: 135px;
+    position: absolute;
+}
+
+.prescribeonetouch {
+    position: relative;
+    left: 92px;
+    top: 130px;
+}

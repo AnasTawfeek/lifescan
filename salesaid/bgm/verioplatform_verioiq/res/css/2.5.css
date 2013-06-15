@@ -1,0 +1,55 @@
+/* local overrides... */
+body{
+/*background-image:url(../images/2.2/bg.jpg);*/
+}
+
+.headings{
+    margin-top:300px;
+}
+
+.disclaimer {
+    position: absolute;
+    top:665px;
+    left: 68px;
+    font-family: helvetica, arial;
+    font-size: 11px;
+    color: #666666;
+}
+
+
+header{
+    position:absolute;
+    z-index:999;
+}
+
+
+.fourpeople, #stats {
+    position: absolute;
+    left: 70px;
+    top: 134px;
+}
+
+.prescribe_onetouch {
+    position: absolute;
+    left: 539px;
+    top: 215px;
+}
+
+.showHidden {
+	-webkit-transition: -webkit-mask-position 1.5s ease-in-out, opacity 1s ease-out;		
+	-webkit-mask-size: 200% 100%;
+	-webkit-mask-position: -445px 0px;
+	-webkit-mask-image: -webkit-gradient(linear, left top, right top, 
+		color-stop(0.00,  rgba(0,0,0,1)),
+		color-stop(0.50,  rgba(0,0,0,1)),
+		color-stop(0.50001,  rgba(0,0,0,0)),
+		color-stop(1.00,  rgba(0,0,0,0)));
+	opacity:0.7;
+	visibility:hidden;
+}
+		
+.showMe {
+	-webkit-mask-position: 0 0;
+	opacity:1;
+	visibility:visible;
+}

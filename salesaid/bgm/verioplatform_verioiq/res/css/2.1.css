@@ -1,0 +1,58 @@
+/* local overrides... */
+
+.head4{
+	font-size: 28px;
+	line-height:28px;
+}
+
+.buttons{
+	margin-top: 50px; 
+	width:300px;
+}
+.buttons img{
+	margin-bottom: 8px;
+}
+
+#btn-tour{
+	margin-top:80px;
+}
+
+#callout-test{
+	position:absolute;
+	left: 445px;
+	top:106px;
+	display:none;
+}
+#callout-easy{
+	position:absolute;
+	left: 549px;
+    top: 390px;
+	display:none;
+}
+#callout-perf{
+	position:absolute;
+	left: 446px;
+	top:300px;
+	display:none;
+}
+#callout-illum{
+	position:absolute;
+	left: 527px;
+	top:241px;
+	display:none;
+}
+#callout-illum-dark{
+	position:absolute;
+	z-index:110;
+	display:none;
+}
+#overlay{
+	position:absolute;
+	top:82px;
+	display:none;
+	z-index:999;
+}
+#bg{
+	position:absolute;
+	z-index:1;
+}
