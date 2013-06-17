@@ -23,6 +23,7 @@
 	/* -- transition is the magic sauce for animation -- */
 	-webkit-transition: all .5s ease-out;
 }
+
 .panel.flip .front {
 	z-index: 900;
 	-webkit-transform: rotateY(180deg);	
@@ -68,4 +69,14 @@
 	-webkit-mask-position: 0 0;
 	opacity:1;
 	visibility:visible;
+}
+
+.legal {
+    position: absolute;
+    left: 90px;
+    top: 690px;
+    font-family: arial, sans-serif, hevetica;
+    font-size: 10px;
+    color: #666666;
+    display: none;
 }

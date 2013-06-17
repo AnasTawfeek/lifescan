@@ -41,4 +41,9 @@ $(document).ready(function(){
     $('#stats').addClass("showMe");     
   });
 
+  $(".showlegal").click(function() {
+    $(".legal").toggle();
+    return false;
+  });
+
   ;})
