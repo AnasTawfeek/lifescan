@@ -27,7 +27,7 @@
 
 #phone_3 {
 	position:absolute;
-	top:27px;
+	top:0;
 	left:0;
 	display:none;
 	z-index:1000;
