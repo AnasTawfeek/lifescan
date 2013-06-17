@@ -3,7 +3,7 @@ $(document).ready(function(){
   function jump(page)
   {
     $( '.animationLayer').fadeOut();
-    $('.contentLayer').fadeOut( function(){				  					
+    $('body, .contentLayer').fadeOut( function(){				  					
       document.location = page;			
     });	
   };
