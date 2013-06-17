@@ -78,6 +78,12 @@ $(document).ready(function(){
   // fade in the content...
   $('.popup_btn').click(function() {
     $('#ninetyfourpercent').addClass('showMe');
+	$("#legal").fadeTo(700,1,function() {
+		showChart();
+	});
+	
+
+/*
 	move("#legal").
 	delay("0.5s").
 	duration("1s").
@@ -85,7 +91,7 @@ $(document).ready(function(){
 	end(function() {
 		showChart();
 	});
-	
+*/	
     return false;
   });
 
