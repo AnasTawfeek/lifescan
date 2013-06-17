@@ -40,6 +40,34 @@ $(document).ready(function(){
     }
   }
 
+	function showChart() {
+		console.log("chart");
+		var pieOptions = {
+			segmentShowStroke : true,
+			segmentStrokeColor : "#2aaff8",
+			segmentStrokeWidth : 6,
+			animation : true,
+			animationSteps : 50,
+			animationEasing : "easeInOutSine",
+			animateRotate : true,
+			animateScale : false,
+			onAnimationComplete : null
+		};
+		
+		var pieData = [
+				{
+					value: 94,
+					color:"#555083"
+				},
+				{
+					value : 6,
+					color : "#b1b1b1"
+				}
+			];
+
+			var myPie = new Chart(document.getElementById("chart").getContext("2d")).Pie(pieData, pieOptions);
+
+	}
 
   
   // fade in the content...
@@ -54,7 +82,9 @@ $(document).ready(function(){
 	delay("0.5s").
 	duration("1s").
 	set("opacity",1).
-	end();
+	end(function() {
+		showChart();
+	});
 	
     return false;
   });
