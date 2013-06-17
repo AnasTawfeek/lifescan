@@ -50,6 +50,12 @@ $(document).ready(function(){
   // fade in the content...
   $('.popup_btn').click(function() {
     $('#ninetyfourpercent').addClass('showMe');
+	move("#legal").
+	delay("0.5s").
+	duration("1s").
+	set("opacity",1).
+	end();
+	
     return false;
   });
 
