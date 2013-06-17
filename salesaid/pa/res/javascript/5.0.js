@@ -3,8 +3,8 @@ $(document).ready(function(){
 	function jump(page)
 	{
 		$('.contentImg').fadeOut();
-		$('.contentLayer').fadeOut( function(){				  					
-		//	document.location = page;			
+		$('body, .contentLayer').fadeOut( function(){				  					
+			document.location = page;			
 		});	
 	};
 	

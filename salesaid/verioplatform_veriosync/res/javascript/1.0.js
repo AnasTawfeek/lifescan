@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-    $('#contentLayer').fadeIn(600);			  					
+  $('#contentLayer').fadeIn(600);			  					
 
 
-	window.jump=function(page)
+  window.jump=function(page)
   {
     $('.animationLayer').fadeOut();
     $('#contentLayer').fadeOut( function(){				  					
@@ -41,4 +41,9 @@ $(document).ready(function(){
     $('#stats').addClass("showMe");     
   });
 
-;})
+  $(".showlegal").click(function() {
+    $(".legal").toggle();
+    return false;
+  });
+
+  ;})
