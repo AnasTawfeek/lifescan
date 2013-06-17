@@ -52,7 +52,7 @@
 }
 
 .showHidden {
-	-webkit-transition: -webkit-mask-position 2s ease-in-out, opacity 1.5s ease-out;		
+	-webkit-transition: -webkit-mask-position 1.2s ease-in-out, opacity 0.8s ease-out;		
 	-webkit-mask-size: 200% 100%;
 	-webkit-mask-position: -890px 0px;
 	-webkit-mask-image: -webkit-gradient(linear, left top, right top, 
