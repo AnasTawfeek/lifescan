@@ -47,7 +47,7 @@ $(document).ready(function(){
 			segmentStrokeColor : "#2aaff8",
 			segmentStrokeWidth : 6,
 			animation : true,
-			animationSteps : 50,
+			animationSteps : 30,
 			animationEasing : "easeInOutSine",
 			animateRotate : true,
 			animateScale : false,
@@ -74,14 +74,12 @@ $(document).ready(function(){
   //	$('.contentLayer').fadeIn(function(){
   //		$('.animationLayer').fadeIn('slow');
   //	});
-  
+
   // fade in the content...
   $('.popup_btn').click(function() {
     $('#ninetyfourpercent').addClass('showMe');
-	$("#legal").fadeTo(700,1,function() {
-		showChart();
-	});
-	
+	setTimeout(showChart,700);
+//	$("#legal").fadeTo(700,1,function() { showChart(); });
 
 /*
 	move("#legal").
@@ -94,6 +92,9 @@ $(document).ready(function(){
 */	
     return false;
   });
-
   
+  $(".showlegal").click(function() {
+    $("#legal").toggle();
+    return false;
+  });
 });
