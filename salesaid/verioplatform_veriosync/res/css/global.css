@@ -3,6 +3,9 @@ html{
 	padding:0;
 	width:1024px;
 	height:768px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
 }
 
 body {
