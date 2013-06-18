@@ -14,7 +14,7 @@ $(document).ready(function(){
 		var page;
 		
 		if(btn.hasClass('prev'))
-			page = "ultramini.html";
+			page = "verioplatform_ultramini.html";
 		else
 			page = "slide-3.2.html";
 		
