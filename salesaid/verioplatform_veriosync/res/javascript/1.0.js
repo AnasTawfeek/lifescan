@@ -29,6 +29,34 @@ $(document).ready(function(){
     }
   }
 
+	function showChart() {
+		console.log("chart");
+		var pieOptions = {
+			segmentShowStroke : true,
+			segmentStrokeColor : "#FFF",
+			segmentStrokeWidth : 6,
+			animation : true,
+			animationSteps : 30,
+			animationEasing : "easeInOutSine",
+			animateRotate : true,
+			animateScale : false,
+			onAnimationComplete : null
+		};
+		
+		var pieData = [
+				{
+					value: 77,
+					color:"#8dd8fc"
+				},
+				{
+					value : 23,
+					color : "#b1b1b1"
+				}
+			];
+
+			var myPie = new Chart(document.getElementById("chart").getContext("2d")).Pie(pieData, pieOptions);
+
+	}
 
   
   // fade in the content...
@@ -38,7 +66,8 @@ $(document).ready(function(){
   
   // fade in the content...
   $('#rightside').click(function(e) {
-    $('#stats').addClass("showMe");     
+    $('#stats').addClass("showMe");
+	setTimeout(showChart,700);     
   });
 
   $(".showlegal").click(function() {
