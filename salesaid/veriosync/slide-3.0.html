@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>OneTouch</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+
+	<link rel="stylesheet" href="res/css/global.css?v=34" />
+	<link rel="stylesheet" href="res/css/3.0.css?v=34" />
+
+	<script src="res/javascript/jquery-1.8.3.min.js"></script>
+	<script src="res/javascript/move.min.js"></script>
+	<script src="res/javascript/global.js?v=34"></script>
+	<script src="res/javascript/3.0.js?v=34"></script>
+
+	<meta charset="UTF-8">
+</head>
+<body>
+
+<header>
+	<nav>
+		<a><img id="btn-home" src="res/images/global/btn-home.png" /></a>
+		<a><img id="btn-coverage" src="res/images/global/btn-coverage.png" /></a>
+		<a><img id="btn-portfolio" src="res/images/global/btn-portfolio.png" /></a>
+	</nav>
+</header>
+
+<div class="contentLayer">
+
+	<div id="menu" style="position:absolute;top:309px;left:70px;">
+		<img src="res/images/3.0/menu_start.png" usemap="#Map" />
+		<div id="menu1" class="menu"><img src="res/images/3.0/menu_1.png" usemap="#Map"/></div>
+		<div id="menu2" class="menu"><img src="res/images/3.0/menu_2.png" usemap="#Map"/></div>
+		<div id="menu3" class="menu"><img src="res/images/3.0/menu_3.png" usemap="#Map"/></div>
+
+		<map name="Map">
+			<area shape="rect" coords="0,0,308,39" href="javascript:showMenu(1)">
+			<area shape="rect" coords="0,59,308,98" href="javascript:showMenu(2)">
+			<area shape="rect" coords="0,117,308,156" href="javascript:showMenu(3)">
+		</map>
+	</div>
+
+	<div id="phone_none"><img src="res/images/3.0/phone_none.png" /></div>
+
+	<div id="phone_1"><img src="res/images/3.0/phone_1.png" /></div>
+	<div id="phone_2"><img src="res/images/3.0/phone_2.png" /></div>
+
+	<div id="phone_3"><img src="res/images/3.0/phone_3.png" usemap="#Map2" />
+		<map name="Map2">
+			<area shape="rect" coords="70,309,380,350" href="javascript:showMenu(1)">
+			<area shape="rect" coords="70,367,379,409" href="javascript:showMenu(2)">
+		</map>
+	</div>
+
+	<div id="copy" style="position:absolute;top:265px;left:363px;display:none;"><img src="res/images/2.0/copy.png" /></div>
+
+	<div style="position:absolute;left:70px;top:80px;"><img src="res/images/3.0/header.png" /></div>
+
+	<div style="position:absolute;left:69px;top:475px;z-index:1000;">
+		<a href="javascript:jump('tour.html')"><img src="res/images/3.0/take_tour.png" /></a>
+	</div>
+
+</div>
+
+
+<footer class="center">
+	<img src="res/images/global/footer-logo.png" />
+</footer>
+
+<a href="javascript:jump('slide-2.0.html')"><img src="res/images/global/btn-prev.png" class="nav prev" /></a>
+<a href="javascript:jump('slide-4.0.html')"><img src="res/images/global/btn-next.png" class="nav next" /></a>
+
+</body>
+</html>

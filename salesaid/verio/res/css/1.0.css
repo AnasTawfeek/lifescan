@@ -1,0 +1,78 @@
+#legal {
+	position:absolute;
+	top:680px;
+	left:73px;
+	display:none;
+}
+
+.panel {
+	width: 242px;
+	height: 362px;
+	position: relative;	
+	background-color: transparent;
+	-webkit-perspective: 600px;
+	padding:0px;
+	margin:0px;
+}
+
+.panel .front {
+	float: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 900;
+	width: inherit;
+	height: inherit;
+
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+
+	/* -- transition is the magic sauce for animation -- */
+	-webkit-transition: all .5s ease-out;
+}
+.panel.flip .front {
+	z-index: 900;
+	-webkit-transform: rotateY(180deg);	
+}
+
+.panel .back {
+	float: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 800;
+	width: inherit;
+	height: inherit;	
+	-webkit-transform: rotateY(-180deg);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+
+	/* -- transition is the magic sauce for animation -- */
+	-webkit-transition: all .4s ease-in-out;
+}
+
+.panel.flip .back {
+	z-index: 1000;
+	
+	-webkit-transform: rotateX(0deg) rotateY(0deg) translateY(-7px);
+}
+
+.showHidden {
+	-webkit-transition: -webkit-mask-position 1.2s ease-in-out, opacity 0.8s ease-out;		
+	-webkit-mask-size: 200% 100%;
+	-webkit-mask-position: -890px 0px;
+	-webkit-mask-image: -webkit-gradient(linear, left top, right top, 
+		color-stop(0.00,  rgba(0,0,0,1)),
+		color-stop(0.50,  rgba(0,0,0,1)),
+		color-stop(0.50001,  rgba(0,0,0,0)),
+		color-stop(1.00,  rgba(0,0,0,0)));
+	opacity:0.7;
+	visibility:hidden;
+}
+		
+.showMe {
+	-webkit-mask-position: 0 0;
+	opacity:1;
+	visibility:visible;
+}

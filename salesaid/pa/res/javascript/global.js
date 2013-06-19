@@ -24,7 +24,7 @@ $(document).ready(function(){
 	   
 	   	$('.animationLayer').fadeOut('fast');	   
 	  	$('body, .contentLayer').fadeOut('fast', function(){
-			document.location = "veeva:gotoSlide(verioplatform_start.zip, BGM_01-2012_POA)";	
+			document.location = "veeva:gotoSlide(start.zip, BGM_01-2012_POA)";	
 		});		
 	 });
 				  
