@@ -61,21 +61,35 @@ $(document).ready(function(){
     $('#particle_animation').get(0).play()
     $("#section1_3").fadeOut(500);
     $("#section1_4").fadeIn(300);
-    $("#phone").animate({left: '752'}, 900);
+	  move("#phone").
+		  duration("0.9s").
+		  ease('in-out').
+		  set("left",752).
+		  end();
+//	  $("#phone").animate({left: '752'}, 900);
   }
 
   window.slidePhone=function() {
     $("#device_holder").fadeOut(300);
     $("#section1_4").fadeOut(500);
-    $("#phone").animate({left: '103'}, 2000, function() {
-      window.fadeInSection("#section_summary");
-    });
+
+	  move("#phone").
+		  duration("1.5s").
+		  ease('in-out').
+		  set("left",103).
+		  end(function() {
+			  window.fadeInSection("#section_summary");
+		  });
+
+//    $("#phone").animate({left: '103'}, 2000, function() {
+//      window.fadeInSection("#section_summary");
+//    });
   }
 
   
   window.bFlashDrop=true;
   window.flashDrop=function() {
-    $("#apply_blood").fadeIn(700).fadeOut(700, function() { if(window.bFlashDrop) window.flashDrop();});
+    $("#apply_blood").fadeIn(500).fadeOut(500).fadeIn(500).fadeOut(500, function() { window.showRead(); });
   }
   
   window.bFlashSync=true;
