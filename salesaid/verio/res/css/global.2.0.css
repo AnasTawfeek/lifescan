@@ -3,6 +3,8 @@ html{
 	padding:0;
 	width:2048px;
 	height:1536px;
+        -webkit-tap-highlight-color: transparent;
+
 }
 
 body {
