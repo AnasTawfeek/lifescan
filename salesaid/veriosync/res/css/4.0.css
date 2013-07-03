@@ -1,13 +1,14 @@
 .overlay {
     left: 510px;
     top: 135px;
-    display: none;
+    display: block;
     position: absolute;
 }
 
 .fourpeople {
     left: 510px;
     top: 135px;
+    display: none;
     position: absolute;
 }
 
