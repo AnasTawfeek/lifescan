@@ -16,7 +16,7 @@ $(document).ready(function(){
     if(btn.hasClass('prev'))
       page = "verioiq.html";
     else
-      page = "slide-2.0.html";
+      page = "slide-2.1.html";
     
     jump(page);			
   });

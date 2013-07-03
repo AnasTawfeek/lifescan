@@ -8,11 +8,18 @@ $(document).ready(function(){
     });	
   };
   
-  $('.nav').live('touchstart click', function(e){
+  $('.prev').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
     
     jump("slide-2.1.html");			
   });
+
+  $('.next').live('touchstart click', function(e){
+    e.stopPropagation(); e.preventDefault();
+    $('#stats').addClass("showMe");
+    
+  });
+
   
   $('#card').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
