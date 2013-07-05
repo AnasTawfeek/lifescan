@@ -11,10 +11,10 @@ $(document).ready(function() {
   
   $('.fourpeople').click(function() {
     $('.fourpeople').hide();
-    $('.overlay').show();
+    $('.overlay').fadeIn('slow');
   });
   $('.overlay').click(function () {
-    $('.fourpeople').show();
+    $('.fourpeople').fadeIn('slow');
     $('.overlay').hide();
   });
 
