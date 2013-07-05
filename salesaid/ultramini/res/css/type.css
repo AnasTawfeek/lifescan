@@ -95,14 +95,14 @@
 
 /* Subheadings ----------------------------------------- */
 .subhead1{
-	font-family: Gotham-Medium;
+	font-family: Gotham-Bold;
 	font-size: 16px;
 	line-height:16px;
 	padding:0px;
 	margin:0 0 4px 0;
 }
 .subhead2{
-	font-family: Gotham-Medium;
+	font-family: Gotham-Book;
 	font-size: 14px;
 	line-height:14px;
 	padding:0px;
