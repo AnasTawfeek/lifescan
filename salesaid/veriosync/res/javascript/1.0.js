@@ -18,6 +18,20 @@ $(document).ready(function(){
   $('#face5').live('touchstart click', animateFace);
   $('#face6').live('touchstart click', animateFace);
 
+	window.closeStatistics=function() {
+			    $('#stats').removeClass("showMe");
+			    $('#stats').css("display","block");
+				
+				var context=document.getElementById("chart").getContext("2d");
+				context.clearRect(0,0,500,500);
+//		$("#stats").fadeOut(300,null,function() {
+//			setTimeout(function() {
+//			    $('#stats').removeClass("showMe");
+//			    $('#stats').css("display","block");
+//			}, 100)
+//	});
+	}
+
   function animateFace(e) {
     e.stopPropagation(); e.preventDefault();
     if($(this).hasClass('flip')) {

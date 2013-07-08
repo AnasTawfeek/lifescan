@@ -18,7 +18,9 @@ $(document).ready(function(){
     var video = document.getElementsByTagName('video')[0];
 	video.addEventListener("ended", function () {
 		$("#videoThumb2").show();
-		setTimeout(function() {$("#video").hide();}, 500);
+		setTimeout(function() {
+			$("#video").css("top","-5000px");
+		}, 500);
 		move("#copy").
 		duration("2s").
 		set("opacity",1).
