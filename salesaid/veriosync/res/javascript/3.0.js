@@ -1,14 +1,5 @@
 $(document).ready(function(){
 
-  window.jump=function(page)
-  {
-    $('.animationLayer').fadeOut();
-    $('.contentLayer').fadeOut( function(){				  					
-      document.location = page;			
-    });	
-    
-  };
-  
   var _iMenu=0;
   var lastItem=$("#phone_none");
   

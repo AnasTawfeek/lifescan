@@ -42,7 +42,7 @@ body {
 }
 
 .hide{
-	display:none;
+	opacity: 0;
 }
 
 .invisible{

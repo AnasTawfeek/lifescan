@@ -1,16 +1,5 @@
 $(document).ready(function(){
 
-  $('#contentLayer').fadeIn(600);			  					
-
-
-  window.jump=function(page)
-  {
-    $('.animationLayer').fadeOut();
-    $('#contentLayer').fadeOut( function(){				  					
-      document.location = page;			
-    });	
-  };
-  
   $('#face1').live('touchstart click', animateFace);
   $('#face2').live('touchstart click', animateFace);
   $('#face3').live('touchstart click', animateFace);

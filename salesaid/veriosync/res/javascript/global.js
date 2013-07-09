@@ -1,3 +1,23 @@
+function jump(page)
+{
+	var sDuration="0.5s";
+	// show the content
+	if($( '.animationLayer').length) {
+		move(".animationLayer").
+		duration(sDuration).
+		ease('linear').
+		set("opacity",0).
+		end();
+	}
+
+	move(".contentLayer").
+	duration(sDuration).
+	ease('linear').
+	set("opacity",0).
+	end(function() {
+		document.location = page;	
+	});
+}
 
 $(document).ready(function(){
 	
@@ -48,4 +68,24 @@ $(document).ready(function(){
 		});
 	 });
 	 
+	 
+	 	// show the content
+	if($(".animationLayer").length) {
+		move(".animationLayer").
+			duration("0.5s").
+			set("opacity",1).
+			end();
+	}
+
+	// show the content
+	if($(".contentLayer").length) {
+		move(".contentLayer").
+			duration("0.5s").
+			ease('linear').
+			set("opacity",1).
+			end(function() {
+				if(onFadeInComplete)
+					onFadeInComplete();
+			});
+	}
 });

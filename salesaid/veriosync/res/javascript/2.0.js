@@ -1,14 +1,5 @@
 $(document).ready(function(){
 
-	window.jump=function(page)
-	{
-		console.log(page);
-		$('.animationLayer').fadeOut();
-		$('.contentLayer').fadeOut( function(){				  					
-			document.location = page;			
-		});	
-	};
-	
 	$('#videoThumb img').live('touchstart click', function(e){
 		$("#videoThumb").hide();
 		$("#video").css("top","0");
