@@ -1,4 +1,26 @@
 
+function jump(page)
+{
+	var sDuration="0.6s";
+	// show the content
+	if($( '.animationLayer').length) {
+		move(".animationLayer").
+		duration(sDuration).
+		ease('linear').
+		set("opacity",0).
+		end();
+	}
+
+	move(".contentLayer").
+	duration(sDuration).
+	ease('linear').
+	set("opacity",0).
+	end(function() {
+		document.location = page;	
+	});
+}
+
+
 $(document).ready(function(){
 	
 	$('body').bind('touchmove', function (e) {
@@ -47,5 +69,24 @@ $(document).ready(function(){
 			document.location = "veeva:gotoSlide(port.zip, Portfolio_01-2012_POA)";	
 		});
 	 });
-	 
+	
+	// show the content
+	if($(".animationLayer").length) {
+		move(".animationLayer").
+			duration("0.7s").
+			set("opacity",1).
+			end();
+	}
+
+	// show the content
+	if($(".contentLayer").length) {
+		move(".contentLayer").
+			duration("0.7s").
+			ease('linear').
+			set("opacity",1).
+			end(function() {
+				if(onFadeInComplete)
+					onFadeInComplete();
+			});
+	}
 });

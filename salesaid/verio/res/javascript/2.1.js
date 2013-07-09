@@ -3,14 +3,6 @@ $(document).ready(function(){
   var imgpath = "res/images/2.1/";
   var $prev = null;
   
-  function jump(page)
-  {
-    $('.animationLayer').fadeOut();
-    $('.contentLayer').fadeOut( function(){				  					
-      document.location = page;			
-    });	
-  };
-  
   $('.nav').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
     var btn = $(this);
@@ -191,10 +183,8 @@ $(document).ready(function(){
   });
   
   $('.contentImg').fadeIn();
-  $('.contentLayer').fadeIn(function(){
-    
-    $('.headings p:last-child').fadeIn('slow');
-    
-  });
-  
 });
+
+function onFadeInComplete() {
+    $('.headings p:last-child').fadeIn('slow');
+}

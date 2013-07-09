@@ -3,13 +3,6 @@ $(document).ready(function(){
 
   var imgpath = "res/images/2.0/";
   
-  function jump(page)
-  {
-    $('.contentLayer').fadeOut( function(){				  					
-      document.location = page;			
-    });	
-  };
-  
   $('.nav').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
     var btn = $(this);

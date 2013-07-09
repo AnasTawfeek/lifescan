@@ -1,8 +1,11 @@
 /* local overrides... */
 body{
-	background-image:url(../animation/top.poster.jpg);
+/*	background-image:url(../animation/top.poster.jpg);*/
 }
 
+.animationLayer {
+	background-image:url(../animation/top.poster.jpg);
+}
 .headings{
     position:absolute; 
 	left:70px;

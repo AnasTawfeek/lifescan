@@ -11,7 +11,7 @@ $(document).ready(function(){
 		var calloutId = callout.attr('id');
 		
 		hotspot.hide();	
-		lineend.show();		
+		lineend.show();
 		
 		var msgSelector = "#"+ calloutId +" .msg";
 		var hs = $( msgSelector ).css("margin-left");
@@ -21,7 +21,9 @@ $(document).ready(function(){
 		
 		move( move.select( msgSelector ) )
 			.x(-h)
-			.then( function(){						
+			.then( function(){
+					sub1.css("opacity",1);
+					sub1.css("display","none");
 					sub1.fadeIn( 'fast');
 					
 					// trigger special ui...

@@ -1,12 +1,5 @@
 $(document).ready(function(){
   
-  function jump(page)
-  {
-    $( '.animationLayer').fadeOut();
-    $('body, .contentLayer').fadeOut( function(){				  					
-      document.location = page;			
-    });	
-  };
   
   $('.nav').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
@@ -97,4 +90,7 @@ $(document).ready(function(){
     $("#legal").toggle();
     return false;
   });
+
+//  $('.contentLayer').fadeIn();
+
 });

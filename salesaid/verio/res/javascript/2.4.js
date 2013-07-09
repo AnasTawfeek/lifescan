@@ -6,13 +6,6 @@ $(document).ready(function(){
 	var activeButtonId = '';
 	var videoPlaying = false;
 	
-	function jump(page)
-	{
-		$('.contentLayer').fadeOut( function(){				  					
-			document.location = page;			
-		});	
-	};
-	
 	$('.nav').live('touchstart click', function(e){
 		e.stopPropagation(); e.preventDefault();
 		var btn = $(this);
@@ -138,12 +131,9 @@ $(document).ready(function(){
 			p3.play();	
 		}
 	});	
-	
-	$('.contentLayer').fadeIn(function(){
-		
-		$prevSubheading = $('.headings p:nth-child(2)');
-		$prevSubheading.fadeIn('fast');
-		
-	});
-			
 });
+
+function onFadeInComplete() {
+	$prevSubheading = $('.headings p:nth-child(2)');
+	$prevSubheading.fadeIn('fast');
+}

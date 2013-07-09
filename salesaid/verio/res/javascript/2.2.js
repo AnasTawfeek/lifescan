@@ -3,8 +3,6 @@ $(document).ready(function(){
 	var imgpath = "res/images/2.2/";
 	var overTarget = false;
 	
-	$('.contentImg').fadeIn();
-	
 	function jump(page)
 	{
 		$('.contentImg').fadeOut();

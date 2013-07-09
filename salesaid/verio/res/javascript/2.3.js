@@ -1,13 +1,5 @@
 $(document).ready(function(){
 			
-	function jump(page)
-	{
-		$('.contentImg').fadeOut();
-		$('.contentLayer').fadeOut( function(){				  					
-			document.location = page;			
-		});	
-	};
-	
 	$('.nav').live('touchstart click', function(e){
 		e.stopPropagation(); e.preventDefault();
 		var btn = $(this);
@@ -20,13 +12,8 @@ $(document).ready(function(){
 		
 		jump(page);			
 	});
-	
-	
-	$('.contentImg').fadeIn();
-	$('.contentLayer').fadeIn(function(){
-		
-		$('.headings p:last-child').fadeIn('slow');
-		
-	});
-		
 });
+
+function onFadeInComplete() {
+	$('.headings p:last-child').fadeIn('slow');
+}

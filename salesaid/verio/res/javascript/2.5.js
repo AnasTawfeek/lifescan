@@ -1,13 +1,5 @@
 $(document).ready(function(){
 
-  function jump(page)
-  {
-    $('.contentImg').fadeOut();
-    $('.contentLayer').fadeOut( function(){				  					
-      document.location = page;			
-    });	
-  };
-  
   $('.prev').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
     
@@ -37,11 +29,6 @@ $(document).ready(function(){
     e.stopPropagation(); e.preventDefault();
     $(this).removeClass('flip');
     });*/
-  
-  
-  $('.contentImg').fadeIn();
-
-  $('.contentLayer').fadeIn();
   
   $(".fourpeople").click(function() {
     $('#stats').addClass("showMe");     
