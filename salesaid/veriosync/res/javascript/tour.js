@@ -13,6 +13,19 @@ $(document).ready(function(){
     jump(page);			
   });
 
+  window.bIllum=false;
+  
+  $('#illum_button').live('touchstart click', function(e){
+    e.stopPropagation(); e.preventDefault();
+    var btn = $(this);
+    var page;
+    
+	if(window.bIllum)
+		$('#easy_cover').fadeOut();
+	else
+		$('#easy_cover').fadeIn();
+	window.bIllum=!window.bIllum;
+  });
   
   var bMoveStrip=false;
   window.moveStrip=function() {
@@ -34,7 +47,7 @@ $(document).ready(function(){
 
   window.showRead=function() {
     $("#section1_2").fadeOut(500);
-    $("#sync").fadeIn(500);
+    $(".sync").fadeIn(500);
     $("#section1_3").fadeIn(500,null,function() {
       window.bFlashDrop=false;
       window.flashSync(); 
@@ -85,7 +98,7 @@ $(document).ready(function(){
   
   window.bFlashSync=true;
   window.flashSync=function() {
-    $("#sync").fadeOut(700).fadeIn(700,function() {  if(window.bFlashSync) window.flashSync();});
+    $(".sync").fadeOut(700).fadeIn(700,function() {  if(window.bFlashSync) window.flashSync();});
   }
 
 
