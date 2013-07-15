@@ -9,7 +9,7 @@ $(document).ready(function(){
     var page;
     
     if(btn.hasClass('prev'))
-      page = "slide-2.0.html";
+      page = "verio.html";
     else
       page = "slide-2.5.html";
     
