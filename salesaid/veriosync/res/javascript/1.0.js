@@ -11,8 +11,6 @@ $(document).ready(function(){
 			    $('#stats').removeClass("showMe");
 			    $('#stats').css("display","block");
 				
-				var context=document.getElementById("chart").getContext("2d");
-				context.clearRect(0,0,500,500);
 //		$("#stats").fadeOut(300,null,function() {
 //			setTimeout(function() {
 //			    $('#stats').removeClass("showMe");
@@ -58,7 +56,6 @@ $(document).ready(function(){
 			];
 
 			var myPie = new Chart(document.getElementById("chart").getContext("2d")).Pie(pieData, pieOptions);
-
 	}
 
   
@@ -69,8 +66,10 @@ $(document).ready(function(){
   
   // fade in the content...
   $('#rightside').click(function(e) {
-    $('#stats').addClass("showMe");
-	setTimeout(showChart,700);     
+	$("#chart").remove();
+	$("#stats").append('<canvas id="chart" height="244" width="244"></canvas>');
+	$('#stats').addClass("showMe");
+	setTimeout(showChart,700);
   });
 
   $(".showlegal").click(function() {

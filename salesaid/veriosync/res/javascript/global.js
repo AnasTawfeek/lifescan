@@ -84,7 +84,7 @@ $(document).ready(function(){
 			ease('linear').
 			set("opacity",1).
 			end(function() {
-				if(onFadeInComplete)
+				if(typeof onFadeInComplete !== 'undefined')
 					onFadeInComplete();
 			});
 	}

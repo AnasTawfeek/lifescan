@@ -52,23 +52,26 @@
 	-webkit-transform: rotateX(0deg) rotateY(0deg) translateY(-7px);
 }
 
-.showHidden {
-	-webkit-transition: -webkit-mask-position 1.2s ease-in-out, opacity 0.8s ease-out;		
-	-webkit-mask-size: 200% 100%;
-	-webkit-mask-position: -890px 0px;
-	-webkit-mask-image: -webkit-gradient(linear, left top, right top, 
-		color-stop(0.00,  rgba(0,0,0,1)),
-		color-stop(0.50,  rgba(0,0,0,1)),
-		color-stop(0.50001,  rgba(0,0,0,0)),
-		color-stop(1.00,  rgba(0,0,0,0)));
-	opacity:0.7;
-	visibility:hidden;
-}
-		
 .showMe {
-	-webkit-mask-position: 0 0;
-	opacity:1;
-	visibility:visible;
+	opacity:1 !important;
+	clip: rect(0px, 890px, 700px, 0px) !important;
+}
+
+.stats {
+	-webkit-transition: all 0.8s ease-in-out;
+	opacity:0.7;
+	clip: rect(0px, 0px, 700px, 0px);
+	position:absolute;
+	left:71px;
+	top:127px;
+	z-index:20;
+	width:890px;
+}
+
+#chart {
+	position:absolute;
+	left:38px;
+	top:35px;
 }
 
 .legal {
