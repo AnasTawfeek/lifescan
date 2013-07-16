@@ -14,6 +14,10 @@ $(document).ready(function(){
     jump(page);			
   });
   
+  	window.closeStatistics=function() {
+	    $('#stats').removeClass("showMe");
+	}
+
   
   $('#face1').live('touchstart click', animateFace);
   $('#face2').live('touchstart click', animateFace);
@@ -34,7 +38,6 @@ $(document).ready(function(){
   }
 
 	function showChart() {
-		console.log("chart");
 		var pieOptions = {
 			segmentShowStroke : true,
 			segmentStrokeColor : "#2aaff8",
@@ -64,16 +67,11 @@ $(document).ready(function(){
 
   
   // fade in the content...
-  //	$('.contentLayer').fadeIn(function(){
-  //		$('.animationLayer').fadeIn('slow');
-  //	});
-
-  // fade in the content...
   $('.popup_btn').click(function() {
-    $('#ninetyfourpercent').addClass('showMe');
+	$("#chart").remove();
+	$("#stats").append('<canvas id="chart" height="244" width="244"></canvas>');
+	$('#stats').addClass("showMe");
 	setTimeout(showChart,700);
-//	$("#legal").fadeTo(700,1,function() { showChart(); });
-
 /*
 	move("#legal").
 	delay("0.5s").
