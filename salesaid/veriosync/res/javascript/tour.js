@@ -6,9 +6,9 @@ $(document).ready(function(){
     var page;
     
     if(btn.hasClass('prev'))
-      page = "slide-3.0.html";
+      page = "slide-2.0.html";
     else
-      page = "slide-3.0.html";
+      page = "slide-4.0.html";
     
     jump(page);			
   });
