@@ -55,33 +55,27 @@ $(document).ready(function(){
     $("#screen").fadeIn(500);
   }
 
-	var video1 = document.getElementById('particle_animation');
-	video1.addEventListener('playing',onLoaded,false);
-    $('#particle_animation').get(0).play();
-
-	
-function onLoaded() {
-	console.log("pause!");
-	video1.removeEventListener('playing',onLoaded);
-	$('#particle_animation').get(0).pause();
-	$('#particle_animation').bind("ended", function() {
-		$('#particle_animation').hide();
-		setTimeout(window.slidePhone, 500);
-	});
-}
+  $('#particle_animation').bind("ended", function() {
+    $('#particle_animation').hide();
+    setTimeout(window.slidePhone, 500);
+  });
 
   window.showSync=function() {
     window.bFlashSync=false;
+    $('#particle_animation').get(0).addEventListener("playing", function() {
+	$("#section1_3").fadeOut(500);
+    $("#section1_4").fadeIn(300);
+	setTimeout(function() { 
+		$("#videoHolder").css("clip","rect(0, 450px, 250px, 0)"); 
+	},300);
+	  move("#phone").
+		  duration("0.9s").
+		  ease('in-out').
+		  set("left",752).
+		  end();
+	}, false);
+    $('#particle_animation').get(0).play();
 	
-	$("#videoHolder").css("opacity","1");
-			$("#section1_3").fadeOut(500);
-    		$("#section1_4").fadeIn(300);
-				move("#phone").
-					duration("0.9s").
-					ease('in-out').
-					set("left",752).
-					end();
-    $('#particle_animation').get(0).play()
 //	  $("#phone").animate({left: '752'}, 900);
   }
 

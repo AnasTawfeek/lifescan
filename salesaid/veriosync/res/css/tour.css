@@ -17,9 +17,6 @@
 	left:399px;
 }
 
-.nav {
-	z-index:5000;
-}
 
 div {
 	position:relative;
@@ -83,8 +80,7 @@ div {
 	position:absolute;
 	top:253px;
 	left:306px;
-	z-index:-1;
-	opacity:0;
+	clip:rect(0, 0, 250px, 0);
 }
 
 #phone {
