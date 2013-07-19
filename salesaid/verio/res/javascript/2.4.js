@@ -1,8 +1,7 @@
 $(document).ready(function(){					
 	
 	var imgpath = "res/images/2.4/";	
-	var $prevSubheading = null;
-	
+
 	var activeButtonId = '';
 	var videoPlaying = false;
 	
@@ -20,7 +19,6 @@ $(document).ready(function(){
 	});
 	
 	function showHeading(which){			
-			
 		$prevSubheading.fadeOut('fast',function(){			
 				
 			$prevSubheading = $('.headings p:nth-child('+ which +')');
