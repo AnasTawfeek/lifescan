@@ -49,6 +49,11 @@ body {
 	opacity:0;
 }
 
+.hide2{
+	display:none;
+}
+
+
 .invisible{
 	visibility:hidden;
 }

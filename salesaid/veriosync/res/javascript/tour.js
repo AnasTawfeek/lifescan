@@ -55,21 +55,32 @@ $(document).ready(function(){
     $("#screen").fadeIn(500);
   }
 
-  $('#particle_animation').bind("ended", function() {
-    $('#particle_animation').hide();
-    setTimeout(window.slidePhone, 500);
-  });
+	var _this=this;
+function onLoaded() {
+	console.log("pause!");
+	$('#particle_animation').get(0).removeEventListener('playing',_this.onLoaded);
+	$('#particle_animation').get(0).pause();
+	$('#particle_animation').bind("ended", function() {
+		$('#particle_animation').hide();
+		setTimeout(window.slidePhone, 500);
+	});
+}
+
+	var video1 = document.getElementById('particle_animation');
+	video1.addEventListener('playing',_this.onLoaded,true);
+    $('#particle_animation').get(0).play();
 
   window.showSync=function() {
     window.bFlashSync=false;
+	
+			$("#section1_3").fadeOut(500);
+    		$("#section1_4").fadeIn(300);
+				move("#phone").
+					duration("0.9s").
+					ease('in-out').
+					set("left",752).
+					end();
     $('#particle_animation').get(0).play()
-    $("#section1_3").fadeOut(500);
-    $("#section1_4").fadeIn(300);
-	  move("#phone").
-		  duration("0.9s").
-		  ease('in-out').
-		  set("left",752).
-		  end();
 //	  $("#phone").animate({left: '752'}, 900);
   }
 
