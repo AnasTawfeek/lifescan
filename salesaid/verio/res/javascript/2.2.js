@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){					
 
 	var imgpath = "res/images/2.2/";
@@ -42,7 +44,8 @@ $(document).ready(function(){
 	layer.add(rect);	
 	
 	var imageObj = new Image();
-      imageObj.onload = function() {
+      
+  imageObj.onload = function() {
         
 		// load the strip image
 		var strip = new Kinetic.Image({
