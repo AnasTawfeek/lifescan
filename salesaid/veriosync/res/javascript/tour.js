@@ -73,6 +73,7 @@ function onLoaded() {
   window.showSync=function() {
     window.bFlashSync=false;
 	
+	$("#videoHolder").css("opacity","1");
 			$("#section1_3").fadeOut(500);
     		$("#section1_4").fadeIn(300);
 				move("#phone").

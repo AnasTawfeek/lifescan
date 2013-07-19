@@ -1,5 +1,9 @@
 /* local overrides... */
 
+.nav {
+	z-index:5000;
+}
+
 .contentLayer2
 {
 	width: 884px;

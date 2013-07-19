@@ -17,6 +17,9 @@
 	left:399px;
 }
 
+.nav {
+	z-index:5000;
+}
 
 div {
 	position:relative;
@@ -76,11 +79,12 @@ div {
 	display:none;
 }
 
-#particle_animation {
+#videoHolder {
 	position:absolute;
 	top:253px;
 	left:306px;
-	z-index:2500;
+	z-index:-1;
+	opacity:0;
 }
 
 #phone {
