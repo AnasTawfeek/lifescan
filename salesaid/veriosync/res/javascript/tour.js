@@ -55,20 +55,20 @@ $(document).ready(function(){
     $("#screen").fadeIn(500);
   }
 
-	var _this=this;
+	var video1 = document.getElementById('particle_animation');
+	video1.addEventListener('playing',onLoaded,false);
+    $('#particle_animation').get(0).play();
+
+	
 function onLoaded() {
 	console.log("pause!");
-	$('#particle_animation').get(0).removeEventListener('playing',_this.onLoaded);
+	video1.removeEventListener('playing',onLoaded);
 	$('#particle_animation').get(0).pause();
 	$('#particle_animation').bind("ended", function() {
 		$('#particle_animation').hide();
 		setTimeout(window.slidePhone, 500);
 	});
 }
-
-	var video1 = document.getElementById('particle_animation');
-	video1.addEventListener('playing',_this.onLoaded,true);
-    $('#particle_animation').get(0).play();
 
   window.showSync=function() {
     window.bFlashSync=false;
