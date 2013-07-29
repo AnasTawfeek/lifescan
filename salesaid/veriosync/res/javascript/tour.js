@@ -62,6 +62,8 @@ $(document).ready(function(){
 
   window.showSync=function() {
     window.bFlashSync=false;
+	$(".apple_legal").fadeIn(500);
+
     $('#particle_animation').get(0).addEventListener("playing", function() {
 	$("#section1_3").fadeOut(500);
     $("#section1_4").fadeIn(300);

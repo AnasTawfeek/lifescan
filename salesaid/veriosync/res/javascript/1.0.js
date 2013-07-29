@@ -73,6 +73,7 @@ $(document).ready(function(){
   });
 
   $(".showlegal").click(function() {
+    $(".apple_legal").toggle();
     $(".legal").toggle();
     return false;
   });
