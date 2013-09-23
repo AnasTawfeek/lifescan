@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+ 
   $('.nav').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
     var btn = $(this);
@@ -62,7 +62,7 @@ $(document).ready(function(){
 
   window.showSync=function() {
     window.bFlashSync=false;
-    $(".apple_legal").fadeIn(500);
+	$(".apple_legal").fadeIn(500);
 
     $('#particle_animation').get(0).addEventListener("playing", function() {
 	$("#section1_3").fadeOut(500);
@@ -80,19 +80,21 @@ $(document).ready(function(){
 	
 //	  $("#phone").animate({left: '752'}, 900);
   }
+  
+  
 
   window.slidePhone=function() {
     $("#device_holder").fadeOut(300);
     $("#section1_4").fadeOut(500);
-    
-/*	  move("#phone").
+
+	  move("#phone").
 		  duration("1.5s").
 		  ease('in-out').
 		  set("left",103).
 		  end(function() {
 			  window.fadeInSection("#section_summary");
 		  });
-*/
+
 //    $("#phone").animate({left: '103'}, 2000, function() {
 //      window.fadeInSection("#section_summary");
 //    });
@@ -123,5 +125,5 @@ $(document).ready(function(){
   }
 
   //	window.moveStrip();
-
+  showSync();
 });
