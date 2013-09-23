@@ -1,5 +1,5 @@
 $(document).ready(function(){
- 
+
   $('.nav').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
     var btn = $(this);
@@ -80,8 +80,6 @@ $(document).ready(function(){
 	
 //	  $("#phone").animate({left: '752'}, 900);
   }
-  
-  
 
   window.slidePhone=function() {
     $("#device_holder").fadeOut(300);
@@ -125,5 +123,5 @@ $(document).ready(function(){
   }
 
   //	window.moveStrip();
-  showSync();
+
 });
