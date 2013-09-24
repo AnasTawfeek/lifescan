@@ -65,13 +65,14 @@ $(document).ready(function(){
   //	});
   
   // fade in the content...
-  $('#rightside').click(function(e) {
+  /*$('#rightside').click(function(e) {
+
 	$("#chart").remove();
 	$("#stats").append('<canvas id="chart" height="244" width="244"></canvas>');
 	$('#stats').addClass("showMe");
 	setTimeout(showChart,700);
   });
-
+*/
   $(".showlegal").click(function() {
     $(".apple_legal").toggle();
     $(".legal").toggle();

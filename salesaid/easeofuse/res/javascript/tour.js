@@ -90,12 +90,10 @@ $(document).ready(function(){
 		  ease('in-out').
 		  set("left",103).
 		  end(function() {
-			  window.fadeInSection("#section_summary");
+//			  window.fadeInSection("#section_summary");
+			window.location="veeva:gotoSlide(revealcheckprogress.zip, BGM_01-2012_POA)";
 		  });
 
-//    $("#phone").animate({left: '103'}, 2000, function() {
-//      window.fadeInSection("#section_summary");
-//    });
   }
 
   
