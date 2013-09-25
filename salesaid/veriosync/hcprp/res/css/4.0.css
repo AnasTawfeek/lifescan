@@ -1,0 +1,45 @@
+.overlay {
+    left: 510px;
+    top: 135px;
+    display: none;
+    position: absolute;
+}
+
+.getyourpatientsstarted {
+    position: absolute;
+    left: 70px;
+    top: 230px;
+}
+
+.fourpeople {
+    left: 510px;
+    top: 135px;
+    display: block;
+    position: absolute;
+}
+
+.prescribeonetouch {
+    position: relative;
+    left: 92px;
+    top: 130px;
+}
+
+.legal {
+    position: absolute;
+    left: 90px;
+    top: 690px;
+    font-family: arial, sans-serif, hevetica;
+    font-size: 10px;
+    color: #666666;
+    display: none;
+}
+
+.apple_legal {
+    position: fixed;
+    left: 72px;
+    top: 689px;
+    font-family: GothamXNarrow-Book, arial, sans-serif, helvetica;
+    font-size: 12px;
+    color: #666666;
+	z-index:3000;
+}

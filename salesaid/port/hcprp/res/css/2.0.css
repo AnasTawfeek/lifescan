@@ -1,0 +1,9 @@
+#videoThumb, #videoThumb2 {
+	position:absolute;top:0px;left:0px;
+}
+
+.apple_legal {
+    font-family: GothamXNarrow-Book, arial, sans-serif, helvetica;
+    font-size: 12px;
+    color: #666666;
+}
