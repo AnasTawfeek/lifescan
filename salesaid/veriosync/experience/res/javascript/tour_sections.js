@@ -6,9 +6,9 @@ $(document).ready(function(){
     var page;
     
     if(btn.hasClass('prev'))
-      page = "slide-2.0.html";
+      page = "veeva:gotoSlide(revealcheckprogress.zip, veriosync)";
     else
-      page = "tour_end.html";
+      page = "veeva:gotoSlide(closescreen.zip, veriosync)";
     
     jump(page);			
   });

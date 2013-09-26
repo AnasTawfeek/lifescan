@@ -6,9 +6,9 @@ $(document).ready(function(){
     var page;
     
 	 if(btn.hasClass('prev'))
-      page = "veeva:gotoSlide(iphoneint, BGM_01-2012_POA)";
+      page = "veeva:gotoSlide(iphoneint, veriosync)";
     else
-      page = "veeva:gotoSlide(experience.zip, BGM_01-2012_POA)";
+      page = "veeva:gotoSlide(experience.zip, veriosync)";
     
 
     jump(page);			
@@ -92,7 +92,7 @@ $(document).ready(function(){
 		  set("left",103).
 		  end(function() {
 //			  window.fadeInSection("#section_summary");
-			window.location="veeva:gotoSlide(revealcheckprogress.zip, BGM_01-2012_POA)";
+			window.location="veeva:gotoSlide(revealcheckprogress.zip, veriosync)";
 		  });
 
   }
