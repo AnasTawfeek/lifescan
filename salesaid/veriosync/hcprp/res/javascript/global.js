@@ -44,7 +44,7 @@ $(document).ready(function(){
 	   
 	   	$('.animationLayer').fadeOut('fast');	   
 	  	$('body').fadeOut('fast', function(){
-			document.location = "veeva:gotoSlide(start.zip, veriosync)";	
+			document.location = "veeva:gotoSlide(start.zip, BGM_01-2012_POA)";	
 		});		
 	 });
 				  
