@@ -6,9 +6,10 @@ $(document).ready(function(){
     var page;
     
     if(btn.hasClass('prev'))
-      page = "slide-2.0.html";
+      page = "veeva:gotoSlide(iphoneint, VerioSync_09-2013_POA)";
     else
-      page = "tour_end.html";
+      page = "veeva:gotoSlide(experience.zip, VerioSync_09-2013_POA)";
+    
     
     jump(page);			
   });
