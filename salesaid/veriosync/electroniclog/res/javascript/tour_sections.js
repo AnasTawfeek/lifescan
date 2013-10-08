@@ -6,9 +6,9 @@ $(document).ready(function(){
     var page;
     
     if(btn.hasClass('prev'))
-      page = "veeva:gotoSlide(iphoneint.zip, VerioSync_09-2013_POA)";
+      page = "veeva:gotoSlide(checkprogress.zip, VerioSync_09-2013_POA)";
     else
-      page = "veeva:gotoSlide(experience.zip, VerioSync_09-2013_POA)";
+      page = "veeva:gotoSlide(spotpatterns.zip, VerioSync_09-2013_POA)";
     
     
     jump(page);			

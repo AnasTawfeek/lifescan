@@ -8,7 +8,7 @@ $(document).ready(function(){
 	 if(btn.hasClass('prev'))
       page = "veeva:gotoSlide(iphoneint.zip, VerioSync_09-2013_POA)";
     else
-      page = "veeva:gotoSlide(experience.zip, VerioSync_09-2013_POA)";
+      page = "veeva:gotoSlide(revealcheckprogress.zip, VerioSync_09-2013_POA)";
     
 
     jump(page);			
