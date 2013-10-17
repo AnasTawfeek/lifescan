@@ -6,7 +6,7 @@ $(document).ready(function(){
     var page;
     
     if(btn.hasClass('prev'))
-      page = "veeva:gotoSlide(iphoneint.zip, VerioSync_09-2013_POA)";
+      page = "veeva:gotoSlide(easeofuse.zip, VerioSync_09-2013_POA)";
     else
       page = "veeva:gotoSlide(electroniclog.zip, VerioSync_09-2013_POA)";
     
