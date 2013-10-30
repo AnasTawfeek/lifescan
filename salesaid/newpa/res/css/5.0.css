@@ -1,0 +1,11 @@
+body{
+	background-image:url(../images/5.0/background.jpg);
+}
+
+.contentImg
+{
+	postition:absolute;
+	top:0;
+	left:0;
+	x-index:1;
+}

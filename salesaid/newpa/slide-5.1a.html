@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no"> 
+    <title>OneTouch</title>
+    
+    <link rel="stylesheet" href="res/css/type.css?v=34" />
+    <link rel="stylesheet" href="res/css/global.css?v=34" />
+    <link rel="stylesheet" href="res/css/5.1.css?v=34" />	
+    
+    <script src="res/javascript/jquery-1.8.3.min.js"></script>
+    <script src="res/javascript/move.min.js"></script>
+    
+    <script src="res/javascript/global.js?v=34"></script>
+    <script src="res/javascript/5.1a.js?v=34"></script>
+    
+  </head>
+  <body>
+    
+    <div class="animationLayer">
+      <img class="contentImg hide" src="res/images/5.1a/wholepage.jpg" width="1024" height="768" />
+    </div>
+    
+
+      
+      <header>
+	<nav class="right">
+	  <img id="btn-home" src="res/images/global/btn-home.png" height="24" style="float:left; margin-right:10px;" />
+	  <img id="btn-portfolio" src="res/images/global/btn-portfolio.png" height="24" />
+	</nav>
+      </header>  
+      
+      <footer>            	
+        
+      </footer>	
+      
+      <img src="res/images/5.1a/1by1-pixel.png"
+      onClick="$('#coverage-overlay').show();" style="height: 225px; width: 250px;
+       position: absolute; left: 135px; top: 270px;" />
+      <img src="res/images/5.1a/1by1-pixel.png"
+      onClick="$('#pharmacy-overlay').show();"  style="height: 225px; width: 250px;
+       position: absolute; left: 384px; top: 270px;"/>
+      <img src="res/images/5.1a/1by1-pixel.png"  onClick="$('#mailorder-overlay').show();" style="height: 225px; width: 250px;
+       position: absolute; left: 635px; top: 270px;"/>
+
+
+      <div id="coverage-overlay" style="position: absolute;
+                                        z-index: 100; left: 45px; top:
+                                        95px; display: none;">
+        <div style="text-align:center; width:932px;
+                    margin-left:auto; margin-right:auto;">
+          <img id="Image-Maps_5201310301631384"
+               src="res/images/5.1a/coverage_overlay.jpg"
+               usemap="#Image-Maps_5201310301631384" border="0" width="932"
+               height="504" alt="" />
+          <map id="_Image-Maps_5201310301631384"
+               name="Image-Maps_5201310301631384">
+            <area shape="rect" coords="890,7,927,47"
+            onClick="$('#coverage-overlay').hide(); return false;" href="#" alt="" title=""
+                  />
+          </map>
+        </div>
+      </div>
+      <div id="pharmacy-overlay"  style="position: absolute;
+                                         z-index: 100; left: 45px;
+                                         top: 95px; display: none;">
+        <div style="text-align:center; width:932px;
+                    margin-left:auto; margin-right:auto;">
+          <img id="Image-Maps_5201310301631385"
+               src="res/images/5.1a/pharmacy_overlay.jpg"
+               usemap="#Image-Maps_5201310301631385" border="0" width="932"
+               height="504" alt="" />
+          <map id="_Image-Maps_5201310301631385"
+               name="Image-Maps_5201310301631385">
+            <area shape="rect" coords="890,7,927,47" href="#" alt="" title=""
+                   onClick="$('#pharmacy-overlay').hide(); return
+            false;" />
+          </map>
+        </div>
+      </div>
+      <div id="mailorder-overlay" style="position: absolute;
+                                         z-index: 100; left: 45px;
+                                         top: 95px; display: none;">
+        <div style="text-align:center; width:932px;
+                    margin-left:auto; margin-right:auto;">
+          <img id="Image-Maps_5201310301631386"
+               src="res/images/5.1a/mailorder_overlay.jpg"
+               usemap="#Image-Maps_5201310301631386" border="0" width="932"
+               height="504" alt="" />
+          <map id="_Image-Maps_5201310301631386"
+               name="Image-Maps_5201310301631386">
+            <area shape="rect" coords="890,7,927,47" href="#" alt="" title=""
+                   onClick="$('#mailorder-overlay').hide(); return
+            false;" />
+          </map>
+        </div>
+      </div>
+
+      <img src="res/images/global/btn-prev.png" class="nav prev" height="33" />
+      
+      
+
+    
+  </body>
+</html>
