@@ -1,0 +1,91 @@
+body{
+	/*background-image:url(../images/global/page-bg.jpg);*/
+}
+
+.headings{
+	margin-top: 45px;
+}
+
+.meters{
+	position:relative;		
+}
+
+.meter .co{
+	text-align:center;
+	position:absolute;
+	z-index:1;
+	display:none;
+}
+.meter .button{
+	position:absolute;
+	z-index:999;
+	-webkit-transform-origin:center;				
+	-webkit-tap-highlight-color: transparent;				
+}
+
+#ping{
+	position:absolute;
+	top:176px;
+	left:0px;		
+}
+#ping .co{
+	width:210px; 
+	margin:-56px 0 0 82px;
+}
+#ping .arrow{
+	position:absolute;
+	bottom:1px;	
+	right:0px;			
+}
+
+#ultra2{
+	position:absolute;
+	top:165px;
+	left:290px;		
+}
+#ultra2 .co{
+	width:224px; 
+	margin:-155px 0 0 -55px;
+}
+
+
+#veriosync {
+	position:absolute;
+	top:120px;
+	left:440px;			
+}
+#veriosync .co{
+	width:110px; 
+	margin: -170px 0 0 -15px;
+}
+
+
+#verio{
+	position:absolute;
+	top:150px;
+	left:570px;			
+}
+#verio .co{
+	width:170px; 
+	margin:-200px 0 0 -40px;
+}
+
+#mini{
+	position:absolute;
+	top:150px;	
+	left:704px;			
+}
+#mini .co{
+	width:218px; 
+	margin:-184px 0 0 -79px;
+}
+
+#delica{
+	position:absolute;
+	top:155px;
+	left:812px;				
+}
+#delica .co{
+	width:220px; 
+	margin:-210px 0 0 -95px;
+}

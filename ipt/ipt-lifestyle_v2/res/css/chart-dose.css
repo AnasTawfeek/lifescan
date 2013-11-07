@@ -1,0 +1,119 @@
+
+.container{
+	margin-top: 134px;
+	position:relative;	
+}
+
+.buttons{
+	position:absolute;	 
+	width:340px;
+}
+.buttons img{
+	margin-bottom: 8px;
+}
+
+.charts{
+	position:absolute;	
+	left:330px;
+	padding-top:4px;
+	
+}
+
+#chart-1{
+	position:absolute;
+	display:none;
+}
+#chart-1 .info{
+	position:absolute;
+	z-index:3;
+}
+#chart-1 .plot-us{
+	position:absolute;
+	top:99px;
+	left:44px;
+	z-index:2;
+	-webkit-opacity:0;
+	-webkit-transform:scaleY(0.1);
+	-webkit-transform-origin:center;	
+}
+#chart-1 .plot-them{
+	position:absolute;
+	top:84px;
+	left:44px;
+	z-index:1;	
+	-webkit-opacity:0;
+	-webkit-transform:scaleY(0.1);
+	-webkit-transform-origin:center;	
+}
+
+#chart-2{
+	position:absolute;
+	display:none;
+}
+#chart-2 .info{
+	position:absolute;
+	z-index:3;
+}
+#chart-2 .plot-us{
+	position:absolute;
+	top:101px;
+	left:44px;
+	z-index:2;
+	-webkit-opacity:0;
+	-webkit-transform:scaleY(0.1);
+	-webkit-transform-origin:center;	
+}
+#chart-2 .plot-them{
+	position:absolute;
+	top:46px;
+	left:44px;
+	z-index:1;	
+	-webkit-opacity:0;
+	-webkit-transform:scaleY(0.1);
+	-webkit-transform-origin:center;	
+}
+
+#chart-3{
+	position:absolute;
+	display:none;
+}
+#chart-3 .info{
+	position:absolute;
+	z-index:3;
+}
+#chart-3 .plot-us{
+	position:absolute;
+	top:150px;
+	left:44px;
+	z-index:2;
+	-webkit-opacity:0;
+	-webkit-transform:scaleY(0.4);
+	-webkit-transform-origin:center;	
+}
+#chart-3 .plot-them{
+	position:absolute;
+	top:78px;
+	left:44px;
+	z-index:1;	
+	-webkit-opacity:0;
+	-webkit-transform:scaleY(0.1);
+	-webkit-transform-origin:center;	
+}
+
+#ref-1{
+	position:absolute;
+	top:30px;
+	right:0px;
+	display:none;
+}
+
+#btn-ref-1{
+	width:570px; 
+	height:92px; 
+	position:absolute;
+}
+
+.footnote{
+	width:100%;
+	line-height:10px;
+}

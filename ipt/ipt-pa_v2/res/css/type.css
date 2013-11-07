@@ -1,0 +1,164 @@
+
+/* Embedded fonts ----------------------------------------- */
+@font-face {
+  	font-family: HelveticaRounded;
+  	src: url('../fonts/Helvetica-Rounded-LT-Std/HelveticaRoundedLTStd-Bd.otf');
+}
+@font-face {
+  	font-family: HelveticaNeue;
+  	src: url('../fonts/Helvetica-Neue-LT-Std/HelveticaNeueLTStd-LtCn.otf');
+}
+@font-face {
+  	font-family: Avenir;
+  	src: url('../fonts/Avenir-LT-Std/AvenirLTStd-Light.otf');
+}
+@font-face {
+  	font-family: Univers;
+  	src: url('../fonts/Univers-LT-Std/UniversLTStd-LightCn.otf');
+}
+/* Colors ----------------------------------------- */
+.light-blue{
+	color: #2aaff8;
+}
+.medium-blue{
+	color: #0096d6;
+}
+.purple{
+	color: #3f3a66;
+}
+.light-gray{
+	color: #a0a0a0;
+}
+.medium-gray{
+	color: #666666;
+}
+.dark-gray{
+	color: #333333;
+}
+.white{
+	color: #FFFFFF;
+}
+.yellow{
+	color: #f4af00;
+}
+.black{
+	color: #000000;
+}
+.orange{
+	color:#fdb51e;
+}
+.turquoise{
+	color: #43c4dc;
+}
+
+/* Headings ----------------------------------------- */
+.head1{
+	font-family: HelveticaRounded;
+	font-size: 36px;
+	line-height:36px;
+	padding:0px;
+	margin:0;
+}
+.head2{
+	font-family: HelveticaRounded;
+	font-size: 33px;
+	line-height:33px;
+	padding:0px;
+	margin:0;
+}
+.head3{
+	font-family: HelveticaRounded;
+	font-size:28px;
+	font-weight:normal;
+    font-style:normal;
+	line-height:30px;
+	padding:0px;
+	margin:0;
+}
+.head4{
+	font-family: HelveticaRounded;
+	font-size: 26px;
+	font-weight:normal;
+    font-style:normal;
+	line-height:26px;
+	padding:0px;
+	margin:0 0 4px 0;
+}
+.head5{
+	font-family: HelveticaRounded;
+	font-size: 22px;
+	line-height:22px;
+	padding:0px;
+	margin:0;
+}
+
+/* Subheadings ----------------------------------------- */
+.subhead1{
+	font-family: HelveticaRounded;
+	font-size: 16px;
+	line-height:16px;
+	padding:0px;
+	margin:0 0 3px 0;
+}
+.subhead2{
+	font-family: HelveticaRounded;
+	font-size: 14px;
+	line-height:14px;
+	padding:0px;
+	margin:0 0 4px 0;
+}
+.subhead3{
+	font-family: HelveticaRounded;
+	font-size: 20px;
+	line-height:20px;
+	padding:0;
+	margin:0 0 3px 0;
+}
+
+.thead1{
+	font-family: HelveticaRounded;
+	font-size: 16px;
+	line-height:17px;
+	padding:0;
+	margin:0;
+}
+
+.thead2{
+	font-family: Avenir;
+	font-size: 16px;
+	line-height:16px;
+	padding:0px;
+	margin:0;
+}
+
+/* Body text ----------------------------------------- */
+.text3{
+	font-family: Avenir;
+	font-size: 16px;
+	line-height:17px;
+	padding:0px;
+	margin:0;
+}
+.text7{
+	font-family: HelveticaRounded;
+	font-size: 13px;
+	line-height:13px;
+	padding:0px;
+	margin:0;
+}
+.footnote{
+	font-family: HelveticaNeue;
+	font-size: 12px;
+	line-height:13px;
+	margin:0;
+}
+
+.callout{
+	font-family: Avenir;
+	font-size: 18px;	
+	font-weight:normal;
+	font-style:normal;
+	line-height:18px;
+	padding:0px;
+	margin:0;
+}

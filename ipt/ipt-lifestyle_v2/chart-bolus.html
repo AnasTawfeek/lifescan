@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+        <meta name="format-detection" content="telephone=no">
+		<title>OneTouch</title>
+        
+		<link rel="stylesheet" href="res/css/type.css?v=12" />
+		<link rel="stylesheet" href="res/css/global.css?v=12" />
+        <link rel="stylesheet" href="res/css/chart-bolus.css?v=12" />
+		
+		<script src="res/javascript/jquery-1.8.3.min.js"></script>
+        <script src="res/javascript/move.min.js"></script>
+		<script src="res/javascript/global.js?v=12"></script>		 
+		<script src="res/javascript/chart-bolus.js?v=12"></script>
+		
+	</head>
+	<body>	
+		           
+        <div class="animationLayer hide">
+        	<img src="res/images/charts/bolus/bg.jpg" width="1024" height="768" />
+        </div>
+        
+        <div class="contentLayer hide">
+        
+            <header>
+            	<div id="btn-ref-1"></div>
+                <nav class="right">
+                    <img id="btn-home" src="res/images/global/btn-home.png" height="24" />
+                    <img id="btn-coverage" src="res/images/global/btn-coverage.png" height="24" />
+                    <img id="btn-portfolio" src="res/images/global/btn-portfolio.png" height="24" />
+                </nav>
+            </header>
+        
+        	<div class="container">
+            
+                <div class="buttons">
+                    <img id="btn-1" src="res/images/charts/bolus/btn-1.png" height="24" />
+                    <img id="btn-2" src="res/images/charts/bolus/btn-2.png" height="24" />
+                </div> 
+                
+                <div class="charts">
+                
+                	<div id="chart-1">
+                        <img class="info" src="res/images/charts/bolus/chart-1-info.png" height="453" />  
+                        <img class="bar-1" src="res/images/charts/bolus/chart-1-bar-1.png" height="102" />                  	
+                        <img class="bar-2" src="res/images/charts/bolus/chart-1-bar-2.png" height="105" />                    
+                        <img class="dashes" src="res/images/charts/bolus/dashes.png" width="332" />                        
+                    </div>
+                    
+                    <div id="chart-2">
+                    	<img class="info" src="res/images/charts/bolus/chart-2-info.png" height="408" />
+                    	<div id="mask">
+                            <img class="bar-2" src="res/images/charts/bolus/chart-2-bar-2.png" height="189" />                        
+                            <img class="bar-1" src="res/images/charts/bolus/chart-2-bar-1.png" height="239" />
+                        </div>
+                        
+                    </div>
+                    
+                </div> 
+                            
+            </div>       
+            
+            <footer>	          		
+                <img src="res/images/global/footer-logo.png" height="18" style="position:absolute; right:0px; bottom:0px;" />               
+            </footer>
+            
+            <img src="res/images/global/btn-prev.png" class="nav prev" height="33" />
+			
+            <img id="ref-1" src="res/images/charts/bolus/ref-1.png" height="100" />                   
+    
+        </div>	 
+	</body>
+</html>

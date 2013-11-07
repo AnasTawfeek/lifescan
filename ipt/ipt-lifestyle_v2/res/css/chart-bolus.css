@@ -1,0 +1,116 @@
+
+.container{
+	margin-top: 60px;
+	position:relative;	
+}
+
+.buttons{
+	position:absolute;	 
+}
+.buttons img{
+	margin-right:10px;
+}
+
+.charts{
+	position:absolute;	
+	margin-top:45px;	
+}
+
+
+
+#chart-1{
+	position:absolute;
+	display:none;
+}
+#chart-1 .info{
+	position:absolute;
+	z-index:1;
+}
+#chart-1 .bar-1{
+	position:absolute;
+	top:200px;
+	left:87px;
+	z-index:2;
+	-webkit-opacity:0;
+	-webkit-transform:scaleY(0.1);
+	-webkit-transform-origin:center;
+}
+#chart-1 .bar-2{
+	position:absolute;
+	top:151px;
+	left:242px;
+	z-index:3;
+	-webkit-opacity:0;
+	-webkit-transform:scaleY(0.1);
+	-webkit-transform-origin:center;
+}
+#chart-1 .dashes{
+	position:absolute;
+	top:276px;
+	left:40px;
+	z-index:4;
+}
+
+
+
+
+
+
+#chart-2{
+	position:absolute;
+	display:none;
+}
+#chart-2 .info{
+	position:absolute;
+	z-index:1;
+}
+#chart-2 .bar-1{
+	position:absolute;
+	top:240px;
+	left:30px;
+	-webkit-opacity:0;
+}
+#chart-2 .bar-2{
+	position:absolute;
+	top:240px;
+	left:193px;
+	-webkit-opacity:0;
+}
+
+#mask{
+	position:absolute;
+	overflow:hidden;
+	top:100px;
+	left:46px;
+	height:239px;
+	width:329px;
+	z-index:2;
+}
+
+#ref-1{
+	position:absolute;
+	top:30px;
+	right:0px;
+	display:none;
+}
+#btn-ref-1{
+	width:480px; 
+	height:66px; 
+	position:absolute;
+}
+
+.footnote{
+	width:100%;
+	line-height:10px;
+}
+
+.contentLayer
+{
+	width: 884px;
+	height: 680px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	margin-left:-442px;
+	margin-top:-340px;
+}

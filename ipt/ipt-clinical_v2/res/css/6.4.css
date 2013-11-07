@@ -1,0 +1,54 @@
+.headings{
+	margin-top:55px;
+}
+#imgMeters{
+	position:absolute;
+	left:492px;
+	top:270px;
+}
+.buttons{
+	margin-top: 75px; 
+	width:310px;
+}
+.buttons img{
+	margin-bottom: 12px;
+}
+
+#call-1{
+	position:absolute;
+	left: 453px;
+	top:106px;
+	display:none;
+}
+#call-2{
+	position:absolute;
+	left: 321px;
+	top:261px;
+	display:none;
+}
+#call-3{
+	position:absolute;
+	left: 668px;
+	top:224px;
+	display:none;
+}
+#call-4{
+	position:absolute;
+	left: 733px;
+	top:420px;
+	display:none;
+}
+
+#call-3-ref{
+	position:absolute;
+	left: 660px;
+	top:140px;
+	display:none;
+}
+
+#overlay{
+	position:absolute;
+	top:82px;
+	display:none;
+	z-index:999;
+}
