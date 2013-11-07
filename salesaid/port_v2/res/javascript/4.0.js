@@ -38,7 +38,7 @@ $(document).ready(function(){
 
   $("#veriosync .arrow").live('touchstart click', function(e) {
     e.stopPropagation(); e.preventDefault();
-    document.location = "veeva:gotoSlide(yourpatientinsights_v2.zip, VerioSync_09-2013_POA_v2)";
+    document.location = "veeva:gotoSlide(yourpatientinsights.zip, VerioSync_09-2013_POA)";
   });
   
   $('.button').live('touchstart click', function(e){

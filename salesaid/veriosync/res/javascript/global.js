@@ -44,7 +44,7 @@ $(document).ready(function(){
 	   
 	   	$('.animationLayer').fadeOut('fast');	   
 	  	$('body').fadeOut('fast', function(){
-			document.location = "veeva:gotoSlide(start.zip, BGM_01-2012_POA)";	
+			document.location = "veeva:gotoSlide(start_v2.zip, BGM_01-2012_POA_v2)";	
 		});		
 	 });
 				  
@@ -54,7 +54,7 @@ $(document).ready(function(){
 	   
 	   	$('.animationLayer').fadeOut('fast');
 	  	$('body').fadeOut('fast', function(){
-			document.location = "veeva:gotoSlide(pa.zip, PayerAccess_01-2012_POA)";	
+			document.location = "veeva:gotoSlide(pa_v2.zip, PayerAccess_01-2012_POA_v2)";	
 		});
 	 });
 	 
@@ -64,7 +64,7 @@ $(document).ready(function(){
 	   
 	   $('.animationLayer').fadeOut('fast');
 	   $('body').fadeOut('fast', function(){
-			document.location = "veeva:gotoSlide(port.zip, Portfolio_01-2012_POA)";	
+			document.location = "veeva:gotoSlide(port_v2.zip, Portfolio_01-2012_POA_v2)";	
 		});
 	 });
 	 
