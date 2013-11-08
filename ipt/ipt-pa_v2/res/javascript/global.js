@@ -26,7 +26,7 @@ $(document).ready(function(){
 	   
 	   	$('.animationLayer').fadeOut('fast');	   
 	  	$('.contentLayer').fadeOut('fast', function(){
-			document.location = "veeva:gotoSlide(ipt-home_v2.zip, IPT_02-2013_POA_v2)";	
+			document.location = "veeva:gotoSlide(ipt-home_v2.zip, IPT_02-2013_v2)";	
 		});		
 	 });
 			  
@@ -36,7 +36,7 @@ $(document).ready(function(){
 	   
 	   	$('.animationLayer').fadeOut('fast');
 	  	$('.contentLayer').fadeOut('fast', function(){
-			document.location = "veeva:gotoSlide(ipt-pa_v2.zip, IPT_PayerAccess_02-2013_POA_v2)";	
+			document.location = "veeva:gotoSlide(ipt-pa_v2.zip, IPT_PayerAccess_02-2013_v2)";	
 		});
 	 });
 	 
@@ -46,7 +46,7 @@ $(document).ready(function(){
 	   
 	   $('.animationLayer').fadeOut('fast');
 	   $('.contentLayer').fadeOut('fast', function(){
-			document.location = "veeva:gotoSlide(ipt-port_v2.zip, IPT_Portfolio_02-2013_POA_v2)";	
+			document.location = "veeva:gotoSlide(ipt-port_v2.zip, IPT_Portfolio_02-2013_v2)";	
 		});
 	 });
 	 

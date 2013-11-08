@@ -8,105 +8,69 @@
     
     <link rel="stylesheet" href="res/css/type.css?v=34" />
     <link rel="stylesheet" href="res/css/global.css?v=34" />
-    <link rel="stylesheet" href="res/css/5.1.css?v=34" />	
+    <link rel="stylesheet" href="res/css/suppliers/supplier.css?v=37" />	
     
-    <script src="res/javascript/jquery-1.8.3.min.js"></script>
+    <script src="res/javascript/jquery-1.8.3.min.js"></script>        
     <script src="res/javascript/move.min.js"></script>
+    <script src="res/javascript/jquery.csv.js"></script>
     
     <script src="res/javascript/global.js?v=34"></script>
-    <script src="res/javascript/5.1a.js?v=34"></script>
+    <script src="res/javascript/5.2.js?v=48"></script>
     
   </head>
   <body>
     
     <div class="animationLayer">
-      <img class="contentImg hide" src="res/images/5.1a/wholepage.jpg" width="1024" height="768" />
+      <img class="bgImg hide" src="res/images/suppliers/bg.jpg" width="1024" height="768" />
     </div>
     
-
+    <div class="contentLayer">     	
       
       <header>
-	<nav class="right" style="position: absolute; left: 750px; top: 18px;">
+	<nav class="right">
 	  <img id="btn-home" src="res/images/global/btn-home.png" height="24" style="float:left; margin-right:10px;" />
 	  <img id="btn-portfolio" src="res/images/global/btn-portfolio.png" height="24"  />
 	</nav>
-      </header>  
+      </header>   
       
-      <footer>            	
-        
+      <table id="coverageTable">
+        <thead>
+          <tr>
+            <td class="ddl-col">
+              <dl id="ddlRegion" class="dropdown">
+                <dt><a><span>Choose Region</span></a></dt>
+                <dd>
+                  <ul>
+                    <li><a>West Region<span class="value">WE</span></a></li>
+                    <li><a>South Central Region<span class="value">SC</span></a></li>
+                    <li><a>South East Region<span class="value">SE</span></a></li>
+                    <li><a>North Central Region<span class="value">NC</span></a></li>
+                    <li><a class="last">North East Region<span class="value">NE</span></a></li>
+                  </ul>
+                </dd>
+              </dl>
+            </td>
+            <td class="col2 subhead1 white">OneTouch&reg;<br>Verio&reg;</td>
+            <td class="col3 subhead1 white">OneTouch&reg;<br>Ultra&reg;</td>
+            <td id="btn-bayer" class="col4 subhead1 dark-gray">Bayer</td>
+            <td id="btn-abbott" class="col5 subhead1 dark-gray">Abbott</td>
+            <td id="btn-roche" class="col6 subhead1 dark-gray">Roche</td>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- rows load here via dom -->
+        </tbody>
+      </table>
+      
+      <img class="key" src="res/images/5.2/key.png" height="25" />       
+      
+      <footer>
+        <img class="right" src="res/images/global/footer-logo.png" height="18" />
       </footer>	
       
-      <img src="res/images/5.1a/1by1-pixel.png"
-      onClick="$('#coverage-overlay').show();" style="height: 225px; width: 250px;
-       position: absolute; left: 135px; top: 270px;" />
-      <img src="res/images/5.1a/1by1-pixel.png"
-      onClick="$('#pharmacy-overlay').show();"  style="height: 225px; width: 250px;
-       position: absolute; left: 384px; top: 270px;"/>
-      <img src="res/images/5.1a/1by1-pixel.png"  onClick="$('#mailorder-overlay').show();" style="height: 225px; width: 250px;
-       position: absolute; left: 635px; top: 270px;"/>
-
-
-      <div id="coverage-overlay" style="position: absolute;
-                                        z-index: 100; left: 45px; top:
-                                        95px; display: none;">
-        <div style="text-align:center; width:932px;
-                    margin-left:auto; margin-right:auto;">
-          <img id="Image-Maps_5201310301631384"
-               src="res/images/5.1a/coverage_overlay.jpg"
-               usemap="#Image-Maps_5201310301631384" border="0" width="932"
-               height="504" alt="" />
-          <map id="_Image-Maps_5201310301631384"
-               name="Image-Maps_5201310301631384">
-            <area shape="rect" coords="890,7,927,47"
-            onClick="$('#coverage-overlay').hide(); return false;" href="#" alt="" title=""
-                  />
-
-          </map>
-        </div>
-      </div>
-      <div id="pharmacy-overlay"  style="position: absolute;
-                                         z-index: 100; left: 45px;
-                                         top: 95px; display: none;">
-        <div style="text-align:center; width:932px;
-                    margin-left:auto; margin-right:auto;">
-          <img id="Image-Maps_5201310301631385"
-               src="res/images/5.1a/pharmacy_overlay.jpg"
-               usemap="#Image-Maps_5201310301631385" border="0" width="932"
-               height="504" alt="" />
-          <map id="_Image-Maps_5201310301631385"
-               name="Image-Maps_5201310301631385">
-            <area shape="rect" coords="890,7,927,47" href="#" alt="" title=""
-                   onClick="$('#pharmacy-overlay').hide(); return
-            false;" />
-            <area shape="rect" coords="685,420,889,469" href="#" alt="" title=""
-            />
-          </map>
-        </div>
-      </div>
-      <div id="mailorder-overlay" style="position: absolute;
-                                         z-index: 100; left: 45px;
-                                         top: 95px; display: none;">
-        <div style="text-align:center; width:932px;
-                    margin-left:auto; margin-right:auto;">
-          <img id="Image-Maps_5201310301631386"
-               src="res/images/5.1a/mailorder_overlay.jpg"
-               usemap="#Image-Maps_5201310301631386" border="0" width="932"
-               height="504" alt="" />
-          <map id="_Image-Maps_5201310301631386"
-               name="Image-Maps_5201310301631386">
-            <area shape="rect" coords="890,7,927,47" href="#" alt="" title=""
-                   onClick="$('#mailorder-overlay').hide(); return
-            false;" />
-            <area shape="rect" coords="685,420,889,469" href="#" alt="" title=""
-            />
-          </map>
-        </div>
-      </div>
-
       <img src="res/images/global/btn-prev.png" class="nav prev" height="33" />
       
-      
-
+    </div>        
     
   </body>
 </html>
