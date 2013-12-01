@@ -1,0 +1,7 @@
+{"version":3,
+ "file":
+ "/home/tony/workspace/lifescan/salesaid/coverage/out/coverage/core.js",
+ "sources":["core.cljs"],
+ "lineCount":10,
+ "mappings":";AAAC;;;;;;AAIA,YAAA,ZAAGA",
+ "names":["js/console"]}

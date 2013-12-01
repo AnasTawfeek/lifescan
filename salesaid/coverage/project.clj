@@ -4,8 +4,8 @@
 
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojurescript "0.0-2080"]
-                 [hiccup-bridge "1.0.0-SNAPSHOT"]
-                 [hiccup "1.0.4"]]
+                 [hiccup "1.0.4"]
+                 [prismatic/dommy "0.1.1"]]
 
   :plugins [[lein-cljsbuild "1.0.0"]]
 

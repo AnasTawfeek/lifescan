@@ -1,6 +1,5 @@
 (ns coverage.core
   (:require [dommy.utils :as utils]
-            [dommy.core :as dommy])
-  (:use-macros [dommy.macros :only [node sel sel1]]))
+            [dommy.core :as dommy]))
 
 (. js/console (log "Hello world!"))
