@@ -1,0 +1,93 @@
+@font-face {
+  font-family: gothambold;
+  src: url(../fonts/Gotham-Bold.ttf);
+}
+
+@font-face {
+  font-family: gothamnarrow;
+  src: url(../fonts/Gotham-XLight.ttf);
+}
+
+body {
+  height: 768px;
+  font-family: gothamnarrow;
+  width: 1024px;
+}
+
+.topbar {
+  height: 32px;
+  background-color: #cccccc;
+}
+
+.mainbar {
+  vertical-align: middle;
+  display: table-cell;
+  padding-right: 40px;
+  padding-left: 40px;
+  height: 60px;
+  background-color: #666666;
+}
+
+.content {
+  height: 750px;
+  background-image: url(../images/global/contentbackground.png);
+  class: fullwidth;
+}
+
+.title {
+  font-family: gothambold;
+  font-size: 26px;
+  color: #ffffff;
+  position: absolute;
+}
+
+.title.mygrids {
+  left: 450px;
+  top: 35px;
+}
+
+.fullwidth {
+  width: 1024px;
+}
+
+.button {
+  height: 27px;
+  width: 88px;
+  display: inline-block;
+}
+
+.back {
+  background-image: url(../images/global/back.png);
+  float: left;
+}
+
+.next {
+  background-image: url(../images/global/next.png);
+  float: right;
+}
+
+.menu {
+  background-image: url(../images/grid/menu.png;
+  float: right;
+}
+
+.back {
+  display: none;
+}
+
+.button {
+  height: 29px;
+  width: 90px;
+}
+
+.menu {
+  margin-right: 40px;
+  float: right;
+  display: block;
+}
+
+.next {
+  margin-right: 40px ;
+  float: right;
+  display: none;
+}
