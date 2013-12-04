@@ -11,6 +11,7 @@
   [:div {:class "mainbar fullwidth"}
    [:a {:class "button back"}]
    [:h1 {:class "title mygrids"} "MY GRIDS"]
+   [:img {:src "resources/images/grids/dropdown.png" :class "dropdown"} ]
    [:a {:class "button menu"}]
    [:a {:class "button next"}]
    ])

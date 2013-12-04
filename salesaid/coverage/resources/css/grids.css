@@ -20,6 +20,8 @@ body {
 }
 
 .mainbar {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   vertical-align: middle;
   display: table-cell;
   padding-right: 40px;
@@ -29,9 +31,13 @@ body {
 }
 
 .content {
+  padding-top: 40px;
   height: 750px;
   background-image: url(../images/global/contentbackground.png);
-  class: fullwidth;
+  padding-right: 40px;
+  -webkit-box-sizing: border-box;
+  padding-left: 40px;
+  box-sizing: border-box;
 }
 
 .title {
@@ -48,6 +54,16 @@ body {
 
 .fullwidth {
   width: 1024px;
+}
+
+.grid-button {
+  height: 198px;
+  width: 234px;
+  display: inline-block;
+}
+
+.create-grid-button {
+  background-image: url(../images/grids/creategrid.png);
 }
 
 .button {
@@ -67,8 +83,14 @@ body {
 }
 
 .menu {
-  background-image: url(../images/grid/menu.png;
+  background-image: url(../images/grids/menu.png);
   float: right;
+}
+
+.dropdown {
+  left: 750px;
+  top: 90px;
+  position: absolute;
 }
 
 .back {
@@ -81,13 +103,11 @@ body {
 }
 
 .menu {
-  margin-right: 40px;
   float: right;
   display: block;
 }
 
 .next {
-  margin-right: 40px ;
   float: right;
   display: none;
 }
