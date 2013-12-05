@@ -6,6 +6,26 @@ $(document).ready(function(){
 		return true; 
 	});	
 	
+	window.preload_pictures = function(picture_urls, callback)
+	{
+		var loaded  = 0;
+
+		for(var i = 0, j = picture_urls.length; i < j; i++)
+   		{
+			var img = new Image();
+			img.onload  = function()
+			{                               
+				if(++loaded == picture_urls.length && callback)
+				{
+					callback();
+				}
+			}
+			img.src = picture_urls[i];
+    	}
+	}
+
+	
+	
 	var images = [ 
 		"res/images/global/btn-home-on.png" 
 	];		

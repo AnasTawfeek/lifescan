@@ -1,0 +1,35 @@
+#circleAnim {
+	position:absolute;
+	left:220px;
+	top:121px;
+}
+
+#point1 {
+	position: absolute;
+	left: 463px;
+	top: 109px;
+}
+
+#point2 {
+	position: absolute;
+	left: 660px;
+	top: 282px;
+}
+
+#point3 {
+	position: absolute;
+	left: 627px;
+	top: 458px;
+}
+
+#point4 {
+	position: absolute;
+	left: 90px;
+	top: 466px;
+}
+
+#point5 {
+	position: absolute;
+	left: 1px;
+	top: 244px;
+}
