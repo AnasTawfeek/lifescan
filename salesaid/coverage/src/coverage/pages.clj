@@ -1,33 +1,40 @@
 (ns coverage.pages
-  (:use hiccup.core))
-
-(def coverage)
-
-;; gray footer with trademark stuff
-(def footer
-  [:div {:class "footer"}])
+  (:use hiccup.core)
+  (:require [garden.core :refer [css]]
+            [garden.stylesheet :refer [at-font-face]]))
 
 (def topbar
-  [:div {:class "topbar"}])
+  [:div {:class "topbar fullwidth"}
+   ])
 
 (def mainbar
-  [:div {:class "mainbar"}])
-
-(def footer
-  [:div {:class "footer"}])
+  [:div {:class "mainbar fullwidth"}
+   [:a {:class "button back"}]
+   [:h1 {:class "title mygrids"} "MY GRIDS"]
+   [:img {:src "resources/images/grids/dropdown.png" :class "dropdown"} ]
+   [:a {:class "button menu"}]
+   [:a {:class "button next"}]
+   ])
 
 (def content
-  [:div {:class "content"}])
+  [:div {:class "content fullwidth"}
+   [:a {:class "grid-button create-grid-button"}]])
 
-(def grids
-  (html
-   [:head
-    [:link {:href "coverage.js" :type "text/javascript"}]]
-   [:body
-    topbar
-    mainbar
-    content
-    footer
-    ]))
+(def footer
+  [:div {:class "footer fullwidth"}])
 
-(spit "coverage.html" grids)
+(defn mygrids []
+  (spit "coverage.html"
+        (html
+         [:head
+          [:script {:src "coverage.js" :type "text/javascript"}]
+          [:link {:href "resources/css/grids.css" :rel "stylesheet" :type "text/css" } ]]
+         [:body
+          topbar
+          mainbar
+          content
+          footer
+          ])))
+
+
+(mygrids)
