@@ -1,1 +1,15 @@
 exit
+(cemerick.austin.repls/exec
+         :exec-cmds ["open" "-ga" "/usr/bin/google-chrome"])
+(.log js/console "hello")
+(.alert js/window "hi")
+(cemerick.austin.repls/exec :exec-cmds ["open" "-ga" "/usr/bin/google-chrome"])
+exit
+ (do
+    (require 'cljs.repl.browser)
+    (cemerick.piggieback/cljs-repl
+     :repl-env
+     (doto (cljs.repl.browser/repl-env :port 9000)
+       cljs.repl/-setup)))
+(js/alert "im ready")
+exit

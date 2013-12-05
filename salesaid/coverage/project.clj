@@ -9,14 +9,12 @@
                  [garden "1.1.4"]]
 
   :plugins [[lein-cljsbuild "1.0.0"]]
-
   :source-paths ["src"]
-
+  :profiles {:dev {:plugins [[com.cemerick/austin "0.1.3"]]}}
   :cljsbuild { 
     :builds [{:id "coverage"
               :source-paths ["src"]
               :compiler {
                 :output-to "coverage.js"
                 :output-dir "out"
-                :optimizations :none
-                :source-map true}}]})
+                :source-map "coverage.js.map"}}]})
