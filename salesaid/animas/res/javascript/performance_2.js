@@ -25,11 +25,9 @@ $(document).ready(function(){
 	var iIndex=-1;
 	function playCircleFrame() {
 		iIndex++;
-		if(iIndex<25) {
-			var sIndex=iIndex;
-			if(iIndex<10) sIndex="0"+sIndex;
-			$("#circleAnim").attr("src",imgpath+"render_000"+sIndex+".png");
-			setTimeout(playCircleFrame, 41);
+		if(iIndex<aImg.length) {
+			$("#partAnim").attr("src",aImg[iIndex]);
+			setTimeout(playAnim, 41);
 		}
 		else
 		{
@@ -61,7 +59,7 @@ $(document).ready(function(){
 		.duration('1s')
 		.set('opacity',1)
 		.end(function(){
-			bTriggerLoaded=true;
+			bTriggerPlay=true;
 			if(bAllLoaded) {
 				playCircleFrame();
 			}

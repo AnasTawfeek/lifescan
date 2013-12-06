@@ -1,9 +1,8 @@
 $(document).ready(function(){		
 			
 	var imgpath = "res/images/animas/";
-	window.pageNext = "menu.html";
-	window.pagePrev = null;
-	
+	window.pagePrev = "menu.html";
+	window.pageNext = "patented_2.html";
 	
 	// init...
 	$('.contentLayer').fadeIn(function(){

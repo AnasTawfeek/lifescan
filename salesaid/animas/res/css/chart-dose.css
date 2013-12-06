@@ -9,7 +9,7 @@
 	width:340px;
 }
 .buttons img{
-	margin-bottom: 8px;
+	margin-bottom: 4px;
 }
 
 .charts{
@@ -38,8 +38,8 @@
 }
 #chart-1 .plot-them{
 	position:absolute;
-	top:84px;
-	left:44px;
+	top:81px;
+	left:46px;
 	z-index:1;	
 	-webkit-opacity:0;
 	-webkit-transform:scaleY(0.1);
@@ -57,7 +57,7 @@
 #chart-2 .plot-us{
 	position:absolute;
 	top:101px;
-	left:44px;
+	left:45px;
 	z-index:2;
 	-webkit-opacity:0;
 	-webkit-transform:scaleY(0.1);
@@ -65,8 +65,8 @@
 }
 #chart-2 .plot-them{
 	position:absolute;
-	top:46px;
-	left:44px;
+	top:45px;
+	left:45px;
 	z-index:1;	
 	-webkit-opacity:0;
 	-webkit-transform:scaleY(0.1);
@@ -83,8 +83,8 @@
 }
 #chart-3 .plot-us{
 	position:absolute;
-	top:150px;
-	left:44px;
+	top:155px;
+	left:45px;
 	z-index:2;
 	-webkit-opacity:0;
 	-webkit-transform:scaleY(0.4);
@@ -92,8 +92,8 @@
 }
 #chart-3 .plot-them{
 	position:absolute;
-	top:78px;
-	left:44px;
+	top:74px;
+	left:45px;
 	z-index:1;	
 	-webkit-opacity:0;
 	-webkit-transform:scaleY(0.1);

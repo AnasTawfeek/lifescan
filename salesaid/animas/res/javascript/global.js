@@ -22,9 +22,23 @@ $(document).ready(function(){
 			}
 			img.src = picture_urls[i];
     	}
-	}
+	};
 
+	window.jump = function(page)
+	{
+		move('.contentLayer')
+		.duration('0.6s')
+		.set('opacity',0)
+		.end();
 	
+		move('.animationLayer')
+		.duration('0.6s')
+		.set('opacity',0)
+		.end(function(){
+			document.location = page;			
+		});
+	};
+
 	
 	var images = [ 
 		"res/images/global/btn-home-on.png" 
@@ -48,14 +62,6 @@ $(document).ready(function(){
 		});		
 	 });
 	 
-	function jump(page)
-	{
-		$('.animationLayer').fadeOut();
-		$('.contentLayer').fadeOut( function(){				  					
-			document.location = page;			
-		});	
-	};
-	
 	$('.nav').live('touchstart click', function(e){
 		e.stopPropagation(); e.preventDefault();
 		var btn = $(this);
@@ -66,6 +72,6 @@ $(document).ready(function(){
 		else
 			page = window.pageNext;
 		
-		jump(page);			
+		window.jump(page);			
 	});
 });

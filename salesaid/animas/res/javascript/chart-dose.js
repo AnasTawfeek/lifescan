@@ -1,22 +1,10 @@
 $(document).ready(function(){					
 	
 	var imgpath = "res/images/charts/dose2dose/";
+	window.pagePrev = "patented_3.html";
+	window.pageNext = null;
 	var $prev = null;
 	var animating = false;
-	
-	function jump(page)
-	{
-		$('.animationLayer').fadeOut();
-		$('.contentLayer').fadeOut( function(){				  					
-			document.location = page;			
-		});	
-	};
-	
-	$('.nav').live('touchstart click', function(e){
-		e.stopPropagation(); e.preventDefault();
-		
-		jump("6.3.b.html");			
-	});
 	
 	function resetState(){					
 		if($prev != null)
@@ -168,8 +156,15 @@ $(document).ready(function(){
 		e.stopPropagation(); e.preventDefault();		
 		$(this).fadeOut();								
 	});	 
-	 
-	$('.animationLayer').fadeIn('slow');		
-	$('.contentLayer').fadeIn('slow');
-			
+	
+	
+	move('.contentLayer')
+		.duration('1s')
+		.set('opacity',1)
+		.end();
+
+	move('.animationLayer')
+		.duration('1s')
+		.set('opacity',1)
+		.end();
 });
