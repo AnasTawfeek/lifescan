@@ -30,7 +30,6 @@
           [:script {:type "text/javascript"}  "var CLOSURE_NO_DEPS = true;"]
           [:script {:src "base.js" :type "text/javascript"}]
           [:script {:src "coverage.js" :type "text/javascript"}]
-          
           [:link {:href "resources/css/grids.css" :rel "stylesheet" :type "text/css" } ]]
          [:body
           topbar
