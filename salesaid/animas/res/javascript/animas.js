@@ -5,9 +5,9 @@ $(document).ready(function(){
 	window.pageNext = "menu.html";
 	
 	// init...
-	TweenMax.to('.contentLayer', 1, { opacity:1});
-	TweenMax.to('.animationLayer', 1, { opacity:1});
+	TweenMax.to('.contentLayer', 1, {opacity:1, ease:"Linear.easeNone"});
+	TweenMax.to('.animationLayer', 1, { opacity:1,ease:"Linear.easeNone"});
 
-	TweenMax.to('#line1', 1, { opacity:1, delay:1});
-	TweenMax.to('#line2', 1, { opacity:1, delay:2});
+	TweenMax.to('#line1', 0.7, { opacity:1, delay:1.3,ease:"Linear.easeNone"});
+	TweenMax.to('#line2', 0.7, { opacity:1, delay:1.3+1,ease:"Linear.easeNone"});
 });

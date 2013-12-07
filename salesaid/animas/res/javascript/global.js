@@ -6,7 +6,7 @@ $(document).ready(function(){
 		return true; 
 	});	
 	
-	window.preload_pictures = function(picture_urls, callback)
+	window.preload_pictures = function(picture_urls, aImg, callback)
 	{
 		var loaded  = 0;
 
@@ -21,6 +21,7 @@ $(document).ready(function(){
 				}
 			}
 			img.src = picture_urls[i];
+			aImg.push(img);
     	}
 	};
 
@@ -55,11 +56,7 @@ $(document).ready(function(){
 	$("#btn-home").live('touchstart click', function(e){
 		e.stopPropagation(); e.preventDefault();
 	   	$(this).attr("src", images[0] );		
-	   
-	   	$('.animationLayer').fadeOut('fast');	   
-	  	$('.contentLayer').fadeOut('fast', function(){
-			document.location = "menu.html";	
-		});		
+	    window.jump("menu.html");
 	 });
 	 
 	$('.nav').live('touchstart click', function(e){

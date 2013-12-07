@@ -60,6 +60,11 @@ body {
 	-webkit-opacity: 0;
 }
 
+.hideByOffset {
+	position:absolute;
+	top:-2000px;
+}
+
 .on-top{
 	z-index:999;
 }

@@ -4,39 +4,47 @@ $(document).ready(function(){
 	window.pagePrev = "patented_2.html";
 	window.pageNext = "patented_4.html";
 	
+	// Image sequence params
 	var frameCount=24;
 	var frameNames="Animas_gears_v001.00";
-	var playSpeed=50; // ms between frames
+	var framesPerSecond=30;
 	
+	
+	var playSpeed=Math.round(1000/framesPerSecond);
 	var bAllLoaded=false;
 	var bTriggerPlay=false;
-	function preloadDone() {
-		bAllLoaded=true;
-		if(bTriggerPlay) {
-			playAnim();	
-		}
-	}
-
+	
+	var aImgSrc=[];
 	var aImg=[];
+	var iWidth=$("#myCanvas").attr("width");
+	var iHeight=$("#myCanvas").attr("height");
+	var context = $("#myCanvas")[0].getContext('2d');
 
 	for(i=1;i<=frameCount;i++) {
 		var img = new Image();
 		var sIndex=i;
 		if(i<10) sIndex="0"+sIndex;
-		aImg.push(imgpath+frameNames+sIndex+".png");
+		aImgSrc.push(imgpath+frameNames+sIndex+".png");
 	}
-	window.preload_pictures(aImg, preloadDone);
+	
+	window.preload_pictures(aImgSrc, aImg, preloadDone);
+
+	function preloadDone() {
+		bAllLoaded=true;
+		if(bTriggerPlay) playAnim();		
+	}
 
 	var iIndex=-1;
 	function playAnim() {
 		iIndex++;
-		if(iIndex<aImg.length) {
-			$("#partAnim").attr("src",aImg[iIndex]);
+		if(iIndex<aImgSrc.length) {
+			context.clearRect ( 0 , 0 , iWidth , iHeight);
+			context.drawImage(aImg[iIndex], 0, 0);
 			setTimeout(playAnim, playSpeed);
 		}
 		else
 		{
-			
+			// custom stuff once the image sequence has finished
 		}
 	}
 	
@@ -52,7 +60,8 @@ $(document).ready(function(){
 		.end(function(){
 			bTriggerPlay=true;
 			if(bAllLoaded) {
-				playAnim();
+				// little delay to prevent stutter
+				setTimeout(playAnim, 100);
 			}
 		});
 });

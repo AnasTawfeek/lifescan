@@ -1,8 +1,8 @@
 $(document).ready(function(){		
 			
 	var imgpath = "res/images/calculator_2/";
-	window.pageNext = null;
 	window.pagePrev = "calculator_1.html";
+	window.pageNext = "last_page.html";
 	
 	var $prev = null;
 	var animating = false;

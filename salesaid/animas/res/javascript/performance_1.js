@@ -1,8 +1,8 @@
 $(document).ready(function(){		
 			
-	var imgpath = "res/images/calculator_1/";
+	var imgpath = "res/images/performance_1/";
 	window.pagePrev = "menu.html";
-	window.pageNext = "calculator_2.html";
+	window.pageNext = "performance_2.html";
 	
 	// init...
 	TweenMax.to('.contentLayer', 1, {opacity:1, ease:"Linear.easeNone"});

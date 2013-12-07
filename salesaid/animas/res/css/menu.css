@@ -1,0 +1,29 @@
+#myCanvas {
+	position:absolute;
+	left:73px;
+	top:227px;
+}
+
+#menu_1 {
+	position:absolute;
+	left:4px;
+	top:363px;
+}
+
+#menu_2 {
+	position:absolute;
+	left:226px;
+	top:363px;
+}
+
+#menu_3 {
+	position:absolute;
+	left:447px;
+	top:363px;
+}
+
+#menu_4 {
+	position:absolute;
+	left:669px;
+	top:363px;
+}
