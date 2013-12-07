@@ -22,3 +22,4 @@ exit
 (cemerick.austin.repls/cljs-repl repl-env)
 exit
 (cemerick.austin.repls/cljs-repl repl-env)
+exit

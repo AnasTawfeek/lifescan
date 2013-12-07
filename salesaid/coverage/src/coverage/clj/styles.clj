@@ -19,12 +19,10 @@
 (def components
   (list
    [:.title {:color "#ffffff" :position "absolute"  :font-family "gothambold" :font-size "26px" }]
-   
    [:.title.mygrids { :left "450px" :top "35px" }]
    [:.fullwidth {:width "1024px"}]
-   
    [:.grid-button {:width "234px" :height "198px" :display "inline-block" }]
-   [:.coverage-grid-button :background-image "url(../images/grids/gridbg.png)"]
+   [:.coverage-grid-button { :background-image "url(../images/grids/gridbg.png)"}]
    [:.create-grid-button { :background-image "url(../images/grids/creategrid.png)" }]
    [:.button {:width "88px" :height "27px" :display "inline-block"}]
    [:.back {:background-image "url(../images/global/back.png)" :float "left"}]

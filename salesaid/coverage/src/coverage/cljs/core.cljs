@@ -4,42 +4,40 @@
             [clojure.browser.repl :as repl])
   (:use-macros [dommy.macros :only [node sel sel1]]))
 
-::(. js/console  (log "Hello world!"))
-
 ;; initialize grids
-(def my-grids (atom {})) 
-(def grids-count (atom 0))
-
-(defn new-id-factory! []
-  "returns a new, unique id whenever run"
-  (swap! grids-count inc)
-  @grids-count)
+(def my-grids (atom [])) 
 
 (defn add-grid []
-  (swap! my-grids assoc (new-id-factory!) { :testfield "testvalue" })
-  (.log js/console "add-grid called"))
+  (.log js/console "add-grid called")
+  ;; only do it if count <= 5
+  (if (<= (count @my-grids) 5)
+    (swap! my-grids conj { :testfield "testvaluenow2" })))
 
-(defn grid-view [grid]
+;; works
+(defn grids-view [grids]
   (node
-   [:a {:class "grid-button coverage-grid-button" :id (:id grid)}]))
+   [:div.content.full-width
+    [:a.grid-button.create-grid-button]
+    (for [current-grid grids]
+      [:a#test.grid-button.coverage-grid-button])]))
 
-(defn add-grid-view [grid]
-  (dommy/append! (sel1 :.content) (grid-view grid))
-  (.log js/console "grid added"))
-
-(add-watch my-grids :watch-change (fn [_ _ _ new-grid]
-                                    (add-grid-view new-grid)))
-
-
-
+(defn update-grids-view []
+  (dommy/replace! (sel1 :.content) (grids-view @my-grids))
+  (.log js/console "grid view updated"))
 
 (defn listen-create-grid []
+  (.log js/console (str "listen-create-grid() called -event:"))
   (dommy/listen! (sel1 :.create-grid-button) :click add-grid))
 
 (dommy/listen! (sel1 :body) :load listen-create-grid)
 
 
+(add-watch my-grids :watch-change (fn [_ _ _ _]
+                                    (update-grids-view)))
 
+
+(defn -test []
+  (.log js/console "this is a test"))
 
 
 
