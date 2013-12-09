@@ -94,6 +94,7 @@ body {
 .dropdown {
   left: 750px;
   top: 90px;
+  display: none;
   position: absolute;
 }
 

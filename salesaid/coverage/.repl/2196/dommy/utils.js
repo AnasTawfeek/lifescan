@@ -5,11 +5,11 @@ goog.require('cljs.core');
 * Dissociate this keyseq from m, removing any empty maps created as a result
 * (including at the top-level).
 */
-dommy.utils.dissoc_in = (function dissoc_in(m,p__11193){var vec__11195 = p__11193;var k = cljs.core.nth.call(null,vec__11195,0,null);var ks = cljs.core.nthnext.call(null,vec__11195,1);if(cljs.core.truth_(m))
-{var temp__4090__auto__ = (function (){var and__3279__auto__ = ks;if(and__3279__auto__)
+dommy.utils.dissoc_in = (function dissoc_in(m,p__24334){var vec__24336 = p__24334;var k = cljs.core.nth.call(null,vec__24336,0,null);var ks = cljs.core.nthnext.call(null,vec__24336,1);if(cljs.core.truth_(m))
+{var temp__4090__auto__ = (function (){var and__4753__auto__ = ks;if(and__4753__auto__)
 {return dissoc_in.call(null,m.call(null,k),ks);
 } else
-{return and__3279__auto__;
+{return and__4753__auto__;
 }
 })();if(cljs.core.truth_(temp__4090__auto__))
 {var res = temp__4090__auto__;return cljs.core.assoc.call(null,m,k,res);

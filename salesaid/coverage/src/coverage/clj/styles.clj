@@ -28,7 +28,7 @@
    [:.back {:background-image "url(../images/global/back.png)" :float "left"}]
    [:.next {:background-image "url(../images/global/next.png)" :float "right"}]
    [:.menu {:background-image "url(../images/grids/menu.png)" :float "right"}]
-   [:.dropdown {:position "absolute" :left "750px" :top "90px"}]))
+   [:.dropdown {:position "absolute" :left "750px" :top "90px" :display "none" }]))
 
 
 (def layout
