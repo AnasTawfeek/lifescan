@@ -35,13 +35,10 @@
   (.log js/console "fn update-grids-viewgrid"))
 
 (defn listen-create-grid []
-;;  (dommy/listen! (sel1 :.create-grid-button) :click add-grid)
   (dommy/listen! [(sel1 :body) ".create-grid-button"] :click add-grid))
 
 (add-watch my-grids :watch-change (fn [_ _ _ _]
                                     (update-grids-view)))
-
-
 
 ;; -----------------------------------------------------
 ;; menu logic
@@ -51,22 +48,23 @@
 
 (def menu-state (atom off))
 
-(defn toggle-truth [input]
+(defn toggle-truth! [input]
   (not input))
 
 (defn handle-menu-click []
-  (.log js/console "fn handle-menu-click")
-  (swap! menu-state toggle-truth menu-state))
+  (swap! menu-state toggle-truth! @menu-state)
+  (.log js/console "fn handle-menu-click"))
 
 (defn update-menu-view []
   (if (= @menu-state on)
-    (dommy/show! (sel1 :.dropdown))
+    (attrs/set-style! (sel1 :.dropdown) :display "block")
     (dommy/hide! (sel1 :.dropdown))))
+
+(defn listen-menu-click []
+  (dommy/listen! (sel1 :.menu) :click handle-menu-click))
 
 (add-watch menu-state :watch-change (fn [_ _ _ _]
                                       (update-menu-view)))
-(defn listen-menu-click []
-  (dommy/listen! (sel1 :.menu) :click handle-menu-click))
 
 
 ;;----------------------------------------------------

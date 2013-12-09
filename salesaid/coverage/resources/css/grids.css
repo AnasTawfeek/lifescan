@@ -63,7 +63,13 @@ body {
 }
 
 .coverage-grid-button {
+  height: 186px;
   background-image: url(../images/grids/gridbg.png);
+  top: -11px;
+  margin-right: 14px;
+  margin-top: 15px;
+  width: 222px;
+  position: relative;
 }
 
 .create-grid-button {
