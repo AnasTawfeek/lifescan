@@ -36,6 +36,7 @@
           mainbar
           content
           footer
+          [:script (cemerick.austin.repls/browser-connected-repl-js)]
           ])))
 
 

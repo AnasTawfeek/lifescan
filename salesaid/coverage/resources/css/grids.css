@@ -62,6 +62,10 @@ body {
   display: inline-block;
 }
 
+.coverage-grid-button {
+  background-image: url(../images/grids/gridbg.png);
+}
+
 .create-grid-button {
   background-image: url(../images/grids/creategrid.png);
 }
