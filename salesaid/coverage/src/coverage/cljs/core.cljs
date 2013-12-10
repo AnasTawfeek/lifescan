@@ -21,14 +21,28 @@
   (.log js/console "fn add-grid")
   ;; ensure that visitor only can create up to 5 grids
   (if (< (count @my-grids) 5)
-    (swap! my-grids conj { :testfield "sdfadfa" } )))
+    (swap! my-grids conj { :testfield "sdfadfa" :id "10112121212" } )))
+
+(defn select-grid! [index]
+  "selects grid by adding a :selected attribute to its map and setting it to the value of true"
+  (.log js/console "fn select-grid! called")
+  (swap! my-grids update-in [index] conj {:selected true}))
+
+(defn clear-grids [grid-set]
+  "takes a grid as an input and returns a list of grids with all its maps with removed :selected key-value pairs"
+  (map (fn [item] (dissoc item :selected)) grid-set))
 
 (defn grids-view [grids]
   (node
    [:div.content.full-width
     [:a.grid-button.create-grid-button]
     (for [current-grid grids]
-      [:a#test.grid-button.coverage-grid-button])]))
+      (grid-view current-grid)
+      )]))
+
+(defn grid-view [grid index]
+  (node
+   [:a#test.grid-button.coverage-grid-button { :_id (:id current-grid) }]))
 
 (defn update-grids-view []
   (dommy/replace! (sel1 :.content) (grids-view @my-grids))
@@ -36,6 +50,9 @@
 
 (defn listen-create-grid []
   (dommy/listen! [(sel1 :body) ".create-grid-button"] :click add-grid))
+
+(defn listen-grid-click []
+  (dommy/listen! [(sel1 :body) ".coverage-grid-button"] :click select-grid!))
 
 (add-watch my-grids :watch-change (fn [_ _ _ _]
                                     (update-grids-view)))
@@ -71,6 +88,7 @@
 (defn attach-listeners []
   (.log js/console "fn attach-listeners: attaching listeners")
   (listen-create-grid)
+  (listen-grid-click)
   (listen-menu-click))
 
 ;; attach event listeners to dom elements on page load

@@ -26,6 +26,7 @@
    [:.create-grid-button { :background-image "url(../images/grids/creategrid.png)" }]
    [:.button {:width "88px" :height "27px" :display "inline-block"}]
    [:.back {:background-image "url(../images/global/back.png)" :float "left"}]
+   [:.selected-grid { :border-width "9px" :border-color "skyblue" :border-style "solid"}]
    [:.next {:background-image "url(../images/global/next.png)" :float "right"}]
    [:.menu {:background-image "url(../images/grids/menu.png)" :float "right"}]
    [:.dropdown {:position "absolute" :left "750px" :top "90px" :display "none" :z-index "1000" }]))
