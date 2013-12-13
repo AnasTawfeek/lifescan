@@ -60,26 +60,34 @@ body {
   height: 198px;
   width: 234px;
   display: inline-block;
+  margin-bottom: 15px;
 }
 
 .coverage-grid-button {
   height: 186px;
   background-image: url(../images/grids/gridbg.png);
-  top: -11px;
   margin-right: 14px;
-  margin-top: 15px;
   width: 222px;
+  float: left;
   position: relative;
 }
 
 .create-grid-button {
   background-image: url(../images/grids/creategrid.png);
+  float: left;
 }
 
 .button {
   height: 27px;
   width: 88px;
   display: inline-block;
+}
+
+.gridlabel {
+  margin-right: auto;
+  margin-top: 25px;
+  margin-left: auto;
+  display: block;
 }
 
 .back {
@@ -107,7 +115,6 @@ body {
   left: 750px;
   top: 90px;
   z-index: 1000;
-  display: none;
   position: absolute;
 }
 

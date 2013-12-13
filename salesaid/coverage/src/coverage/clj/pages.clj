@@ -8,17 +8,20 @@
    ])
 
 (def mainbar
-  [:div {:class "mainbar fullwidth"}
+  [:div {:class "mainbar fullwidth" :ng-controller "GridsController" }
    [:a {:class "button back"}]
    [:h1 {:class "title mygrids"} "MY GRIDS"]
-   [:img {:src "resources/images/grids/dropdown.png" :class "dropdown"} ]
-   [:a {:class "button menu"}]
+   [:img {:src "resources/images/grids/dropdown.png" :class "dropdown" :ng-show "is_menu_shown"  :ng-hide "!is_menu_shown" } ]
+   [:a {:class "button menu" :ng-click "show_menu()" }]
    [:a {:class "button next"}]
    ])
 
-(def content
-  [:div {:class "content fullwidth"}
-   [:a {:class "grid-button create-grid-button"}]])
+(def content 
+  [:div {:class "content fullwidth" :ng-controller "GridsController"}
+   [:a {:class "grid-button create-grid-button" :ng-click "add_grid()"}]
+   [:div {:class "grid-button coverage-grid-button" :ng-repeat "grid in grids"} 
+    [:div
+     [:img { :class "gridlabel" :src  "{{grid.type_image}}" :ng-click "select_grid()" } ]]]])
 
 (def footer
   [:div {:class "footer fullwidth"}])
@@ -26,18 +29,19 @@
 (defn mygrids []
   (spit "coverage.html"
         (html
-         [:head
-          [:script {:type "text/javascript"}  "var CLOSURE_NO_DEPS = true;"]
-          [:script {:src "base.js" :type "text/javascript"}]
-          [:script {:src "coverage.js" :type "text/javascript"}]
-          [:link {:href "resources/css/grids.css" :rel "stylesheet" :type "text/css" } ]]
-         [:body
+         [:html { :ng-app "" :ng-controller "GridsController" }
+          [:head
+          [:script {:src "/resources/js/angular.js" :type "text/javascript"}]
+          [:script {:src "/resources/js/coverage-ng.js" :type "text/javascript"}]
+           [:link {:href "resources/css/grids.css" :rel "stylesheet" :type "text/css" } ]]
+          [:body { :ng-click "hide_menu()"}
           topbar
           mainbar
           content
           footer
-          [:script (cemerick.austin.repls/browser-connected-repl-js)]
-          ])))
+          ]]
+         ))
+  )
 
 
 (mygrids)

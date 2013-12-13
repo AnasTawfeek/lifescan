@@ -11,6 +11,11 @@
   (.log js/console "hello from the REPL"))
 ;;------------------------------------------------
 
+(defn delete-element [vc pos]
+  (vec (concat
+        (subvec vc 0 pos)
+                 (subvec vc (inc pos)))))
+
 
 ;; ------------------------------------------------
 ;; grids logic
@@ -26,7 +31,14 @@
 (defn select-grid! [index]
   "selects grid by adding a :selected attribute to its map and setting it to the value of true"
   (.log js/console "fn select-grid! called")
-  (swap! my-grids update-in [index] conj {:selected true}))
+  (swap! my-grids
+         update-in [index] conj {:selected true}))
+
+
+;; ((map (fn [x] (:id x)) @my-grids) id)
+(defn delete-grid! [id]
+  (.log js/console "grid deleted")
+  (swap! my-grids delete-element 0))
 
 (defn clear-grids [grid-set]
   "takes a grid as an input and returns a list of grids with all its maps with removed :selected key-value pairs"
@@ -40,9 +52,10 @@
       (grid-view current-grid)
       )]))
 
-(defn grid-view [grid index]
+(defn grid-view [grid]
   (node
-   [:a#test.grid-button.coverage-grid-button { :_id (:id current-grid) }]))
+   [:a { :class "grid-button coverage-grid-button" :_id (:id grid)
+        }]))
 
 (defn update-grids-view []
   (dommy/replace! (sel1 :.content) (grids-view @my-grids))
@@ -56,6 +69,8 @@
 
 (add-watch my-grids :watch-change (fn [_ _ _ _]
                                     (update-grids-view)))
+
+
 
 ;; -----------------------------------------------------
 ;; menu logic

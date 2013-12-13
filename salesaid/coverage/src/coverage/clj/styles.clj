@@ -21,15 +21,16 @@
    [:.title {:color "#ffffff" :position "absolute"  :font-family "gothambold" :font-size "26px" }]
    [:.title.mygrids { :left "450px" :top "35px" }]
    [:.fullwidth {:width "1024px"}]
-   [:.grid-button {:width "234px" :height "198px" :display "inline-block" }]
-   [:.coverage-grid-button { :background-image "url(../images/grids/gridbg.png)" :height "186px" :width "222px" :margin-right "14px" :margin-top "15px" :position "relative" :top "-11px" }]
-   [:.create-grid-button { :background-image "url(../images/grids/creategrid.png)" }]
+   [:.grid-button {:width "234px" :height "198px" :margin-bottom "15px" :display "inline-block" }]
+   [:.coverage-grid-button { :background-image "url(../images/grids/gridbg.png)" :height "186px" :width "222px" :margin-right "14px" :float "left" :position "relative" }]
+   [:.create-grid-button { :float "left" :background-image "url(../images/grids/creategrid.png)" }]
    [:.button {:width "88px" :height "27px" :display "inline-block"}]
+   [:.gridlabel { :display "block" :margin-left "auto" :margin-right "auto" :margin-top "25px" }]
    [:.back {:background-image "url(../images/global/back.png)" :float "left"}]
    [:.selected-grid { :border-width "9px" :border-color "skyblue" :border-style "solid"}]
    [:.next {:background-image "url(../images/global/next.png)" :float "right"}]
    [:.menu {:background-image "url(../images/grids/menu.png)" :float "right"}]
-   [:.dropdown {:position "absolute" :left "750px" :top "90px" :display "none" :z-index "1000" }]))
+   [:.dropdown {:position "absolute" :left "750px" :top "90px"  :z-index "1000" }]))
 
 
 (def layout
