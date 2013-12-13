@@ -5,7 +5,12 @@ Array.prototype.remove = function(from, to) {
 };
 
 
-function GridsController($scope, $location) {
+var app = angular.module("coverageApp", ["ngRoute"]);
+  
+
+
+app.controller("GridsController", ["$scope", "$location", "$http", "$route", 
+ function ($scope, $location, $http, $route) {
   $scope.grids = [
     {
       type: "Competitive",
@@ -58,8 +63,6 @@ function GridsController($scope, $location) {
 
     grid.selected = true;
     $scope.grids[index] = grid;
-
-    
   };
 
   $scope.add_grid = function() {
@@ -69,15 +72,16 @@ function GridsController($scope, $location) {
       console.log("add_grid called");
     }
   };
-}
+}]);
 
-angular.module("coverageApp", ['ngRoute', 'GridsController', 'EditController'])
-  .config(["$routeProvider",
+
+
+app.config(["$routeProvider",
            function($routeProvider) {
              $routeProvider.
-               when("/grids", {
+               when("/", {
                  templateUrl: "grids.html",
-                 controller: "GridsController"
+                controller: "GridsController"
                }).
                when("/edit", {
                  templateUrl: "edit.html",
@@ -88,16 +92,8 @@ angular.module("coverageApp", ['ngRoute', 'GridsController', 'EditController'])
                  controller: "AddController"
                });
            }
-          ]);
+           ]);
 
-function editController($scope) {
-  $scope.test = "blah";
-}
-
-
-function menuController($scope) {
-
-}
 
 
 
