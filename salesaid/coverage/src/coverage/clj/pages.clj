@@ -19,9 +19,9 @@
 (def content 
   [:div {:class "content fullwidth" :ng-controller "GridsController"}
    [:a {:class "grid-button create-grid-button" :ng-click "add_grid()"}]
-   [:div {:class "grid-button coverage-grid-button" :ng-repeat "grid in grids"} 
+   [:div {:class "grid-button coverage-grid-button" :ng-model "grid" :ng-repeat "grid in grids" :ng-click "select_grid(grid, $index)" :ng-class "{selectedgrid: grid.selected && grid.selected == true}" } 
     [:div
-     [:img { :class "gridlabel" :src  "{{grid.type_image}}" :ng-click "select_grid()" } ]]]])
+     [:img { :class "gridlabel" :src  "{{grid.type_image}}"} ]]]])
 
 (def footer
   [:div {:class "footer fullwidth"}])
@@ -39,7 +39,8 @@
           mainbar
           content
           footer
-          ]]
+           [:div {:ng-view ""}]
+           ]]
          ))
   )
 

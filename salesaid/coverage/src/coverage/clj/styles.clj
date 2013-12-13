@@ -27,7 +27,7 @@
    [:.button {:width "88px" :height "27px" :display "inline-block"}]
    [:.gridlabel { :display "block" :margin-left "auto" :margin-right "auto" :margin-top "25px" }]
    [:.back {:background-image "url(../images/global/back.png)" :float "left"}]
-   [:.selected-grid { :border-width "9px" :border-color "skyblue" :border-style "solid"}]
+   [:.selectedgrid { :float "left" :background-image "url(../images/grids/gridbg_selected.png)" }]
    [:.next {:background-image "url(../images/global/next.png)" :float "right"}]
    [:.menu {:background-image "url(../images/grids/menu.png)" :float "right"}]
    [:.dropdown {:position "absolute" :left "750px" :top "90px"  :z-index "1000" }]))

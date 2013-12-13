@@ -95,10 +95,9 @@ body {
   float: left;
 }
 
-.selected-grid {
-  border-style: solid;
-  border-color: skyblue;
-  border-width: 9px;
+.selectedgrid {
+  background-image: url(../images/grids/gridbg_selected.png);
+  float: left;
 }
 
 .next {
