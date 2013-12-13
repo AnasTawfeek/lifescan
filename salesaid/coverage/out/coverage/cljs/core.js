@@ -30,19 +30,19 @@ return cljs.core.swap_BANG_.call(null,coverage.cljs.core.my_grids,coverage.cljs.
 coverage.cljs.core.clear_grids = (function clear_grids(grid_set){return cljs.core.map.call(null,(function (item){return cljs.core.dissoc.call(null,item,new cljs.core.Keyword(null,"selected","selected",2205476365));
 }),grid_set);
 });
-coverage.cljs.core.grids_view = (function grids_view(grids){var dom336515 = document.createElement("div");dom336515.className = "content full-width";
-dom336515.appendChild((function (){var dom336516 = document.createElement("a");dom336516.className = "grid-button create-grid-button";
-return dom336516;
+coverage.cljs.core.grids_view = (function grids_view(grids){var dom416280 = document.createElement("div");dom416280.className = "content full-width";
+dom416280.appendChild((function (){var dom416281 = document.createElement("a");dom416281.className = "grid-button create-grid-button";
+return dom416281;
 })());
-dom336515.appendChild(dommy.template.__GT_node_like.call(null,(function (){var iter__3986__auto__ = (function iter__336517(s__336518){return (new cljs.core.LazySeq(null,(function (){var s__336518__$1 = s__336518;while(true){
-var temp__4092__auto__ = cljs.core.seq.call(null,s__336518__$1);if(temp__4092__auto__)
-{var s__336518__$2 = temp__4092__auto__;if(cljs.core.chunked_seq_QMARK_.call(null,s__336518__$2))
-{var c__3984__auto__ = cljs.core.chunk_first.call(null,s__336518__$2);var size__3985__auto__ = cljs.core.count.call(null,c__3984__auto__);var b__336520 = cljs.core.chunk_buffer.call(null,size__3985__auto__);if((function (){var i__336519 = 0;while(true){
-if((i__336519 < size__3985__auto__))
-{var current_grid = cljs.core._nth.call(null,c__3984__auto__,i__336519);cljs.core.chunk_append.call(null,b__336520,coverage.cljs.core.grid_view.call(null,current_grid));
+dom416280.appendChild(dommy.template.__GT_node_like.call(null,(function (){var iter__3986__auto__ = (function iter__416282(s__416283){return (new cljs.core.LazySeq(null,(function (){var s__416283__$1 = s__416283;while(true){
+var temp__4092__auto__ = cljs.core.seq.call(null,s__416283__$1);if(temp__4092__auto__)
+{var s__416283__$2 = temp__4092__auto__;if(cljs.core.chunked_seq_QMARK_.call(null,s__416283__$2))
+{var c__3984__auto__ = cljs.core.chunk_first.call(null,s__416283__$2);var size__3985__auto__ = cljs.core.count.call(null,c__3984__auto__);var b__416285 = cljs.core.chunk_buffer.call(null,size__3985__auto__);if((function (){var i__416284 = 0;while(true){
+if((i__416284 < size__3985__auto__))
+{var current_grid = cljs.core._nth.call(null,c__3984__auto__,i__416284);cljs.core.chunk_append.call(null,b__416285,coverage.cljs.core.grid_view.call(null,current_grid));
 {
-var G__336521 = (i__336519 + 1);
-i__336519 = G__336521;
+var G__416286 = (i__416284 + 1);
+i__416284 = G__416286;
 continue;
 }
 } else
@@ -51,12 +51,12 @@ continue;
 break;
 }
 })())
-{return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__336520),iter__336517.call(null,cljs.core.chunk_rest.call(null,s__336518__$2)));
+{return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__416285),iter__416282.call(null,cljs.core.chunk_rest.call(null,s__416283__$2)));
 } else
-{return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__336520),null);
+{return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__416285),null);
 }
 } else
-{var current_grid = cljs.core.first.call(null,s__336518__$2);return cljs.core.cons.call(null,coverage.cljs.core.grid_view.call(null,current_grid),iter__336517.call(null,cljs.core.rest.call(null,s__336518__$2)));
+{var current_grid = cljs.core.first.call(null,s__416283__$2);return cljs.core.cons.call(null,coverage.cljs.core.grid_view.call(null,current_grid),iter__416282.call(null,cljs.core.rest.call(null,s__416283__$2)));
 }
 } else
 {return null;
@@ -66,17 +66,17 @@ break;
 }),null,null));
 });return iter__3986__auto__.call(null,grids);
 })()));
-return dom336515;
+return dom416280;
 });
-coverage.cljs.core.grid_view = (function grid_view(grid){var dom336523 = document.createElement("a");if("grid-button coverage-grid-button")
-{dom336523.className = [cljs.core.str(dom336523.className),cljs.core.str(" "),cljs.core.str("grid-button coverage-grid-button")].join('').trim();
+coverage.cljs.core.grid_view = (function grid_view(grid){var dom416288 = document.createElement("a");if("grid-button coverage-grid-button")
+{dom416288.className = [cljs.core.str(dom416288.className),cljs.core.str(" "),cljs.core.str("grid-button coverage-grid-button")].join('').trim();
 } else
 {}
 if(cljs.core.truth_(new cljs.core.Keyword(null,"id","id",1013907597).cljs$core$IFn$_invoke$arity$1(grid)))
-{dom336523.setAttribute("_id",new cljs.core.Keyword(null,"id","id",1013907597).cljs$core$IFn$_invoke$arity$1(grid));
+{dom416288.setAttribute("_id",new cljs.core.Keyword(null,"id","id",1013907597).cljs$core$IFn$_invoke$arity$1(grid));
 } else
 {}
-return dom336523;
+return dom416288;
 });
 coverage.cljs.core.update_grids_view = (function update_grids_view(){dommy.core.replace_BANG_.call(null,(dommy.utils.__GT_Array.call(null,document.getElementsByClassName("content"))[0]),coverage.cljs.core.grids_view.call(null,cljs.core.deref.call(null,coverage.cljs.core.my_grids)));
 return console.log("fn update-grids-viewgrid");

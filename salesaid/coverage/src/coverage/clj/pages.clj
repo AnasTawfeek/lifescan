@@ -7,10 +7,10 @@
   [:div {:class "topbar fullwidth"}
    ])
 
-(def mainbar
+(defn grids-mainbar [title]
   [:div {:class "mainbar fullwidth"  }
    [:a {:class "button back"}]
-   [:h1 {:class "title mygrids"} "MY GRIDS"]
+   [:h1 {:class "title mygrids"} title]
    [:div 
     [:img 
      {
@@ -44,6 +44,12 @@
    [:a {:class "button next"}]
    ])
 
+(defn providers-mainbar [title]
+  [:div {:class "mainbar fullwidth"  }
+   [:a {:class "button back" :ng-click "changeView('/')"}]
+   [:h1 {:class "title mygrids"} title]
+   [:a {:class "button next" :ng-click "submit()"}]
+   ])
 
 (def grids-content 
   [:div {  :class "grids-content fullwidth" }
@@ -52,22 +58,36 @@
     [:div
      [:img { :class "gridlabel" :src  "{{ grid.type_image }}"} ]]]])
 
+(def providers-content
+   [:div {  :class "providers-content fullwidth" }
+    [:div {:class "selected-plans"}
+     [:img { :class "productheaders" :src "/resources/images/selection/productheaders.png"}]
+     ]
+   ])
+
 (def grids-view
-  [:div {:class "content-wrapper"  :ng-controller "GridsController"   }
+  [:div {:class " grids-wrapper"  :ng-controller "GridsController"   }
    topbar
-   mainbar
+   (grids-mainbar "MY GRIDS") 
    grids-content
    footer
    ]
   )
 
-(def add-view
-  [:div {:class "content-wrapper" :ng-controller ""}]
-  )
+(def providers-view
+  [:div {:class "providers-wrapper" :ng-controller "ProvidersController"}
+   topbar
+   (providers-mainbar "SELECT PLANS")
+   providers-content
+   footer
+   ])
 
 (def footer
   [:div {:class "footer fullwidth"}])
 
+(spit "providers.html"
+      (html
+       providers-view))
 
 (spit "grids.html"
         (html
@@ -88,4 +108,3 @@
          ))
 
 
-(mygrids)

@@ -40,6 +40,16 @@ body {
   box-sizing: border-box;
 }
 
+.providers-content {
+  padding-top: 40px;
+  height: 750px;
+  background-image: url(../images/global/contentbackground.png);
+  padding-right: 40px;
+  -webkit-box-sizing: border-box;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+
 .title {
   font-family: gothambold;
   font-size: 26px;
@@ -115,6 +125,20 @@ body {
   top: 90px;
   z-index: 1000;
   position: absolute;
+}
+
+.providers-wrapper .productheaders {
+  left: 360px;
+  top: 130px;
+  position: absolute;
+}
+
+.providers-wrapper .back {
+  display: block;
+}
+
+.providers-wrapper .next {
+  display: block;
 }
 
 .back {

@@ -30,7 +30,14 @@
    [:.selectedgrid { :float "left" :background-image "url(../images/grids/gridbg_selected.png)" }]
    [:.next {:background-image "url(../images/global/next.png)" :float "right"}]
    [:.menu {:background-image "url(../images/grids/menu.png)" :float "right"}]
-   [:.dropdown {:position "absolute" :left "750px" :top "90px"  :z-index "1000" }]))
+   [:.dropdown {:position "absolute" :left "750px" :top "90px"  :z-index "1000" }]
+   ;; providers
+   
+   [:.providers-wrapper
+    [:.productheaders {:position "absolute" :left "360px" :top "130px"}]
+    [:.back {:display "block" }]
+    [:.next {:display "block"}]]
+   ))
 
 
 (def layout
@@ -39,12 +46,15 @@
    [:.topbar {:background-color lightgray :height "32px" }]
    [:.mainbar {:background-color darkgray :height "60px"  :padding-left "40px" :padding-right "40px" :display "table-cell" :vertical-align "middle" :-webkit-box-sizing "border-box" :box-sizing "border-box"}]
    [:.grids-content
-    { :background-image "url(../images/global/contentbackground.png)"  :height "750px" :padding-left "40px" :padding-top "40px" :padding-right "40px"  :-webkit-box-sizing "border-box" :box-sizing "border-box"}]))
+    { :background-image "url(../images/global/contentbackground.png)"  :height "750px" :padding-left "40px" :padding-top "40px" :padding-right "40px"  :-webkit-box-sizing "border-box" :box-sizing "border-box"}]
+   [:.providers-content
+    { :background-image "url(../images/global/contentbackground.png)"  :height "750px" :padding-left "40px" :padding-top "40px" :padding-right "40px"  :-webkit-box-sizing "border-box" :box-sizing "border-box"}]
+   ))
 
-(def grids-style
-  (css {:output-to "resources/css/grids.css" }
+(css {:output-to "resources/css/grids.css" }
        fonts
        layout
        components
-       initial))
+       initial)
+
 

@@ -6,7 +6,6 @@ Array.prototype.remove = function(from, to) {
 
 
 var app = angular.module("coverageApp", ["ngRoute"]);
-  
 
 
 app.controller("GridsController", ["$scope", "$location", "$http", "$route", 
@@ -25,9 +24,7 @@ app.controller("GridsController", ["$scope", "$location", "$http", "$route",
   ];
 
   $scope.changeView = function(view) {
-    $scope.changeView = function(view) {
       $location.path(view);
-    }
   }
   
   $scope.is_menu_shown = false;
@@ -74,6 +71,77 @@ app.controller("GridsController", ["$scope", "$location", "$http", "$route",
   };
 }]);
 
+app.controller("ProvidersController", ["$scope", "$location", "$http", "$route", 
+ function ($scope, $location, $http, $route) {
+  $scope.plans = [
+    {
+      name: "blah bla bah",
+      verio: "preferred",
+      ultra: "preferred",
+      bayer: "nonformulary",
+      abbot: "nonformulary",
+      roche: "nonformulary,"
+    },
+    {
+      name: "fdgsfgsdg",
+      verio: "preferred",
+      ultra: "nonformulary",
+      bayer: "preferred",
+      abbot: "nonformulary",
+      roche: "nonformulary,"
+    }
+  ];
+
+   $scope.selected_plans = [];
+   
+   $scope.changeView = function(view) {
+    $location.path(view);     
+   }
+   /*
+  $scope.is_menu_shown = false;
+  
+  $scope.show_menu = function() {
+    $scope.is_menu_shown = true;
+  };
+
+  $scope.hide_menu = function() {
+    $scope.is_menu_shown = false;
+  };
+
+  $scope.delete_grid = function() {
+    angular.forEach($scope.grids, function(currGrid) {
+      // delete the grid that's selected
+      var tempIndex = 0;
+      if (currGrid.selected && currGrid.selected == true) {
+        $scope.grids.remove(tempIndex);
+        tempIndex += 1;
+      }
+    });
+  }
+  
+  $scope.select_grid = function(grid, index) {
+    // now deselect all other grids
+    var tempIndex = 0;
+    angular.forEach($scope.grids, function(gd){
+      if (tempIndex != index) {
+        gd.selected = false;
+      }
+      tempIndex += 1;
+    });
+
+    grid.selected = true;
+    $scope.grids[index] = grid;
+  };
+
+  $scope.add_grid = function() {
+    if ($scope.grids.length < 5)
+    {
+      $scope.grids.push({ type: "Competitive", stuff: "test" });
+      console.log("add_grid called");
+    }
+  };
+  */
+}]);
 
 
 app.config(["$routeProvider",
@@ -84,12 +152,12 @@ app.config(["$routeProvider",
                 controller: "GridsController"
                }).
                when("/edit", {
-                 templateUrl: "edit.html",
-                 controller: "EditController"
+                 templateUrl: "providers.html",
+                 controller: "ProvidersController"
                }).
                when("/add", {
                  templateUrl: "add.html",
-                 controller: "AddController"
+                 controller: "ProvidersController"
                });
            }
            ]);
