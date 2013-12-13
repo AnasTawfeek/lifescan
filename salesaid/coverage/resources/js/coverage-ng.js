@@ -4,35 +4,8 @@ Array.prototype.remove = function(from, to) {
   return this.push.apply(this, rest);
 };
 
-angular.module("coverageApp", [])
-  .config(["$routeProvider",
-           function($routeProvider) {
-             $routeProvider.
-               when("/grids", {
-                 templateUrl: "grids.html",
-                 controller: "GridsController"
-               }).
-               when("/edit", {
-                 templateUrl: "edit.html",
-                 controller: "EditController"
-               }).
-               when("/add", {
-                 templateUrl: "add.html",
-                 controller: "AddController"
-               });
-           }
-          ]);
 
-function editController($scope) {
-  $scope.test = "blah";
-}
-
-
-function menuController($scope) {
-
-}
-
-function GridsController($scope) {
+function GridsController($scope, $location) {
   $scope.grids = [
     {
       type: "Competitive",
@@ -46,6 +19,12 @@ function GridsController($scope) {
     }
   ];
 
+  $scope.changeView = function(view) {
+    $scope.changeView = function(view) {
+      $location.path(view);
+    }
+  }
+  
   $scope.is_menu_shown = false;
   
   $scope.show_menu = function() {
@@ -91,3 +70,35 @@ function GridsController($scope) {
     }
   };
 }
+
+angular.module("coverageApp", ['ngRoute', 'GridsController', 'EditController'])
+  .config(["$routeProvider",
+           function($routeProvider) {
+             $routeProvider.
+               when("/grids", {
+                 templateUrl: "grids.html",
+                 controller: "GridsController"
+               }).
+               when("/edit", {
+                 templateUrl: "edit.html",
+                 controller: "EditController"
+               }).
+               when("/add", {
+                 templateUrl: "add.html",
+                 controller: "AddController"
+               });
+           }
+          ]);
+
+function editController($scope) {
+  $scope.test = "blah";
+}
+
+
+function menuController($scope) {
+
+}
+
+
+
+

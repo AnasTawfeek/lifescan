@@ -30,7 +30,7 @@
        :href "#edit",
        :coords "7,75,235,119",
        :shape "rect"
-       :ng-click "changeView('edit')"
+       :ng-click "changeView('/edit')"
        }]
      [:area
       {:title "",
@@ -52,12 +52,15 @@
      [:img { :class "gridlabel" :src  "{{grid.type_image}}"} ]]]])
 
 (def grids-view
-  [:div {:class "content-wrapper" :ng-Controller "GridsController"  }
+  [:div {:class "content-wrapper" :ng-view "grids"  :ng-controller "GridsController"   }
    topbar
    mainbar
    grids-content
    footer
-   [:div {:ng-view ""}]]
+   ]
+  )
+
+(def add-view
   )
 
 (def footer
