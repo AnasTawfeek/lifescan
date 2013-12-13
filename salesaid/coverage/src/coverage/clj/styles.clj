@@ -30,10 +30,7 @@
    [:.selectedgrid { :float "left" :background-image "url(../images/grids/gridbg_selected.png)" }]
    [:.next {:background-image "url(../images/global/next.png)" :float "right"}]
    [:.menu {:background-image "url(../images/grids/menu.png)" :float "right"}]
-   [:.dropdown {:position "absolute" :left "750px" :top "90px"  :z-index "1000" }]
-   
-   
-   ))
+   [:.dropdown {:position "absolute" :left "750px" :top "90px"  :z-index "1000" }]))
 
 
 (def layout
@@ -41,7 +38,7 @@
    [:body {:width "1024px" :height "768px" :font-family "gothamnarrow"}]
    [:.topbar {:background-color lightgray :height "32px" }]
    [:.mainbar {:background-color darkgray :height "60px"  :padding-left "40px" :padding-right "40px" :display "table-cell" :vertical-align "middle" :-webkit-box-sizing "border-box" :box-sizing "border-box"}]
-   [:.content
+   [:.grids-content
     { :background-image "url(../images/global/contentbackground.png)"  :height "750px" :padding-left "40px" :padding-top "40px" :padding-right "40px"  :-webkit-box-sizing "border-box" :box-sizing "border-box"}]))
 
 (def grids-style

@@ -28,6 +28,9 @@ function editController($scope) {
 }
 
 
+function menuController($scope) {
+
+}
 
 function GridsController($scope) {
   $scope.grids = [
@@ -58,15 +61,13 @@ function GridsController($scope) {
       // delete the grid that's selected
       var tempIndex = 0;
       if (currGrid.selected && currGrid.selected == true) {
-        $scope.grids.remove(index);
+        $scope.grids.remove(tempIndex);
         tempIndex += 1;
       }
     });
   }
   
   $scope.select_grid = function(grid, index) {
-    grid.selected = true;
-    $scope.grids[index] = grid;
     // now deselect all other grids
     var tempIndex = 0;
     angular.forEach($scope.grids, function(gd){
@@ -75,6 +76,11 @@ function GridsController($scope) {
       }
       tempIndex += 1;
     });
+
+    grid.selected = true;
+    $scope.grids[index] = grid;
+
+    
   };
 
   $scope.add_grid = function() {
