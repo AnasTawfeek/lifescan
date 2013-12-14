@@ -37,7 +37,7 @@ app.controller("GridsController", ["$scope", "$location", "$http", "$route",
     $scope.is_menu_shown = false;
   };
 
-  $scope.delete_grid = function() {
+  $scope.delete_grid = function(e) {
     angular.forEach($scope.grids, function(currGrid) {
       // delete the grid that's selected
       var tempIndex = 0;
@@ -46,6 +46,7 @@ app.controller("GridsController", ["$scope", "$location", "$http", "$route",
         tempIndex += 1;
       }
     });
+    e.preventDefault();
   }
   
   $scope.select_grid = function(grid, index) {

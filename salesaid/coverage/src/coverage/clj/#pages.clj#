@@ -38,7 +38,7 @@
        :href "",
        :coords "3,126,231,170",
        :shape "rect"
-       :ng-click "delete_grid(event)" }]]]
+       :ng-click "delete_grid($event)" }]]]
 
    [:a {:class "button menu" :ng-click "show_menu()" }]
    [:a {:class "button next"}]
