@@ -25,7 +25,7 @@ $(document).ready(function(){
   $('.nav').live('touchstart click', function(e){
     e.stopPropagation(); e.preventDefault();
     
-    jump("slide-5.1.html");			
+    jump("slide-5.1a.html");			
   });
   
   $('.bgImg').fadeIn();
@@ -262,6 +262,9 @@ $(document).ready(function(){
       break;			
     }
     
+    // always make it coverage.csv now
+    csv = "res/coverage/coverage.csv";
+
     //console.log("csv = "+ csv);		
     
     $.get (csv, null, function (data) {	
