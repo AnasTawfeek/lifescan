@@ -127,11 +127,11 @@ thead .subhead1 {
 }
 
 .dropdown dt a {
-    /*background:#9bd1ee url(../images/5.2/dd-arrow3.png) no-repeat right center; */
+    background:#9bd1ee url(../images/5.2/dd-arrow3.png) no-repeat right center; 
     background-size: 25px 15px;
     padding-right:30px;
-    /*	display:block;*/
-    display: none;
+    	display:block;
+    
     border:none; 
 }
 .dropdown dt a span {display:block; margin-left:10px; }
