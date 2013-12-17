@@ -42,10 +42,10 @@ $(document).ready(function(){
 	returnVal = "<img src='res/images/suppliers/checkmark.png' style='height: 14px;' />";
 	break;
       case 'Non Formulary':
-	returnVal = '$$';
+	returnVal = '';
 	break;
       case 'Not Covered':
-	returnVal = '$$$';
+	returnVal = '';
 	break;
       default: '';
       }
