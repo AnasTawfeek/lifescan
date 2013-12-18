@@ -55,7 +55,7 @@
     <img src="res/images/5.1a/1by1-pixel.png"
          onClick="$('#pharmacy-overlay').show();"  style="height: 225px; width: 250px;
                                                           position: absolute; left: 384px; top: 270px;"/>
-    <img src="res/images/5.1a/1by1-pixel.png"  onClick="$('#mailorder-overlay').show();" style="height: 225px; width: 250px;
+    <img src="res/images/5.1a/1by1-pixel.png"  onClick="$('#mailorder-overlay').show(); $('#mailorder_disclaimer').show();" style="height: 225px; width: 250px;
                                                                                                 position: absolute; left: 635px; top: 270px;"/>
 
     
@@ -114,7 +114,7 @@
         <map id="_Image-Maps_5201310301631386"
              name="Image-Maps_5201310301631386">
           <area shape="rect" coords="890,7,927,47" href="#" alt="" title=""
-                onClick="$('#mailorder-overlay').hide(); return
+                onClick="$('#mailorder-overlay').hide(); $('#mailorder_disclaimer').hide(); return
                          false;" />
           <area shape="rect" coords="685,420,889,469" href="suppliers.html" alt="" title=""
                 />
@@ -149,7 +149,17 @@
       *Based on data from July 2013
     </p>
 
-    
+        <p id="mailorder_disclaimer" style="font-size: 12px; color: #fff; 
+				       color: #fff;
+				       font-family: xGothamNarrow;
+				       position: absolute;
+				       left: 70px;
+				       bottom: 8px;
+				       display: none;
+				       ">
+	  When compared to leading brands Roche, Bayer, and Abbott. Co-insurance, deductible, and eligibility may apply.
+    </p>
+
 
   </body>
 </html>
