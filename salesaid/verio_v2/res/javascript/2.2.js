@@ -41,13 +41,14 @@ $(document).ready(function(){
 	
 	layer.add(rect);	
 	
-	var imageObj = new Image();
-      
+//	var imageObj = new Image();
+  var imageObj = document.createElement('img');
+  
   imageObj.onload = function() {
         
 		// load the strip image
-		var strip = new Kinetic.Image({
-		  image: imageObj,
+    var strip = new Kinetic.Image({
+		  image: imageObj,,                                                                                                                                                                                                                , ,
 		  x:760,
 		  y: -100,
 		  rotation:20,
