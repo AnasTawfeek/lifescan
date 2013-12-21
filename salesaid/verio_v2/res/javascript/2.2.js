@@ -42,40 +42,47 @@ $(document).ready(function(){
   layer.add(rect);	
   
   var imageObj = new Image();
-  
+  imageObj.src = imgpath +'strip.png';
   //var imageObj = document.createElement('img');
   
   imageObj.onload = function() {
     
     // load the strip image
     var strip = new Kinetic.Image({
-      image: imageObj,                                                                                                                                                                                                                
-      x:760,
+      image: imageObj,                                                                                                   x:760,
       y: -100,
       rotation:20,
       width: 30,
       height: 113,
-      offset:{x:15, y:57},
+      offsetX: 15,
+      offsetY: 57,
       draggable: true,
       id:'stripImg'
     });		
-    
+  
+  
     strip.on('mousedown touchstart', function() { 
       var drag = this;
-      drag.transitionTo({
-	scale:{x:1.5, y:1.5},			
-	duration: 0.2,
-	easing: 'strong-ease-out'
-      });
+      var tween = new Kinetic.Tween(
+        {
+          node: drag,
+          scale: {x: 1.5, y: 1.5},
+          duration: 0.2,
+          easing: Kinetic.Easings.EaseOut
+        });
+      tween.play();
     });
     
     strip.on('mouseup touchend', function() { 
       var drag = this;
-      drag.transitionTo({
-	scale:{x:1, y:1},			
-	duration: 0.2,
-	easing: 'strong-ease-out'
-      });
+      var tween = new Kinetic.Tween(
+        {
+          node: drag,
+          scale: {x: 1.1, y: 1.1},
+          duration: 0.2,
+          easing: Kinetic.Easings.EaseOut
+        });
+      tween.play();
     });
     
     strip.on('dragend', function(e) { 		
@@ -83,25 +90,6 @@ $(document).ready(function(){
       
       var drag = this;
 /*
-      drag.transitionTo({
-	x: 430,
-	y: 95,	
-	scale:{x:1, y:1},		
-	duration: 0.2,
-	easing: 'strong-ease-out',
-	callback: function() {											
-	  drag.hide();																		
-	  $('#screens').fadeIn(function(){	
-	    
-	    setTimeout(function(){
-	      $('#screenBlood').fadeIn();
-	    }, 500);
-	    
-	  });
-	  
-	}	
-      });	
-
 // DEPRECATED according to http://stackoverflow.com/questions/16648883/uncaught-typeerror-object-object-has-no-method-transitionto
 */
       var tween = new Kinetic.Tween({
@@ -109,8 +97,8 @@ $(document).ready(function(){
 	x: 430,
 	y: 95,	
 	scale:{x:1, y:1},		
-	duration: 0.2,
-	easing: 'strong-ease-out',
+	duration: 0.2,	
+        easing: Kinetic.Easings.EaseOut,
 	onFinish: function() {											
 	  drag.hide();																		
 	  $('#screens').fadeIn(function(){	
@@ -122,59 +110,15 @@ $(document).ready(function(){
 	  });
 	  
 	}	
-      });	
-
-     
-
-
-      /*	
-		var target = stage.get('#dropRect')[0];  
-		var drag = this;        
-		
-		if( drag.attrs.x >= target.attrs.x
-		&& drag.attrs.x <= target.attrs.x + target.attrs.width
-		&& drag.attrs.y <= target.attrs.y + target.attrs.height
-		&& drag.attrs.y >= target.attrs.y){
-		
-		//console.log('dropped!')	
-		
-		drag.transitionTo({
-		x: 430,
-		y: 95,	
-		scale:{x:1, y:1},		
-		duration: 0.2,
-		easing: 'strong-ease-out',
-		callback: function() {											
-		drag.hide();																		
-		$('#screens').fadeIn(function(){	
-		
-		setTimeout(function(){
-		$('#screenBlood').fadeIn();
-		}, 500);
-		
-		});
-		
-		}	
-		});	
-		}
-		else
-		{
-		this.transitionTo({
-		x:685,
-		y: 526,			
-		scale:{x:1, y:1},	
-		duration: 0.3,
-		easing: 'strong-ease-out'
-		});
-		}	
-		
-      */	  
+      });
+      // inverts callback control. neat!
+      tween.play();
     });		
     
     layer.add(strip);		
     stage.add(layer);
   };
-  imageObj.src = imgpath +'strip.png';
+  //imageObj.src = imgpath +'strip.png';
   
   setTimeout(function(){
     $('.headings').fadeIn(function(){
@@ -193,8 +137,9 @@ $(document).ready(function(){
 	    y: 526,			
 	    rotation: 0,		
 	    duration: 1.5,
-	    easing: 'ease-out'
+	    easing: Kinetic.Easings.EaseOut
 	  });
+          tween.play();
 	  
           
 	});				
