@@ -33,13 +33,13 @@
            height="33" />
       <img src="res/images/global/btn-next.png" class="nav next"
            height="33" />
-            
+      
       <footer>
       </footer>  
     </div>
     
     <img src="res/images/best_in_class/prescribe_performance_animas.png"
-    class="bottomrightlogo" style="position: absolute; bottom: 35px; right: 50px;" />
+         class="bottomrightlogo" style="position: absolute; bottom: 35px; right: 50px;" />
 
-</body>
+  </body>
 </html>
