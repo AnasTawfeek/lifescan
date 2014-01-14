@@ -5,8 +5,8 @@ $(document).ready(function(){
 	window.pageNext = "patented_3.html";
 	
 	// Image sequence params
-	var frameCount=24;
-	var frameNames="Animas_motor_v001.00";
+	var frameCount=119;
+	var frameNames="re_Animas_motherboard.00";
 	var framesPerSecond=30;
 	
 	
@@ -23,7 +23,11 @@ $(document).ready(function(){
 	for(i=1;i<=frameCount;i++) {
 		var img = new Image();
 		var sIndex=i;
-		if(i<10) sIndex="0"+sIndex;
+		if(i<10) sIndex="00"+sIndex;
+		else if (i < 100)
+			sIndex = "0" + sIndex;
+		else
+			sIndex = sIndex;		
 		aImgSrc.push(imgpath+frameNames+sIndex+".png");
 	}
 	

@@ -1,11 +1,11 @@
 #myCanvas {
 	position:absolute;
-	right:0px;
+	right: 64px;
 	top:100px;
 }
 
 #pump {
 	position:absolute;
-	top:83px;
+	top:283px;
 	left:4px;
 }
