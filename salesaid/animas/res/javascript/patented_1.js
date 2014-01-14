@@ -14,7 +14,8 @@ $(document).ready(function(){
 	$(".contentLayer").click(function() {
 		if (!spinState) {
 		  animateSpin();
-		  spinState = true;			
+		  spinState = true;
+	     		
 		}
 	});
 	
@@ -64,6 +65,7 @@ function animateSpin() {
 		}
 		else
 		{
+						$("#Image-Maps-Com-image-maps").fadeIn('slow');				
 			// custom stuff once the image sequence has finished
 		}
 	}
@@ -83,7 +85,9 @@ function animateSpin() {
 				// little delay to prevent stutter
 				setTimeout(playAnim, 100);
 			}
+	
 		});
+ 
 }
 
 $(document).ready(function(){		
@@ -132,7 +136,8 @@ $(document).ready(function(){
 		}
 		else
 		{
-			// custom stuff once the image sequence has finished
+
+		// custom stuff once the image sequence has finished
 		}
 	}
 	
