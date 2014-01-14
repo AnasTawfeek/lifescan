@@ -5,8 +5,8 @@ $(document).ready(function(){
 	window.pageNext = "patented_4.html";
 	
 	// Image sequence params
-	var frameCount=24;
-	var frameNames="Animas_gears_v001.00";
+	var frameCount=96;
+	var frameNames="Animas_gears_v008.00";
 	var framesPerSecond=30;
 	
 	
