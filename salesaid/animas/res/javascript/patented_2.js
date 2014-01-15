@@ -3,11 +3,11 @@
 $(document).ready(function(){		
 	var hasAnimated = false;	
 	
-	animateThingy(1, 38);
+	animateThingy(1, 47);
 	$(".contentLayer").click(function() {
 		if (!hasAnimated)		
 		{
-			animateThingy(39, 119);
+			animateThingy(48, 119);
 			hasAnimated = true;		
 		}			
 	});		
