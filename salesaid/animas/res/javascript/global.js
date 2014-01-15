@@ -4,7 +4,11 @@ $(document).ready(function(){
   $('body').bind('touchmove', function (e) {
     e.preventDefault();
     return true; 
-  });	
+  });
+
+	$(".prescribe, .prescribe_hot").click(function() {
+		window.jump("last_page.html");	
+	});	
   
   window.preload_pictures = function(picture_urls, aImg, callback)
   {
