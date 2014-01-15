@@ -9,4 +9,6 @@ $(document).ready(function(){
 	TweenMax.to('.animationLayer', 1, { opacity:1,ease:"Linear.easeNone"});
 
 	TweenMax.to('#header2', 0.7, { opacity:1, delay:1.3,ease:"Linear.easeNone"});
+
+	setTimeout(function() {$(".fadeSecond").fadeIn('slow')}, 1100);
 });
