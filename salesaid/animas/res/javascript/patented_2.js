@@ -1,11 +1,27 @@
+
+
 $(document).ready(function(){		
-			
+	var hasAnimated = false;	
+	
+	animateThingy(1, 38);
+	$(".contentLayer").click(function() {
+		if (!hasAnimated)		
+		{
+			animateThingy(39, 119);
+			hasAnimated = true;		
+		}			
+	});		
+	
+});
+
+function animateThingy(xstart, xend) {
 	var imgpath = "res/images/patented_2/";
 	window.pagePrev = "patented_1.html";
 	window.pageNext = "patented_3.html";
 	
 	// Image sequence params
-	var frameCount=119;
+	var start = xstart;	
+	var frameCount= xend; //119
 	var frameNames="re_Animas_motherboard.00";
 	var framesPerSecond=30;
 	
@@ -20,7 +36,7 @@ $(document).ready(function(){
 	var iHeight=$("#myCanvas").attr("height");
 	var context = $("#myCanvas")[0].getContext('2d');
 
-	for(i=1;i<=frameCount;i++) {
+	for(i=start;i<=frameCount;i++) {
 		var img = new Image();
 		var sIndex=i;
 		if(i<10) sIndex="00"+sIndex;
@@ -69,4 +85,4 @@ $(document).ready(function(){
 				setTimeout(playAnim, 100);
 			}
 		});
-});
+}

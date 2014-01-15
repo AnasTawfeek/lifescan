@@ -87,7 +87,7 @@ $(document).ready(function(){
 			
 	var imgpath = "res/animations/animation1/";
 	window.pagePrev = "menu.html";
-	window.pageNext = "patented_2.html";
+	window.pageNext = "patented_4.html";
 	
 	// Image sequence params
 	var frameCount=24;
