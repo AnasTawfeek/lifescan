@@ -1,12 +1,23 @@
 $(document).ready(function(){		
 			
+	animateThingy(1, 96);
+
+
+	$(".contentLayer").click(function() {
+		animateThingy(50, 96);		
+					
+	});		
+});
+
+function animateThingy(xstart, xend) {
 	var imgpath = "res/images/patented_3/";
-	window.pagePrev = "patented_2.html";
-	window.pageNext = "patented_4.html";
+	window.pagePrev = "patented_4.html";
+	window.pageNext = "patented_2.html";
 	
 	// Image sequence params
-	var frameCount=96;
-	var frameNames="Animas_gears_v008.00";
+	var start = xstart;	
+	var frameCount= xend; 
+	var frameNames="Animas_gears_v008.0";
 	var framesPerSecond=30;
 	
 	
@@ -20,10 +31,14 @@ $(document).ready(function(){
 	var iHeight=$("#myCanvas").attr("height");
 	var context = $("#myCanvas")[0].getContext('2d');
 
-	for(i=1;i<=frameCount;i++) {
+	for(i=start;i<=frameCount;i++) {
 		var img = new Image();
 		var sIndex=i;
-		if(i<10) sIndex="0"+sIndex;
+		if(i<10) sIndex="00"+sIndex;
+		else if (i < 100)
+			sIndex = "0" + sIndex;
+		else
+			sIndex = sIndex;		
 		aImgSrc.push(imgpath+frameNames+sIndex+".png");
 	}
 	
@@ -65,4 +80,4 @@ $(document).ready(function(){
 				setTimeout(playAnim, 100);
 			}
 		});
-});
+}
