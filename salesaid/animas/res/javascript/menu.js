@@ -7,7 +7,7 @@ $(document).ready(function(){
 	// Image sequence params
 	var frameCount=3;
 	var frameNames="anim_";
-	var framesPerSecond=3;
+	var framesPerSecond=2;
 	var bLoop=true;
 	
 	
@@ -70,7 +70,7 @@ $(document).ready(function(){
 			bTriggerPlay=true;
 			if(bAllLoaded) {
 				// little delay to prevent stutter
-				setTimeout(playAnim, 100);
+				setTimeout(playAnim, 50);
 			}
 		});
 	

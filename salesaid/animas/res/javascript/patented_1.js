@@ -10,14 +10,7 @@ $(document).ready(function(){
 	$('.contentLayer').fadeIn(function(){
 				
 	});
-
-	$(".contentLayer").click(function() {
-		if (!spinState) {
-		  animateSpin();
-		  spinState = true;
-	     		
-		}
-	});
+	
 	
 });
 
@@ -136,7 +129,7 @@ $(document).ready(function(){
 		}
 		else
 		{
-
+			animateSpin();
 		// custom stuff once the image sequence has finished
 		}
 	}
