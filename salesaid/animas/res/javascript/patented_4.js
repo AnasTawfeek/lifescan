@@ -1,8 +1,8 @@
 $(document).ready(function(){		
 			
 	var imgpath = "res/images/patented_4/";
-	window.pagePrev = "patented_3.html";
-	window.pageNext = "menu.html";
+	window.pagePrev = "patented_1.html";
+	window.pageNext = "patented_2.html";
 	
 	// Image sequence params
 	var frameCount=191;
@@ -49,6 +49,7 @@ $(document).ready(function(){
 		else
 		{
 			// custom stuff once the image sequence has finished
+			$(".targets").fadeIn("slow");			
 		}
 	}
 	

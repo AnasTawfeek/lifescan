@@ -19,6 +19,10 @@ body {
 	position:relative;
 }
 
+.targets {
+  display: none;
+}
+
 .left{
 	float: left;
 }

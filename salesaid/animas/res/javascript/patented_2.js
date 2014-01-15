@@ -49,6 +49,7 @@ $(document).ready(function(){
 		else
 		{
 			// custom stuff once the image sequence has finished
+			$(".targets").fadeIn("slow");			
 		}
 	}
 	

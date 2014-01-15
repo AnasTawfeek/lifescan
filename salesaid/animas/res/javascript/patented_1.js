@@ -4,7 +4,7 @@ $(document).ready(function(){
 			
 	var imgpath = "res/images/animas/";
 	window.pagePrev = "menu.html";
-	window.pageNext = "patented_2.html";
+	window.pageNext = "patented_4.html";
 	
 	// init...
 	$('.contentLayer').fadeIn(function(){
