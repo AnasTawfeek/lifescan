@@ -34,24 +34,24 @@ $(document).ready(function(){
 		bAllLoaded=true;
 //		if(bTriggerPlay) 
 		// stop animation for demo		
-		// playAnim();		
+		 playAnim(1);		
 	}
 
 	var iIndex=-1;
-	function playAnim() {
+	function playAnim(frames) {
 		iIndex++;
-		if(iIndex<aImgSrc.length) {
+		if(iIndex < frames) {
 			context.clearRect ( 0 , 0 , iWidth , iHeight);
 			context.drawImage(aImg[iIndex], 0, 0);
 			// stop animation for demo
-			// setTimeout(playAnim, playSpeed);
+			 setTimeout(playAnim(frames), playSpeed);
 		}
 		else
 		{
 			if(bLoop) {
 				iIndex=-1;
-				// stop animation for demo
-				//playAnim();
+
+				//playAnim(3);
 			}
 			else
 			{
@@ -73,7 +73,8 @@ $(document).ready(function(){
 			bTriggerPlay=true;
 			if(bAllLoaded) {
 				// little delay to prevent stutter
-				setTimeout(playAnim, 50);
+				//stop animation for demo				
+				//setTimeout(playAnim, 50);
 			}
 		});
 	
@@ -94,25 +95,29 @@ $(document).ready(function(){
 	$("#menu_1").live('touchstart click', function(e){
 		e.stopPropagation(); e.preventDefault();
 	   	$(this).attr("src", menu[0].src );		
-	    setTimeout(function() {window.jump("patented_1.html")}, 300);
+		playAnim(3);	    
+		setTimeout(function() {window.jump("patented_1.html")}, 900);
 	 });
 
 	$("#menu_2").live('touchstart click', function(e){
 		e.stopPropagation(); e.preventDefault();
 	   	$(this).attr("src", menu[1].src );		
-	    setTimeout(function() {window.jump("calculator_1.html")}, 300);
+	    playAnim(3);	    
+		setTimeout(function() {window.jump("calculator_1.html")}, 900);
 	 });
 
 	$("#menu_3").live('touchstart click', function(e){
 		e.stopPropagation(); e.preventDefault();
 	   	$(this).attr("src", menu[2].src );		
-	    setTimeout(function() {window.jump("best_in_class_1.html")}, 300);
+	    playAnim(3);	    
+		setTimeout(function() {window.jump("best_in_class_1.html")}, 900);
 	 });
 
 	$("#menu_4").live('touchstart click', function(e){
 		e.stopPropagation(); e.preventDefault();
 	   	$(this).attr("src", menu[3].src );		
-	    setTimeout(function() {window.jump("performance_1.html")}, 300);
+	    playAnim(3);	    
+		setTimeout(function() {window.jump("performance_1.html")}, 900);
 	 });
-
+	
 });
