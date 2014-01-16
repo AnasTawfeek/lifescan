@@ -7,7 +7,7 @@ $(document).ready(function(){
 	// Image sequence params
 	var frameCount=191;
 	var frameNames="re_Animas_motor.00";
-	var framesPerSecond=30;
+	var framesPerSecond=40;
 	
 	
 	var playSpeed=Math.round(1000/framesPerSecond);

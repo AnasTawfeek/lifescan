@@ -18,7 +18,7 @@ function animateThingy(xstart, xend) {
 	var start = xstart;	
 	var frameCount= xend; 
 	var frameNames="Animas_gears_v008.0";
-	var framesPerSecond=30;
+	var framesPerSecond=40;
 	
 	
 	var playSpeed=Math.round(1000/framesPerSecond);
@@ -60,6 +60,7 @@ function animateThingy(xstart, xend) {
 		else
 		{
 			// custom stuff once the image sequence has finished
+			//$("#myCanvas").css("z-index", 1);
 			$(".targets").fadeIn("slow");			
 		}
 	}

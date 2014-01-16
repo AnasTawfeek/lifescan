@@ -34,7 +34,7 @@ $(document).ready(function(){
 				btn.attr("src", btnImages[2] );
 				$('#chart-1').live('touchstart click', function(e){
 					e.stopPropagation(); e.preventDefault();						
-					$('#ref-1').fadeIn();	 									
+					//$('#ref-1').fadeIn();	 									
 				});
 				$('#chart-1').fadeIn(function(){				
 					move('#chart-1 .bar-1')
@@ -79,7 +79,7 @@ $(document).ready(function(){
 				btn.attr("src", btnImages[3] );
 				$('#chart-2').live('touchstart click', function(e){
 					e.stopPropagation(); e.preventDefault();						
-					$('#ref-1').fadeIn();									
+					//$('#ref-1').fadeIn();									
 				});
 				$('#chart-2').fadeIn(function(){
 					

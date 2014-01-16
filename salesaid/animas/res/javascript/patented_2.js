@@ -3,12 +3,12 @@
 $(document).ready(function(){		
 	var hasAnimated = false;	
 	
-	animateThingy(1, 47);
+	animateThingy(1, 119);
 	$(".contentLayer").click(function() {
 		if (!hasAnimated)		
 		{
 			animateThingy(48, 119);
-			hasAnimated = true;		
+			//hasAnimated = true;		
 		}			
 	});		
 	
@@ -23,7 +23,7 @@ function animateThingy(xstart, xend) {
 	var start = xstart;	
 	var frameCount= xend; //119
 	var frameNames="re_Animas_motherboard.00";
-	var framesPerSecond=30;
+	var framesPerSecond=40;
 	
 	
 	var playSpeed=Math.round(1000/framesPerSecond);

@@ -21,7 +21,7 @@ function animateSpin() {
 	// Image sequence params
 	var frameCount=24;
 	var frameNames="re_Animas_back_v009.00";
-	var framesPerSecond=30;
+	var framesPerSecond=40;
 	
 	
 	var playSpeed=Math.round(1000/framesPerSecond);
@@ -55,10 +55,12 @@ function animateSpin() {
 			context.clearRect ( 0 , 0 , iWidth , iHeight);
 			context.drawImage(aImg[iIndex], 0, 0);
 			setTimeout(playAnim, playSpeed);
-		}
+			if (iIndex == 12)
+				$("#Image-Maps-Com-image-maps").fadeIn();		
+		}	
 		else
 		{
-						$("#Image-Maps-Com-image-maps").fadeIn('slow');				
+				//	$("#Image-Maps-Com-image-maps").fadeIn();					
 			// custom stuff once the image sequence has finished
 		}
 	}
@@ -92,7 +94,7 @@ $(document).ready(function(){
 	// Image sequence params
 	var frameCount=24;
 	var frameNames="re_Animas_360_v009.00";
-	var framesPerSecond=30;
+	var framesPerSecond=35;
 	
 	
 	var playSpeed=Math.round(1000/framesPerSecond);
