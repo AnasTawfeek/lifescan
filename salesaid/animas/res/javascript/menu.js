@@ -33,7 +33,8 @@ $(document).ready(function(){
 	function preloadDone() {
 		bAllLoaded=true;
 //		if(bTriggerPlay) 
-		playAnim();		
+		// stop animation for demo		
+		// playAnim();		
 	}
 
 	var iIndex=-1;
@@ -42,13 +43,15 @@ $(document).ready(function(){
 		if(iIndex<aImgSrc.length) {
 			context.clearRect ( 0 , 0 , iWidth , iHeight);
 			context.drawImage(aImg[iIndex], 0, 0);
-			setTimeout(playAnim, playSpeed);
+			// stop animation for demo
+			// setTimeout(playAnim, playSpeed);
 		}
 		else
 		{
 			if(bLoop) {
 				iIndex=-1;
-				playAnim();
+				// stop animation for demo
+				//playAnim();
 			}
 			else
 			{

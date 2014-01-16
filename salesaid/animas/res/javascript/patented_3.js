@@ -11,8 +11,8 @@ $(document).ready(function(){
 
 function animateThingy(xstart, xend) {
 	var imgpath = "res/images/patented_3/";
-	window.pagePrev = "patented_4.html";
-	window.pageNext = "patented_2.html";
+	window.pagePrev = "patented_2.html";
+	window.pageNext = "menu.html";
 	
 	// Image sequence params
 	var start = xstart;	

@@ -2,7 +2,7 @@ $(document).ready(function(){
 			
 	var imgpath = "res/images/patented_4/";
 	window.pagePrev = "patented_1.html";
-	window.pageNext = "patented_2.html";
+	window.pageNext = "patented_3.html";
 	
 	// Image sequence params
 	var frameCount=191;
