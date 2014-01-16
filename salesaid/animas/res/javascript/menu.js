@@ -96,6 +96,7 @@ $(document).ready(function(){
 		e.stopPropagation(); e.preventDefault();
 	   	$(this).attr("src", menu[0].src );		
 		playAnim(3);	    
+
 		setTimeout(function() {window.jump("patented_1.html")}, 900);
 	 });
 
@@ -103,6 +104,7 @@ $(document).ready(function(){
 		e.stopPropagation(); e.preventDefault();
 	   	$(this).attr("src", menu[1].src );		
 	    playAnim(3);	    
+
 		setTimeout(function() {window.jump("calculator_1.html")}, 900);
 	 });
 
@@ -110,6 +112,7 @@ $(document).ready(function(){
 		e.stopPropagation(); e.preventDefault();
 	   	$(this).attr("src", menu[2].src );		
 	    playAnim(3);	    
+
 		setTimeout(function() {window.jump("best_in_class_1.html")}, 900);
 	 });
 
@@ -117,6 +120,7 @@ $(document).ready(function(){
 		e.stopPropagation(); e.preventDefault();
 	   	$(this).attr("src", menu[3].src );		
 	    playAnim(3);	    
+
 		setTimeout(function() {window.jump("performance_1.html")}, 900);
 	 });
 	

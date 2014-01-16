@@ -86,12 +86,12 @@ $(document).ready(function(){
 					move('#chart-2 .bar-1')
 						.duration('1s')
 						.set('opacity',1)
-						.y(-240)
+						.y(-229)
 						.then(function(){												
 							move('#chart-2 .bar-2')
 								.duration('1s')
 								.set('opacity',1)
-								.y(-190)
+								.y(-179)
 								.end(function(){animating=false;});
 						})
 						.end();	
