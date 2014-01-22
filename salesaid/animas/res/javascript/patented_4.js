@@ -1,13 +1,33 @@
+var inProgress = false;
+
 $(document).ready(function(){		
-			
+	animateThingy(1, 191);
+
+
+	$(".contentLayer").click(function() {
+		while(1) {		
+		if (!inProgress)			
+				
+			animateThingy(123, 191);
+			break;		
+		}			
+	});		
+
+});
+
+
+
+function animateThingy(xstart, xend) {
+	inProgress = true;	
 	var imgpath = "res/images/patented_4/";
 	window.pagePrev = "patented_1.html";
 	window.pageNext = "patented_3.html";
 	
 	// Image sequence params
-	var frameCount=191;
+	var start = xstart;	
+	var frameCount= xend; 
 	var frameNames="re_Animas_motor.00";
-	var framesPerSecond=40;
+	var framesPerSecond=30;
 	
 	
 	var playSpeed=Math.round(1000/framesPerSecond);
@@ -20,7 +40,7 @@ $(document).ready(function(){
 	var iHeight=$("#myCanvas").attr("height");
 	var context = $("#myCanvas")[0].getContext('2d');
 
-	for(i=1;i<=frameCount;i++) {
+	for(i=start;i<=frameCount;i++) {
 		var img = new Image();
 		var sIndex=i;
 		if(i<10) sIndex="00"+sIndex;
@@ -49,7 +69,9 @@ $(document).ready(function(){
 		else
 		{
 			// custom stuff once the image sequence has finished
-			$(".targets").fadeIn("slow");			
+			//$("#myCanvas").css("z-index", 1);
+			$(".targets").fadeIn("slow");
+			inProgress = false; // animation done;			
 		}
 	}
 	
@@ -69,4 +91,5 @@ $(document).ready(function(){
 				setTimeout(playAnim, 100);
 			}
 		});
-});
+	
+}
