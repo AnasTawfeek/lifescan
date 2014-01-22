@@ -8,7 +8,7 @@ $(document).ready(function(){
 		while(1) {		
 		if (!inProgress)			
 				
-			animateThingy(123, 191);
+			animateThingy(48, 191);
 			break;		
 		}			
 	});		
