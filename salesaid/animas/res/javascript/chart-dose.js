@@ -2,7 +2,7 @@ $(document).ready(function(){
 	
 	var imgpath = "res/images/charts/dose2dose/";
 	window.pagePrev = "patented_3.html";
-	window.pageNext = null;
+	window.pageNext = "patented_2.html";
 	var $prev = null;
 	var animating = false;
 	
