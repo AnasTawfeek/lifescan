@@ -29,6 +29,13 @@ app.controller("GridsController", ["$scope", "$location", "$http", "$route",
   
   $scope.is_menu_shown = false;
   
+  $scope.toggle_menu = function() {
+     if ($scope.is_menu_shown)
+       $scope.hide_menu();
+     else
+       $scope.show_menu();
+  };
+
   $scope.show_menu = function() {
     $scope.is_menu_shown = true;
   };
@@ -46,6 +53,7 @@ app.controller("GridsController", ["$scope", "$location", "$http", "$route",
         tempIndex += 1;
       }
     });
+    $scope.is_menu_shown = false;
     e.preventDefault();
   }
   
@@ -64,11 +72,14 @@ app.controller("GridsController", ["$scope", "$location", "$http", "$route",
   };
 
   $scope.add_grid = function() {
+    
+    /*
     if ($scope.grids.length < 5)
     {
       $scope.grids.push({ type: "Competitive", stuff: "test" });
       console.log("add_grid called");
     }
+    */
   };
 }]);
 

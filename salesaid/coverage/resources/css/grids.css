@@ -62,6 +62,11 @@ body {
   top: 35px;
 }
 
+.title.regions {
+    left: 273px;
+    top: 35px;;
+}
+
 .fullwidth {
   width: 1024px;
 }
@@ -159,3 +164,4 @@ body {
   float: right;
   display: none;
 }
+
