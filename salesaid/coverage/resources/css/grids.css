@@ -1,65 +1,120 @@
 @font-face {
-  font-family: gothambold;
-  src: url(../fonts/Gotham-Bold.ttf);
+    font-family: gothambold;
+    src: url(../fonts/Gotham-Bold.ttf);
 }
 
 @font-face {
-  font-family: gothamnarrow;
-  src: url(../fonts/Gotham-XLight.ttf);
+    font-family: gothamnarrow;
+    src: url(../fonts/Gotham-XLight.ttf);
+}
+
+@font-face {
+    font-family: gothammedium;
+    src: url(../fonts/Gotham-Medium.otf);
+}
+
+
+.gothamnarrow {
+    font-family: gothamnarrow;
+}
+
+.gothambold {
+    font-family: gothambold;
+    font-weight: normal;
 }
 
 body {
-  height: 768px;
-  font-family: gothamnarrow;
-  width: 1024px;
+    height: 768px;
+    font-family: gothamnarrow;
+    width: 1024px;
+    background-color: #e3e2e3;
+}
+
+.states {
+    border-width: 0px;
+    width: 500px;
+    position: absolute;
+    left: 350px;
+    top: 220px;
+    background-color: #fff;
+    padding: 6px 6px 6px 6px;
+    border-color: #2aaff8;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.state {
+    padding: 8px 5px 5px 18px;
+    font-family: gothammedium;
+}
+
+.state:nth-child(odd) {
+    background-color: #e7e7e7;
+    color: #666;
+    
+}
+
+.state:nth-child(even) {
+    background-color: #fff;
+    color: #666;
+}
+
+
+
+.hl {
+    
 }
 
 .topbar {
-  height: 32px;
-  background-color: #cccccc;
+    height: 32px;
+    background-color: #cccccc;
 }
 
 .mainbar {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  vertical-align: middle;
-  display: table-cell;
-  padding-right: 40px;
-  padding-left: 40px;
-  height: 60px;
-  background-color: #666666;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    vertical-align: middle;
+    display: table-cell;
+    padding-right: 40px;
+    padding-left: 40px;
+    height: 60px;
+    background-color: #666666;
 }
 
 .grids-content {
-  padding-top: 40px;
-  height: 750px;
-  background-image: url(../images/global/contentbackground.png);
-  padding-right: 40px;
-  -webkit-box-sizing: border-box;
-  padding-left: 40px;
-  box-sizing: border-box;
+    padding-top: 40px;
+    height: 750px;
+    background-image: url(../images/global/contentbackground.png);
+    padding-right: 40px;
+    -webkit-box-sizing: border-box;
+    padding-left: 40px;
+    box-sizing: border-box;
 }
 
 .providers-content {
-  padding-top: 40px;
-  height: 750px;
-  background-image: url(../images/global/contentbackground.png);
-  padding-right: 40px;
-  -webkit-box-sizing: border-box;
-  padding-left: 40px;
-  box-sizing: border-box;
+    padding-top: 40px;
+    height: 750px;
+    background-image: url(../images/global/contentbackground.png);
+    padding-right: 40px;
+    -webkit-box-sizing: border-box;
+    padding-left: 40px;
+    box-sizing: border-box;
 }
 
 .title {
-  font-family: gothambold;
-  font-size: 26px;
-  color: #ffffff;
-  position: absolute;
+    font-family: gothambold;
+    font-size: 26px;
+    color: #ffffff;
+    position: absolute;
 }
 
 .title.mygrids {
-  left: 450px;
-  top: 35px;
+    left: 450px;
+    top: 35px;
+}
+
+.purple {
+    color: #3f3a66;
 }
 
 .title.regions {
@@ -68,100 +123,183 @@ body {
 }
 
 .fullwidth {
-  width: 1024px;
+    width: 1024px;
 }
 
 .grid-button {
-  height: 198px;
-  width: 234px;
-  display: inline-block;
-  margin-bottom: 15px;
+    height: 198px;
+    width: 234px;
+    display: inline-block;
+    margin-bottom: 15px;
 }
 
 .coverage-grid-button {
-  height: 186px;
-  background-image: url(../images/grids/gridbg.png);
-  margin-right: 14px;
-  width: 222px;
-  float: left;
-  position: relative;
+    height: 186px;
+    background-image: url(../images/grids/gridbg.png);
+    margin-right: 14px;
+    width: 222px;
+    float: left;
+    position: relative;
 }
 
 .create-grid-button {
-  background-image: url(../images/grids/creategrid.png);
-  float: left;
+    background-image: url(../images/grids/creategrid.png);
+    float: left;
 }
 
 .button {
-  height: 27px;
-  width: 88px;
-  display: inline-block;
+    height: 27px;
+    width: 88px;
+    display: inline-block;
 }
 
 .gridlabel {
-  margin-right: auto;
-  margin-top: 25px;
-  margin-left: auto;
-  display: block;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-left: auto;
+    display: block;
 }
 
 .back {
-  background-image: url(../images/global/back.png);
-  float: left;
+    background-image: url(../images/global/back.png);
+    float: left;
 }
 
 .selectedgrid {
-  background-image: url(../images/grids/gridbg_selected.png);
-  float: left;
+    background-image: url(../images/grids/gridbg_selected.png);
+    float: left;
+}
+
+.select-template-header {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    font-size: 21px;
+}
+
+.hl {
+    position: absolute;
+    top: 190px;
+}
+
+select[name=state] {
+    position: absolute;
+    top: 220px;
+    left: 350px;
+    width: 350px;
+    font-family: gothammedium;
+}
+
+.competitive-btn {
+    position: absolute;
+    left: 350px;
+    top: 130px;
+    font-family: gothambold;
+    background-color: #e7e7e7;
+    color: #717171;
+    width: 250px;
+    display: block;
+    height: 34px;
+    text-align: center;
+    padding-top: 7px;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    border-radius: 5px;
+}
+
+.competitive-btn-selected {
+    color: #fff;
+    background-color: #2aaff8;
+    border-radius: 5px;
+}
+
+
+.onetouchonly-btn {
+    position: absolute;
+    left: 620px;
+    top: 130px;
+    font-family: gothambold;
+    background-color: #e7e7e7;
+    color: #717171;
+    height: 34px;
+    width: 250px;
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    border-radius: 5px;
+}
+
+.onetouchonly-btn-selected {
+    color: #fff;
+    background-color: #2aaff8;
+    border-radius: 5px;
+}
+
+
+.select-states-header {
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    font-size: 21px;
 }
 
 .next {
-  background-image: url(../images/global/next.png);
-  float: right;
+    background-image: url(../images/global/next.png);
+    float: right;
 }
 
 .menu {
-  background-image: url(../images/grids/menu.png);
-  float: right;
+    background-image: url(../images/grids/menu.png);
+    float: right;
 }
 
 .dropdown {
-  left: 750px;
-  top: 90px;
-  z-index: 1000;
-  position: absolute;
+    left: 750px;
+    top: 90px;
+    z-index: 1000;
+    position: absolute;
 }
 
 .providers-wrapper .productheaders {
-  left: 360px;
-  top: 130px;
-  position: absolute;
+    left: 360px;
+    top: 130px;
+    position: absolute;
 }
 
 .providers-wrapper .back {
-  display: block;
+    display: block;
 }
 
 .providers-wrapper .next {
-  display: block;
+    display: block;
 }
 
 .back {
-  display: none;
+    display: none;
 }
 
 .button {
-  height: 29px;
-  width: 90px;
+    height: 29px;
+    width: 90px;
 }
 
 .menu {
-  float: right;
-  display: block;
+    float: right;
+    display: block;
 }
 
 .next {
-  float: right;
-  display: none;
+    float: right;
+    display: none;
 }
 
+.selected-state {
+     background-color: #2aaff8 !important; 
+     color: #fff !important;
+}

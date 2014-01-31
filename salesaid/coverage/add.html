@@ -3,18 +3,26 @@
   <div class="mainbar fullwidth">
     <a class="button back" ng-click="changeView('/')"></a>
     <h1 class="title regions">SELECT GRID TEMPLATE &amp; REGION</h1>
-    <a class="button next" ng-click="submit()"></a>
+    <a class="button next" ng-click="changeView('/providers')"></a>
   </div>
   <div class="providers-content fullwidth">
     <div class="select-regions">
       
-      <h1 class="select-template-header">Select Template:</h1>
+      <h1 class="select-template-header purple gothambold">SELECT TEMPLATE:</h1>
+      <h1 class="select-states-header purple gothambold">SELECT STATE(S):</h1>
+      <img src="resources/images/selection/horizontalline.png" class="hl" />
       <div>
-        <div class="competitive-btn">
+        <div class="competitive-btn template-btn"
+      ng-click="select_template('competitive')" ng-class="select_template_class('competitive')">
           COMPETITIVE
         </div>
-        <div class="onetouchonly-btn">
+        <div class="onetouchonly-btn template-btn" ng-click="select_template('onetouch')" ng-class="select_template_class('onetouch')">
           ONETOUCH<sup>&reg;</sup> ONLY
+        </div>
+      </div>
+      <div class="states">
+        <div ng-repeat="state in grid.states" class="state" ng-click="toggle_state($index)" ng-class="select_state_class(grid.states[$index])">
+          {{ state.name }}
         </div>
       </div>
     </div>
