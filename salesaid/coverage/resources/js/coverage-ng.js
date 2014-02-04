@@ -131,19 +131,25 @@ app.controller("ProvidersController", ["$scope", "$location", "$http", "$route",
      $scope.grid.template = template;
    };
    
-   $scope.grid.unselected_providers = ;
+   // $scope.grid.unselected_providers = [];
+   $scope.grid.unselected_providers = providers;
    $scope.grid.selected_providers = [];
    
-   $scope.filter_by_states(function(providers, states) {
+   $scope.filter_by_states = function(providers, states) {
      return providers.filter(function(provider) {
        var flag = false;
        states.foreach(function(state) {
-         if 
+         if (provider.indexOf(state) != -1 || provider.indexOf("Any") || provider.indexOf("any")) {
+           flag = true;
+         }
        });
-       return provider.State == provider.indexOf("oo") != -1
+       return flag;
      });
-   });
+   };
 
+
+   
+   
    $scope.grid.selected_states = function() {
      $scope.grid.states.filter(function(state) {
        return state.selected == true;
