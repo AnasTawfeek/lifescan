@@ -6,7 +6,8 @@ Array.prototype.remove = function(from, to) {
 
 
 var app = angular.module("coverageApp", ["ngRoute"]);
-
+var unselected_providers = [];
+var selected_providers = [];
 
 app.controller("GridsController", ["$scope", "$location", "$http", "$route", 
  function ($scope, $location, $http, $route) {
@@ -66,7 +67,7 @@ app.controller("GridsController", ["$scope", "$location", "$http", "$route",
       }
       tempIndex += 1;
     });
-
+        
     grid.selected = true;
     $scope.grids[index] = grid;
   };
@@ -102,61 +103,6 @@ app.controller("ProvidersController", ["$scope", "$location", "$http", "$route",
 
    
    $scope.grid.template = undefined;
-
-   $scope.select_state_class = function(state) {
-     return $scope.select_class(state.selected);
-   };
-
-   $scope.select_template_class = function(template) {
-     if ($scope.grid.template == template)
-       return $scope.select_class(true);
-     else
-       return $scope.select_class(false);;
-   };
-
-   $scope.select_class = function(val) {
-     if (val == true)
-     {
-       return "selected-state";
-     }
-     else
-     {
-       return "unselected-state";
-     }
-     
-   };
-
-
-   $scope.select_template = function(template) {
-     $scope.grid.template = template;
-   };
-   
-   // $scope.grid.unselected_providers = [];
-   $scope.grid.unselected_providers = providers;
-   $scope.grid.selected_providers = [];
-   
-   $scope.filter_by_states = function(providers, states) {
-     return providers.filter(function(provider) {
-       var flag = false;
-       states.foreach(function(state) {
-         if (provider.indexOf(state) != -1 || provider.indexOf("Any") || provider.indexOf("any")) {
-           flag = true;
-         }
-       });
-       return flag;
-     });
-   };
-
-
-   
-   
-   $scope.grid.selected_states = function() {
-     $scope.grid.states.filter(function(state) {
-       return state.selected == true;
-     });
-   };
-   
-   
    $scope.grid.states = [
     {
         "name": "Alabama",
@@ -364,8 +310,64 @@ app.controller("ProvidersController", ["$scope", "$location", "$http", "$route",
 
 
    
+   $scope.select_state_class = function(state) {
+     return $scope.select_class(state.selected);
+   };
+
+   $scope.select_template_class = function(template) {
+     if ($scope.grid.template == template)
+       return $scope.select_class(true);
+     else
+       return $scope.select_class(false);
+   };
+
+   $scope.select_class = function(val) {
+     if (val == true)
+     {
+       return "selected-state";
+     }
+     else
+     {
+       return "unselected-state";
+     }
+     
+   };
+
+
+   $scope.select_template = function(template) {
+     $scope.grid.template = template;
+   };
+   
+     $scope.filter_by_states = function(providers, states) {
+     return providers.filter(function(provider) {
+       var flag = false;
+       states.forEach(function(state) {
+         if (provider.State.toLowerCase().indexOf(state.abbreviation.toLowerCase()) != -1 || provider.State.toLowerCase().indexOf("any") != -1 || provider.State.toLowerCase().indexOf("national") != -1) {
+           flag = true;
+         }
+       });
+       return flag;
+     });
+   };
+   
+   
+   $scope.grid.selected_states = function() {
+     return $scope.grid.states.filter(function(state) {
+       return state.selected == true;
+     });
+   };
+ 
+   
+   $scope.grid.unselected_providers = unselected_providers;
+   $scope.grid.selected_providers = selected_providers;
+   
+
    $scope.changeView = function(view) {
-    $location.path(view);     
+     
+     $location.path(view);     
+     unselected_providers = $scope.filter_by_states(providers, $scope.grid.selected_states());
+     selected_providers = [];
+
    };
 
 }]);
