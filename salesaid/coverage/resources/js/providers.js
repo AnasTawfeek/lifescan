@@ -1,2837 +1,3352 @@
 var providers = [
   {
-    "Health Plan":"1199 SEIU",
-    "State":"NY",
-    "LifeScan":"",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Absolute Total Care",
-    "State":"SC",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"AdvancePCS",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Aetna, Inc.",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Aetna, Inc.",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Affinity Health Plan",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Al PEEHP",
-    "State":"AL",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Sole Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Alabama Medicaid",
-    "State":"AL",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Alabama Medicaid",
-    "State":"AL",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Alaska Medicaid",
+    "Provider":"Alaska Medicaid",
     "State":"AK",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":""
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
   },
   {
-    "Health Plan":"Altius Health Plan (Coventry)",
-    "State":"UT ",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"Alabama Medicaid",
+    "State":"AL",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
   },
   {
-    "Health Plan":"Americhoice (NY)",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":" "
+    "Provider":"Blue Cross and Blue Shield of Alabama",
+    "State":"AL",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Americhoice (PA)",
-    "State":"PA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":" ",
-    "Bayer":" ",
-    "HDI":" "
+    "Provider":"Arkansas Medicaid",
+    "State":"AR",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
   },
   {
-    "Health Plan":"Amerigroup",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
+    "Provider":"QualChoice",
+    "State":"Arkansas",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
   },
   {
-    "Health Plan":"Amerigroup / CarePlus NYC",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
+    "Provider":"QualChoice",
+    "State":"Arkansas",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Amerigroup FL",
-    "State":"FL",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
+    "Provider":"Arizona Medicaid",
+    "State":"AZ",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
   },
   {
-    "Health Plan":"Amerigroup GA",
-    "State":"GA",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
+    "Provider":"Arizona Physicians IPA",
+    "State":"AZ",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Amerigroup IL",
-    "State":"IL",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
+    "Provider":"BCBS OF ARIZONA",
+    "State":"AZ",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Amerigroup MD",
-    "State":"MD",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
+    "Provider":"Bridgeway Health Solutions",
+    "State":"AZ",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Preferred"
   },
   {
-    "Health Plan":"Amerigroup NJ",
-    "State":"NJ",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
+    "Provider":"Care1st Health Plan Arizona",
+    "State":"AZ",
+    "OneTouch Ultra":"Not Covered",
+    "OneTouch Verio":"Not Covered",
+    "Bayer Contour":"Not Covered",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Not Covered",
+    "HDI True Test":"Not Covered"
   },
   {
-    "Health Plan":"Amerigroup NM",
-    "State":"NM",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
+    "Provider":"Humana AZ",
+    "State":"AZ",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Amerigroup OH",
-    "State":"OH",
-    "LifeScan":"Preferred",
-    "Roche":" ",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
+    "Provider":"Medisun",
+    "State":"AZ",
+    "OneTouch Ultra":"Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
   },
   {
-    "Health Plan":"Amerigroup SC",
-    "State":"SC",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
+    "Provider":"Mercy Care Health Plan",
+    "State":"AZ",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Amerigroup VA",
-    "State":"VA",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
+    "Provider":"UnitedHealthcare Signature Value",
+    "State":"AZ, CA,CO,NV,TX, OK, WA, OR",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Anthem",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"UnitedHealthcare Signature Value Advantage",
+    "State":"AZ, CA,CO,NV,TX, OK, WA, OR",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Anthem - Managed Medicaid",
-    "State":"IN, OH, KY, KS",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Anthem BCBS of CT",
-    "State":"CT",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Anthem BCBS of Wisconsin",
-    "State":"WI",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Anthem Blue Cross of California HMO and PPO",
+    "Provider":"Anthem Blue Cross of California HMO and PPO",
     "State":"CA",
-    "LifeScan":"Preferred ",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Anthem BlueCross BlueShield of Virginia",
-    "State":"VA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"Blue Shield of California",
+    "State":"CA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Anthem Colorado",
+    "Provider":"CalOptima",
+    "State":"CA",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"County Medical Services Program (CMSP)",
+    "State":"CA",
+    "OneTouch Ultra":"Not Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Not Covered",
+    "Abbott Freestyle":"Not Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Not Covered"
+  },
+  {
+    "Provider":"Health Net",
+    "State":"CA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Los Angeles County Dept of Health Services",
+    "State":"CA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Medi-Cal",
+    "State":"CA",
+    "OneTouch Ultra":"Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"San Diego County Medical Services",
+    "State":"CA",
+    "OneTouch Ultra":"Not Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Not Covered",
+    "Roche Accu-Chek":"Not Covered",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"SCAN",
+    "State":"CA",
+    "OneTouch Ultra":"Not Covered",
+    "OneTouch Verio":"Not Covered",
+    "Bayer Contour":"Not Covered",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Not Covered",
+    "HDI True Test":"Not Covered"
+  },
+  {
+    "Provider":"Anthem BCBS Colorado",
     "State":"CO",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Anthem East",
-    "State":"CT, NH, ME,",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Anthem Medicaid",
-    "State":"VA",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Sole Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Anthem Missouri",
-    "State":"MO",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Arise Health Plan",
-    "State":"WI",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Arizona Physicians IPA",
-    "State":"AZ",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Arnett",
-    "State":"IN",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"AultCare",
-    "State":"OH",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Badger Care",
-    "State":"WI",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"BC BS of Montana",
-    "State":"MT",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BC BS of Wyoming",
-    "State":"WY",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BCBS Federal Employee Program (Do Not Print)",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"BCBS Federal Employee Program (Do Not Print)",
-    "State":"AL",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"BCBS OF ARIZONA",
-    "State":"AZ",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BCBS of Florida - Blue Options",
-    "State":"FL",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BCBS of Florida - Health Options",
-    "State":"FL",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BCBS of Kansas City",
-    "State":"MO, KS",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BCBS of Minnesota",
-    "State":"MN",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"BCBS of Mississippi",
-    "State":"MS",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"BCBS of ND",
-    "State":"ND",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BCBS of North Dakota",
-    "State":"ND",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BCBS of Northeast Pennsylvania (NEPA)",
-    "State":"PA",
-    "LifeScan":"",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BCBS SC State Health Plan",
-    "State":"SC",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"BCBSLA (Do Not Print)",
-    "State":"LA",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BluCross BlueShield Tennessee",
-    "State":"TN",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Blue Cross and Blue Shield of Alabama",
-    "State":"AL",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Blue Cross BlueShield of New Mexico",
-    "State":"NM",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Blue Cross of Idaho",
-    "State":"ID",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Blue Shield of California",
-    "State":"CA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BlueChoice Health Plan",
-    "State":"SC",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BlueCross BlueShield Federal Employees Program (FEP) DO NOT PRINT!!!",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Delaware",
-    "State":"DE",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Florida (PPO)",
-    "State":"FL",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Georgia",
-    "State":"GA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Illinois",
-    "State":"IL, IN, WI",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Kansas",
-    "State":"KS",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Massachusetts",
-    "State":"MA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Michigan",
-    "State":"MI",
-    "LifeScan":"preferred",
-    "Roche":"Preferred",
-    "Abbott":" ",
-    "Bayer":" ",
-    "HDI":" "
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Nebraska",
-    "State":"NE",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of North Carolina",
-    "State":"NC",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Oklahoma",
-    "State":"OK",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Rhode Island",
-    "State":"RI",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of South Carolina",
-    "State":"SC",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Texas",
-    "State":"TX",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Vermont",
-    "State":"VT",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"BlueCross BlueShield of Western New York",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"BlueShield of Northeastern New York",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Boston HealthNet",
-    "State":"MA",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Buckeye Health Plan",
-    "State":"OH",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"CalOptima",
-    "State":"CA",
-    "LifeScan":"Covered",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"Capital Blue Cross",
-    "State":"PA",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"CDPHP- Capital District Physicians Health Plan",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Capital Health Plan",
-    "State":"FL",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Care1st Health Plan Arizona",
-    "State":"AZ",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"CareFirst BlueCross BlueShield",
-    "State":"MD, DC, VA, PA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Carelink Health Plan (Coventry)",
-    "State":"WV, OH",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Caremark",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Carenet (Southern Health/Coventry)",
-    "State":"VA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Catalyst Rx",
-    "State":"National",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"CHC Cares of SC (Coventry)",
-    "State":"SC",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"CIGNA",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"CIGNA of MS EPO",
-    "State":"MS",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Commonwealth of Mass",
-    "State":"MA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Community Health Plan",
-    "State":"KS",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Community Health Plan of Washington",
-    "State":"WA",
-    "LifeScan":"Covered",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"ConnectiCare",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Colorado Medicaid",
+    "State":"CO",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Rocky Mountain HMO",
+    "State":"CO",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Anthem BCBS Connecticut",
     "State":"CT",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"County Medical Services Program (CMSP)",
-    "State":"CA",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
+    "Provider":"ConnectiCare",
+    "State":"CT",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Coventry Health Care",
-    "State":"National",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"ConnectiCare VIP Medicare",
+    "State":"CT",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
   },
   {
-    "Health Plan":"Coventry Health Care of Delaware",
+    "Provider":"State of Connecticut Employees",
+    "State":"CT",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"DC Medicaid",
+    "State":"DC",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"Diamond Plan (Coventry)",
+    "State":"DC",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueCross BlueShield of DE",
     "State":"DE",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Coventry Health Care of Georgia",
+    "Provider":"Coventry Advantra DE",
+    "State":"DE",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Coventry Health Care of Delaware",
+    "State":"DE",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"DE Medicaid",
+    "State":"DE",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BCBS of Florida - Blue Options",
+    "State":"FL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BCBS of Florida - Health Options",
+    "State":"FL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueCross BlueShield of Florida (PPO)",
+    "State":"FL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Capital Health Plan",
+    "State":"FL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Capital Health Plan",
+    "State":"FL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"CarePlus Health Plans Inc.",
+    "State":"FL",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Coventry Advantra Florida",
+    "State":"FL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Coventry Health Care of Florida",
+    "State":"FL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"FL Medicaid",
+    "State":"FL",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Florida Blue",
+    "State":"FL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Medica Healthcare Plans Inc",
+    "State":"FL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Neighborhood Health Partnership (UHC))",
+    "State":"FL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Vista Health Care (Coventry)",
+    "State":"FL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Not Covered",
+    "Abbott Freestyle":"Not Covered",
+    "Roche Accu-Chek":"Not Covered",
+    "HDI True Test":"Not Covered"
+  },
+  {
+    "Provider":"Vista Health Care (Coventry)",
+    "State":"FL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BCBS of Georgia (Anthem)",
     "State":"GA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Coventry Health Care of Iowa",
-    "State":"IA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"Coventry Advantra GA",
+    "State":"GA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Coventry Health Care of Kansas",
-    "State":"KS",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"Coventry Health Care of Georgia",
+    "State":"GA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Coventry Health Care of Louisiana",
-    "State":"LA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"State Health Benefit Plan (Georgia)",
+    "State":"GA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
   },
   {
-    "Health Plan":"Coventry Health Care of Nebraska",
-    "State":"NE",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"D.C. Chartered Health Plan",
-    "State":"DC",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Dakota Care",
-    "State":"SD",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Dean Health Plan",
-    "State":"WI",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Diamond Plan (Coventry)",
-    "State":"DC",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Driscoll Health Plan",
-    "State":"TX",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Empire BlueCross BlueShield",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Excellus - BlueCross BlueShield",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Excellus - Univera Healthcare",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Express Scripts, Inc.",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Fallon Community Health Plan",
-    "State":"MA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Family Health Plan- Follow Medicaid Formulary",
-    "State":"IL",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"Federal Emp Program BCBS FEP/BLUE (Do Not Print)",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Federal Emp Program BCBS FEP/BLUE (Do Not Print)",
-    "State":"MS",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"FEP (Federal Employees) DNP",
-    "State":"LA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Fidelis Care",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"FL Medicaid",
-    "State":"FL",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Gateway Health Plan",
-    "State":"PA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Geisinger Health Plan",
-    "State":"PA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"General Assistance Medical Programs (WI)",
-    "State":"WI",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Gilsbar (ESI)",
-    "State":"LA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Great West Healthcare",
-    "State":"CA,CO,FL,ILL,TX",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Group Health Cooperative",
-    "State":"WA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Group Health Inc. (GHI - New York)",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Group Health of Eau Claire",
-    "State":"WI",
-    "LifeScan":"Sole Preferred",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Group Health Plan, Inc. (Coventry)",
-    "State":"MO",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Gunderson Lutheran Health Plan",
-    "State":"WI",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"HAP / Henry Ford",
-    "State":"MI",
-    "LifeScan":"Covered",
-    "Roche":" ",
-    "Abbott":" ",
-    "Bayer":" ",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Harmony Health Plan - Follow Medicaid Formulary",
-    "State":"IL",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"Harvard Pilgrim HealthPlan",
-    "State":"MA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Health Alliance Medical Plans",
-    "State":"IL, IA",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Health First Health Plans",
-    "State":"FL",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Health Net",
-    "State":"CA",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Health New England",
-    "State":"MA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Health Plus of Michigan",
-    "State":"MI",
-    "LifeScan":"Preferred",
-    "Roche":" ",
-    "Abbott":" ",
-    "Bayer":" ",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Health Plus of NY",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Health Right",
-    "State":"DC",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"HealthAmerica Advantra Pennsylvania (Coventry)",
-    "State":"",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"HealthAmerica Pennsylvania (Coventry)",
-    "State":"PA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"HealthAssurance Pennsylvania (Coventry)",
-    "State":"PA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Healthcare USA (Coventry)",
-    "State":"MO",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"HealthLink",
-    "State":"MO,IL, AK,KY, OH, TX.",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"HealthNow",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Health Partners",
-    "State":"MN",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"HealthSpring",
-    "State":"TN, TX",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Highmark",
-    "State":"PA",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"HMSA - BlueCross BlueShield of Hawaii",
+    "Provider":"Hawaii Medicaid",
     "State":"HI",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Hometown Health Plan",
-    "State":"NV",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Horizon BlueCross BlueShield of New Jersey",
-    "State":"NJ",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Horizon NJ Health",
-    "State":"NJ",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Humana (Commercial)",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Humana (National)",
-    "State":"LA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Humana (Ochsner Health Plan)",
-    "State":"LA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Humana Gold (Medicare)",
-    "State":"LA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"IBC - AmeriHealth, Keystone Health Plan East, Personal Choice",
-    "State":"PA, NJ, DE",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Idaho Medicaid",
-    "State":"ID",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Illinois Medicaid",
-    "State":"IL",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"Independence Blue Cross (IBC)",
-    "State":"PA, NJ, DE",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Independent Health (IHA)",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Innoviant",
-    "State":"WI",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Kaiser - DO NOT PRINT",
-    "State":"CA, WA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Keystone Health Plan Central",
-    "State":"PA",
-    "LifeScan":"preferred",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Kitsap Physician Services",
-    "State":"WA",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"LA Medicaid - All Test Strips Covered",
-    "State":"LA",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":""
-  },
-  {
-    "Health Plan":"LifeWise OR",
-    "State":"OR",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Los Angeles County Dept of Health Services",
-    "State":"CA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Maine Medicaid (MaineCare)",
-    "State":"ME",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"MAMSI / UHC",
-    "State":"MD, DC, VA",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Managed Health Services - Indiana",
-    "State":"IN",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"Managed Health Services - Managed Medicaid",
-    "State":"IN",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Managed Health Services - Wisconsin",
-    "State":"WI",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"Massachusetts Medicaid (MassHealth)",
-    "State":"MA",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Medco",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Medica Health Plan",
-    "State":"MN",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Medi-Cal",
-    "State":"CA",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Medical Mutual of OH",
-    "State":"OH",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Medicare Part B - All Test Strips Covered",
-    "State":"National",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"MedImpact",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Medisun",
-    "State":"AZ",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Metropolitan Health Plan",
-    "State":"MN",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Minnesota Medicaid",
-    "State":"MN",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Mississippi Medicaid",
-    "State":"MS",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Missouri Medicaid",
-    "State":"MO",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"Mohawk Valley Plan (MVP)",
-    "State":"NY",
-    "LifeScan":"Preferred                 ",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Montana Medicaid",
-    "State":"MT",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":""
-  },
-  {
-    "Health Plan":"MS Medicaid -  All Test Strips Covered",
-    "State":"MS",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Mutual of Omaha (delelte-now called Coventry)",
-    "State":"NE",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"National Medical Health Card Systems",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Navitus (PBM)",
-    "State":"WI",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Neighborhood Health Plan",
-    "State":"MA",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"Sole Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Network Health Plan",
-    "State":"WI",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Nevada Medicaid",
-    "State":"NV",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"North Carolina State Employees & Teachers",
-    "State":"NC",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"OmniCare Health Plan, Inc. (Coventry)",
-    "State":"MI",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Oregon Medicaid",
-    "State":"OR",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":""
-  },
-  {
-    "Health Plan":"OSF Health Plans (Humana)",
-    "State":"IL",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Oxford Health Plans",
-    "State":"CT, NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"PA Employee Benefit Trust",
-    "State":"PA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"PacifiCare National",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"PacifiCare of AZ",
-    "State":"AZ",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"PacifiCare of CA",
-    "State":"CA  ",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"PacifiCare of CO",
-    "State":"CO",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"PacifiCare of NV",
-    "State":"NV",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"PacifiCare of OR/WA",
-    "State":"TX OK",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"PacifiCare of TX/OK",
-    "State":"WA OR",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Peach State Health Plan",
-    "State":"GA",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"PEIA Public Employees Ins. Agency",
-    "State":"WV",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Sole Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"PersonalCare (Coventry)",
-    "State":"IL",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"PharmaCare",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"PharmaCare Network",
-    "State":"MS",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"PHP of Northern Indiana",
-    "State":"IN",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Physicians Health Choice",
-    "State":"TX",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"Physician's Health Plan",
-    "State":"MI",
-    "LifeScan":"Covered",
-    "Roche":" ",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Physicians Plus Wisconsin",
-    "State":"WI",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"MVP Health Care",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Preferred Health System",
-    "State":"KS",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Preferred One",
-    "State":"MN",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Preferred Plus of Kansas",
-    "State":"KS",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Premera Blue Cross",
-    "State":"WA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Priority Health",
-    "State":"MI",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Providence Health Plan",
-    "State":"WA OR",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Providence Home Medical Equipment",
-    "State":"OR",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"QualChoice ",
-    "State":"OH",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Regence Group",
-    "State":"WA",
-    "LifeScan":"Covered",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Sole Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Rocky Mountain HMO",
-    "State":"CO",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":" ",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Rx America Commercial",
-    "State":"National",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"San Diego County Medical Services",
-    "State":"CA",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Sanford Health Plan",
-    "State":"SD",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Sav-Rx",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"SC FFS",
-    "State":"SC",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"SCAN",
-    "State":"CA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Script Care",
-    "State":"LA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Secure Horizons/AARP/ Ovations",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"SelectCare of Oklahoma",
-    "State":"OK",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"SelectCare of Texas (Texan Plus)",
-    "State":"TX",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"South Carolina Medicaid",
-    "State":"SC",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Southern Health (Coventry)",
-    "State":"VA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"St.John Health Plan",
-    "State":"MI",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"State Health Benefit Plan (Georgia)",
-    "State":"GA",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Tenet 65",
-    "State":"LA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"TennCare",
-    "State":"TN",
-    "LifeScan":"",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"TexasFirst Health Plans",
-    "State":"TX",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"The Diamond Plan (Coventry)",
-    "State":"MD, DC  ",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"The HealthPlan",
-    "State":"OH, WV",
-    "LifeScan":"Sole Preferred",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"TRICARE",
-    "State":"National",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"Tricare Triwest Healthcare West",
-    "State":"NM",
-    "LifeScan":"Covered",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Tufts Health Plan",
-    "State":"MA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Ucare",
-    "State":"MN",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"United Healthcare of the River Valley",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"HMSA - BlueCross BlueShield of Hawaii",
+    "State":"HI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Coventry Health Care of Iowa",
+    "State":"IA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Iowa Medicaid",
+    "State":"IA",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Wellmark BlueCross BlueShield of Iowa",
+    "State":"IA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"eVoucher",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"UnitedHealthcare of the River Valley",
     "State":"IA, IL, TN, VA",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Unicare Health Plans of the Midwest.",
+    "Provider":"Blue Cross of Idaho",
+    "State":"ID",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Idaho Medicaid",
+    "State":"ID",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Regence Blue Shield of Idaho",
+    "State":"ID",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Coventry Health Care of Illinois (PersonalCare)",
     "State":"IL",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Union Pacific",
-    "State":"UT, CO, AZ",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"Heritage",
+    "State":"IL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
   },
   {
-    "Health Plan":"Unison Health Plan",
-    "State":"PA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"Illinois Medicaid",
+    "State":"IL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"United Healthcare",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
+    "Provider":"Unicare Health Plans of the Midwest.",
+    "State":"IL",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
   },
   {
-    "Health Plan":"UnitedHealthCare",
-    "State":"AL",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"BlueCross BlueShield of Illinois",
+    "State":"IL, IN, WI",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Unity Health Plan of Wisconsin",
-    "State":"WI",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"University Health Plan",
-    "State":"NJ",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"UPMC Health Plan",
-    "State":"PA",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Utah Medicaid",
-    "State":"UT ",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Utah Medicaid",
-    "State":"UT",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"VA Medicaid",
-    "State":"VA",
-    "LifeScan":"Covered",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Vermont Medicaid",
-    "State":"VT",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Vista Health Plan",
-    "State":"FL",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Walgreens Health Initiative",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Washington Medicaid",
-    "State":"WA",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Welborn",
+    "Provider":"Anthem BCBS Indiana",
     "State":"IN",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Wellmark BlueCross BlueShield of Iowa",
-    "State":"IA",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
+    "Provider":"Indiana Medicaid",
+    "State":"IN",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Wellmark BCBS of South Dakota",
-    "State":"SD",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
+    "Provider":"Managed Health Services - Indiana",
+    "State":"IN",
+    "OneTouch Ultra":"Not Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
   },
   {
-    "Health Plan":"Wellmark BlueCross BlueShield of Iowa",
-    "State":"IA, SD",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"PHP of Northern Indiana",
+    "State":"IN",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
   },
   {
-    "Health Plan":"WellPath (Coventry)",
-    "State":"NC",
-    "LifeScan":"Sole Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"SIHO Insurance Services",
+    "State":"IN",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"WellPoint Health Networks (WellPoint nextRx)",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
+    "Provider":"Welborn",
+    "State":"IN",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
   },
   {
-    "Health Plan":"Wellpoint Medicaid - BlueChoice",
-    "State":"VA",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Sole Preferred",
-    "HDI":""
+    "Provider":"BlueCross BlueShield of Kansas",
+    "State":"KS",
+    "OneTouch Ultra":"Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
   },
   {
-    "Health Plan":"Wisconsin Medicaid",
-    "State":"WI",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
+    "Provider":"Community Health Plan",
+    "State":"KS",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
   },
   {
-    "Health Plan":"Wisconsin Physician Services",
-    "State":"WI",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
+    "Provider":"Coventry Health Care of Kansas",
+    "State":"KS",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Wyoming Medicaid",
-    "State":"WY",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":""
+    "Provider":"Kansas Medicaid",
+    "State":"KS",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
   },
   {
-    "Health Plan":"New West Health Services",
-    "State":"MT",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
+    "Provider":"Preferred Health Systems (Coventry Health Care of KS)",
+    "State":"KS",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"PacificSource",
-    "State":"OR",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":""
+    "Provider":"Preferred Plus of Kansas",
+    "State":"KS",
+    "OneTouch Ultra":"Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
   },
   {
-    "Health Plan":"",
-    "State":"",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Bridgeway Health Solutions",
-    "State":"AZ",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"Sunshine Health Plan",
-    "State":"FL",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"Iowa Medicaid",
-    "State":"IA",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"PEHP",
-    "State":"UT",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"HealthTrans",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"ODS Health Plans",
-    "State":"OR, WA",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"NY State Medicaid",
-    "State":"NY",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Preferred"
-  },
-  {
-    "Health Plan":"United of the River Valley ",
-    "State":"IL/Iowa",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"UHC of the River Valley",
-    "State":"IL/Iowa",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Prime Therapeutics",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"informedRx",
-    "State":"National",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"HealthSpring",
-    "State":"TN, TX, AL, MS, FL",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"HMO Blue",
-    "State":"NM",
-    "LifeScan":"Covered",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Mercy Health Plans",
-    "State":"MO",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Capital Health Plan",
-    "State":"FL",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Capital Blue Cross",
-    "State":"PA",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Preferred",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Geisinger Health Plan",
-    "State":"PA",
-    "LifeScan":"Sole Preferred",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Hroizon BcBs",
-    "State":"NJ",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Independence Blue Cross",
-    "State":"PA, NJ, DE",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Blue Cross of NE PA (NEPA)",
-    "State":"PA",
-    "LifeScan":"",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Horizon NJ Health",
-    "State":"NJ",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"DE Medicaid",
-    "State":"DE",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"Sole Preferred",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Health Partners",
-    "State":"PA",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Sole Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Amerihealth Mercy",
-    "State":"PA",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Connecticut Medicaid",
-    "State":"CT",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"",
-    "State":"",
-    "LifeScan":"",
-    "Roche":"Covered",
-    "Abbott":"",
-    "Bayer":"",
-    "HDI":""
-  },
-  {
-    "Health Plan":"Ohio Medicaid",
-    "State":"OH",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"United Healthcare of the River Valley",
-    "State":"IA, IL  ",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Heritage",
-    "State":"IL",
-    "LifeScan":"Preferred",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
-  },
-  {
-    "Health Plan":"Passport Health Plan",
+    "Provider":"Anthem BCBS Kentucky",
     "State":"KY",
-    "LifeScan":"",
-    "Roche":"",
-    "Abbott":"",
-    "Bayer":"Sole Preferred",
-    "HDI":""
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"SIHO Insurance Services",
-    "State":"IN",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Covered",
-    "Bayer":"Covered",
-    "HDI":"Covered"
+    "Provider":"Bluegrass Family Health Kentucky PPO",
+    "State":"KY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Network Health Plan of MA",
+    "Provider":"Commonwealth of Kentucky",
+    "State":"KY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"CoventryCares of Kentucky   (Medicaid Only)",
+    "State":"KY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Kentucky Medicaid",
+    "State":"KY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Coventry Health Care of Louisiana",
+    "State":"LA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Humana (Ochsner Health Plan)",
+    "State":"LA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"LA Medicaid",
+    "State":"LA",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Oschner (Hospital system)",
+    "State":"LA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"",
+    "Abbott Freestyle":"",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":""
+  },
+  {
+    "Provider":"Script Care",
+    "State":"LA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Tenet 65",
+    "State":"LA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"BlueCross BlueShield of Massachusetts",
     "State":"MA",
-    "LifeScan":"Preferred",
-    "Roche":"",
-    "Abbott":"Preferred",
-    "Bayer":"",
-    "HDI":""
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   },
   {
-    "Health Plan":"Pennsylvania Medicaid",
-    "State":"PA",
-    "LifeScan":"preferred",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Preferred"
+    "Provider":"BMC HealthNet",
+    "State":"MA",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"DME"
   },
   {
-    "Health Plan":"Lovelace Health Plan",
+    "Provider":"Celticare Health Plan",
+    "State":"MA",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Commonwealth of Mass (UniCare State Indemnity Plans)",
+    "State":"MA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Fallon Community Health Plan",
+    "State":"MA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Harvard Pilgrim HealthPlan",
+    "State":"MA",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Health New England",
+    "State":"MA",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"MA Medicaid (MassHealth)",
+    "State":"MA",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"Neighborhood Health Plan of MA",
+    "State":"MA",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Network Health Plan of MA",
+    "State":"MA",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"DME",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Tufts Health Plan",
+    "State":"MA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Maryland Medicaid",
+    "State":"MD",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"MD Physicians Care (Managed Medicaid)",
+    "State":"MD",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"CareFirst BlueCross BlueShield",
+    "State":"MD, DC, VA, PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Anthem BCBS Maine",
+    "State":"ME",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Maine Medicaid (MaineCare)",
+    "State":"ME",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"State of Maine Employees",
+    "State":"ME",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BCBS of MI",
+    "State":"MI",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"BCN Blue Care Network",
+    "State":"MI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Not Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Not Covered"
+  },
+  {
+    "Provider":"Blue Cross Blue Shield of MI",
+    "State":"MI",
+    "OneTouch Ultra":"Covered",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"HAP / Henry Ford",
+    "State":"MI",
+    "OneTouch Ultra":"Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Health Plus of Michigan",
+    "State":"MI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Michigan Medicaid",
+    "State":"MI",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"DME",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"OmniCare Health Plan - Coventry Health Care of Michigan (Medicaid Only)",
+    "State":"MI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Physician's Health Plan",
+    "State":"MI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Priority Health",
+    "State":"MI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Sparrow Health System ",
+    "State":"MI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"",
+    "Abbott Freestyle":"",
+    "Roche Accu-Chek":"",
+    "HDI True Test":""
+  },
+  {
+    "Provider":"St.John Health Plan",
+    "State":"MI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Washtanaw Health Plan A & B ",
+    "State":"MI ",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"",
+    "Abbott Freestyle":"",
+    "Roche Accu-Chek":"",
+    "HDI True Test":""
+  },
+  {
+    "Provider":"BCBS of Minnesota",
+    "State":"MN",
+    "OneTouch Ultra":"eVoucher",
+    "OneTouch Verio":"eVoucher",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"HealthPartners",
+    "State":"MN",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Medica Health Plan",
+    "State":"MN",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Minnesota Medicaid",
+    "State":"MN",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Preferred One",
+    "State":"MN",
+    "OneTouch Ultra":"eVoucher",
+    "OneTouch Verio":"eVoucher",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Ucare",
+    "State":"MN",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Not Covered",
+    "Roche Accu-Chek":"Not Covered",
+    "HDI True Test":"Not Covered"
+  },
+  {
+    "Provider":"Anthem BCBS Missouri",
+    "State":"MO",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Coventry Health Care of Missouri",
+    "State":"MO",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Mercy Health Plan - Coventry Health Care of Missouri",
+    "State":"MO",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Missouri Medicaid",
+    "State":"MO",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BCBS of Kansas City",
+    "State":"MO, KS",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BCBS of Mississippi",
+    "State":"MS",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"CIGNA of MS EPO: Please remove",
+    "State":"MS",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Mississippi Medicaid",
+    "State":"MS",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"BCBS of Montana",
+    "State":"MT",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Montana Medicaid",
+    "State":"MT",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"New West Health Services",
+    "State":"MT",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"AARP® MedicareComplete® SecureHorizons®",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"AARP®MedicareComplete®",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"AdvancePCS",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Advantra (Coventry)",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Aetna Pharmacy Management",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Aetna Rx Home Delivery",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Amerigroup",
+    "State":"National",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Anthem Medicaid",
+    "State":"National",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Caremark",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Catalyst Rx",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Catalyst Rx",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"CIGNA ",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"CIGNA Home Delivery",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Coventry Health Care",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Erickson Advantage® ",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Evercare®",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Express Scripts, Inc",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Federal Employee Health Plan BCBSA (FEP)",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"HealthTrans",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Humana Gold (Medicare)",
+    "State":"National",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Humana, Inc.  (National)",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Medco",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Medicare Part B",
+    "State":"National",
+    "OneTouch Ultra":"Covered",
+    "OneTouch Verio":"Covered",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"MedImpact",
+    "State":"National",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"National Medical Health Card Systems",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"OptumRx National Formulary",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Prime Therapeutics National ",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Restat",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Sav-Rx",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"TRICARE",
+    "State":"National",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"UnitedHealthcare Employer & Individual (Commercial)",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"UnitedHealthcare Community Plan",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"UnitedHealthcare®  MedicareDirect™ Rx ",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"UnitedHealthcare® MedicareComplete®",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Walgreens Health Initiative",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Wellcare",
+    "State":"National",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"WellPoint",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Wellpoint Medicaid - BlueChoice",
+    "State":"National",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueCross BlueShield of North Carolina",
+    "State":"NC",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"North Carolina Medicaid",
+    "State":"NC",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"North Carolina State Employees & Teachers",
+    "State":"NC",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"WellPath (Coventry)",
+    "State":"NC",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Coventry Health Care of the Carolinas",
+    "State":"NC, SC",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BCBS North Dakota",
+    "State":"ND",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueCross BlueShield of Nebraska",
+    "State":"NE",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Coventry Health Care of Nebraska",
+    "State":"NE",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"CoventryCares of Nebraska  (Mged Medicaid)",
+    "State":"NE",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Nebraska Medicaid",
+    "State":"NE",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Anthem BCBS New Hampshire",
+    "State":"NH",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"New Hampshire",
+    "State":"NH",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"Benecard",
+    "State":"NJ",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Centene",
+    "State":"NJ",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Horizon BlueCross BlueShield of New Jersey",
+    "State":"NJ",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Horizon NJ Health",
+    "State":"NJ",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"New Jersey Medicaid",
+    "State":"NJ",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"University Health Plan",
+    "State":"NJ",
+    "OneTouch Ultra":"Not Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Not Covered",
+    "Abbott Freestyle":"Not Covered",
+    "Roche Accu-Chek":"Not Covered",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Blue Cross BlueShield of New Mexico",
     "State":"NM",
-    "LifeScan":"Covered",
-    "Roche":"Covered",
-    "Abbott":"Preferred",
-    "Bayer":"Covered",
-    "HDI":"Covered"
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
   },
   {
-    "Health Plan":"Missouri Medicaid",
-    "State":"Mo",
-    "LifeScan":"Preferred",
-    "Roche":"Preferred",
-    "Abbott":"Preferred",
-    "Bayer":"Preferred",
-    "HDI":"Preferred"
+    "Provider":"HMO Blue - subsidiary of BCBS of New Mexico",
+    "State":"NM",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"New Mexico Medicaid",
+    "State":"NM",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Anthem BCBS Nevada",
+    "State":"NV",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Health Plan of Nevada",
+    "State":"NV",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Hometown Health Plan",
+    "State":"NV",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Nevada Medicaid",
+    "State":"NV",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Not Covered",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Not Covered",
+    "HDI True Test":"Not Covered"
+  },
+  {
+    "Provider":"Senior Dimensions",
+    "State":"NV",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Sierra Health and Life",
+    "State":"NV",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Smartchoice NV",
+    "State":"NV",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"1199 SEIU",
+    "State":"NY",
+    "OneTouch Ultra":"Covered",
+    "OneTouch Verio":"Covered",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Amida Care (MM)",
+    "State":"NY",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"Empire BCBS (Anthem)",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Excellus BlueCross BlueShield",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Excellus FLRx",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Excellus Managed Medicaid",
+    "State":"NY",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Excellus Univera Healthcare",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Independent Health (IHA)",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Independent Health (IHA) Managed Medicaid",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"MVP Health Care Managed Medicaid",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"NY Presbyterian System Select Health (MM)",
+    "State":"NY",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"DME",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Total Care (MM)",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"Univera Community Health (MM)",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Wellcare Health Plan (MM)",
+    "State":"NY",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"Oxford Health Plan",
+    "State":"NY, CT, NJ",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Anthem BCBS Ohio",
+    "State":"OH",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"AultCare",
+    "State":"OH",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Buckeye Health Plan",
+    "State":"OH",
+    "OneTouch Ultra":"Not Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Not Covered",
+    "Abbott Freestyle":"Not Covered",
+    "Roche Accu-Chek":"Not Covered",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Humana OH",
+    "State":"OH",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Medmutal",
+    "State":"OH",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Not Covered",
+    "Abbott Freestyle":"Not Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Not Covered"
+  },
+  {
+    "Provider":"Ohio Medicaid",
+    "State":"OH",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"CareSource",
+    "State":"OH, MI",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"The HealthPlan",
+    "State":"OH, WV",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueCross BlueShield of OK",
+    "State":"OK",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Oklahoma Medicaid",
+    "State":"OK",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"SelectCare of Oklahoma",
+    "State":"OK",
+    "OneTouch Ultra":"Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"LifeWise OR",
+    "State":"OR",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Oregon Medicaid",
+    "State":"OR",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"PacificSource",
+    "State":"OR",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Providence Home Medical Equipment",
+    "State":"OR",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Regence BCBS Oregon",
+    "State":"OR",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Moda Health",
+    "State":"OR, WA",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Aetna Better Health",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Amerihealth (Keystone) Mercy",
+    "State":"PA",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BC of Northeast Pennsylvania (NEPA)",
+    "State":"PA",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Capital Blue Cross",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"CoventryCares of Pennsylvania",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Gateway Health Plan",
+    "State":"PA",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Geisinger Health Plan",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Geisinger Health Plan Managed Medicaid",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Health Partners of Philadelphia",
+    "State":"PA",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"HealthAmerica Advantra Pennsylvania (Coventry Health Care of PA)",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"HealthAmerica Pennsylvania (Coventry Health Care of  PA)",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"HealthAssurance Pennsylvania (Coventry Health Care of PA)",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Highmark",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Highmark",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"PA Employee Benefit Trust",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Pennsylvania Medicaid",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"UPMC Health Plan",
+    "State":"PA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Independence Blue Cross",
+    "State":"PA, NJ, DE",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"BlueCross BlueShield of Rhode Island",
+    "State":"RI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Neighborhood Health Plan of RI ",
+    "State":"RI",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"DME",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"Rhode Island",
+    "State":"RI",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"UnitedHealthcare RiteCare",
+    "State":"RI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueChoice Health Plan SC",
+    "State":"SC",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueCross BlueShield of South Carolina",
+    "State":"SC",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"CoventryOne South Carolina",
+    "State":"SC",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"SC State Health Plan",
+    "State":"SC",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"South Carolina Medicaid",
+    "State":"SC",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"Dakotacare (Commercial Plans)",
+    "State":"SD",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Sanford Health Plan",
+    "State":"SD",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Wellmark BCBS of South Dakota",
+    "State":"SD",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"eVoucher",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueCross BlueShield Tennessee",
+    "State":"TN",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"TennCare",
+    "State":"TN",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"HealthSpring",
+    "State":"TN, TX",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueCross BlueShield of TX",
+    "State":"TX",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Driscoll Health Plan",
+    "State":"TX",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"FirstCare",
+    "State":"TX",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"FirstCare",
+    "State":"TX",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Physicians Health Choice",
+    "State":"TX",
+    "OneTouch Ultra":"Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Scott & White",
+    "State":"TX",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"DME",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"Script Care",
+    "State":"TX",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"SelectCare of Texas (Texan Plus)",
+    "State":"TX",
+    "OneTouch Ultra":"Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Texas Medicaid",
+    "State":"TX",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"TexasFirst Health Plans",
+    "State":"TX",
+    "OneTouch Ultra":"Covered",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Altius Health Plan - Coventry Utah",
+    "State":"UT",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"PEHP",
+    "State":"UT",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Not Covered",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Not Covered",
+    "HDI True Test":"Not Covered"
+  },
+  {
+    "Provider":"Regence BCBS Utah",
+    "State":"UT",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Select Health",
+    "State":"UT",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Altius Health Plan (Coventry)",
+    "State":"UT ",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Utah Medicaid",
+    "State":"UT ",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"Union Pacific",
+    "State":"UT, CO, AZ",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Anthem BCBS Virginia",
+    "State":"VA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Carenet  (Coventry VA Mged Medicaid)",
+    "State":"VA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Optima Health",
+    "State":"VA",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Southern Health (Coventry Health Care of VA)",
+    "State":"VA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Virginia Medicaid",
+    "State":"VA",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Virginia Premier",
+    "State":"VA",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueCross BlueShield of Vermont",
+    "State":"VT",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Vermont Medicaid",
+    "State":"VT",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"UPMC",
+    "State":"W.VA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Community Health Plan of Washington",
+    "State":"WA",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Kitsap Physician Services",
+    "State":"WA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Premera Blue Cross",
+    "State":"WA",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Regence Blue Shield Washington",
+    "State":"WA",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Washington Medicaid",
+    "State":"WA",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Providence Health Plan",
+    "State":"WA OR",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Anthem BCBS Wisconsin",
+    "State":"WI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Dean Health Plan",
+    "State":"WI",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Humana WI",
+    "State":"WI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Managed Health Services - Wisconsin",
+    "State":"WI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Covered",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Network Health Plan",
+    "State":"WI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Physicians Plus Wisconsin",
+    "State":"WI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Covered",
+    "Abbott Freestyle":"Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Covered"
+  },
+  {
+    "Provider":"Security Health Plan",
+    "State":"WI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"",
+    "Bayer Contour":"Not Covered",
+    "Abbott Freestyle":"Not Covered",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Not Covered"
+  },
+  {
+    "Provider":"WEA Trust ",
+    "State":"WI",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Wisconsin Medicaid",
+    "State":"WI",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Navitus (PBM)",
+    "State":"WI, TX, MN",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Carelink Health Plan (Coventry Health Care of West Virginia)",
+    "State":"WV",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"West Virginia Medicaid",
+    "State":"WV",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"BCBS Wyoming",
+    "State":"WY",
+    "OneTouch Ultra":"Non Formulary",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Wyoming Medicaid",
+    "State":"WY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Non Formulary",
+    "Bayer Contour":"DME",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"DME",
+    "HDI True Test":"DME"
+  },
+  {
+    "Provider":"",
+    "State":"",
+    "OneTouch Ultra":"",
+    "OneTouch Verio":"",
+    "Bayer Contour":"",
+    "Abbott Freestyle":"",
+    "Roche Accu-Chek":"",
+    "HDI True Test":""
+  },
+  {
+    "Provider":"WellPoint MAPD",
+    "State":"National",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Emblem Health (HIP of NY/GHI)",
+    "State":"NY",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Connecticare",
+    "State":"CT",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Healthfirst",
+    "State":"NY",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"MVP - Mohawk Valley Plan",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BCBS Western NY/Eastern NY/HealthNow",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"CDPHP - Capital District Physicians Health Plan",
+    "State":"NY",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"Metro Plus Health (MM)",
+    "State":"NY",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Affinity Health Plan (MM)",
+    "State":"NY",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"HeallthPlus (MM)",
+    "State":"NY",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"NY State Medicaid",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Preferred",
+    "Abbott Freestyle":"Preferred",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"CT State Medicaid",
+    "State":"CT",
+    "OneTouch Ultra":"Open Access",
+    "OneTouch Verio":"Open Access",
+    "Bayer Contour":"Open Access",
+    "Abbott Freestyle":"Open Access",
+    "Roche Accu-Chek":"Open Access",
+    "HDI True Test":"Open Access"
+  },
+  {
+    "Provider":"Fidelis (MM)",
+    "State":"NY",
+    "OneTouch Ultra":"DME",
+    "OneTouch Verio":"DME",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Non Formulary",
+    "HDI True Test":"Preferred"
+  },
+  {
+    "Provider":"Hudson Health Plan (MM)",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueCross BlueShield of Western New York",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueCross BlueShield of Western NY Medicaid",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueShield of Northeastern New York",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
+  },
+  {
+    "Provider":"BlueShield of Northeastern NY Medicaid",
+    "State":"NY",
+    "OneTouch Ultra":"Preferred",
+    "OneTouch Verio":"Preferred",
+    "Bayer Contour":"Non Formulary",
+    "Abbott Freestyle":"Non Formulary",
+    "Roche Accu-Chek":"Preferred",
+    "HDI True Test":"Non Formulary"
   }
 ];

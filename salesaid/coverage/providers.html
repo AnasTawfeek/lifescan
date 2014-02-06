@@ -11,9 +11,12 @@
       src="/resources/images/selection/productheaders.png" />
     </div>
     <div class="plan-list">
-      <div ng-repeat="provider in grid.unselected_providers" >
-        {{ provider["Health Plan"] }}
+      <div width="" ng-repeat="provider in grid.unselected_providers"  >
+         <div style="width: 220px; float: left; display: block;">       {{ provider["Provider"] }}</div>
+         <div style="background-color: #3f3a66; width: 150px; color:
+         #fff; float: left; display: block;"> {{ provider[""] }} </div>
       </div>
+
     </div>
   </div>
   <div class="footer fullwidth">

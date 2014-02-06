@@ -303,3 +303,10 @@ select[name=state] {
      background-color: #2aaff8 !important; 
      color: #fff !important;
 }
+
+.plan-list {
+    border-width: 5px;
+    border-color: #2aaff8;
+    border-style: solid;
+    padding: 8px 8px 8px 8px;
+}
