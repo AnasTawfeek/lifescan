@@ -310,3 +310,8 @@ select[name=state] {
     border-style: solid;
     padding: 8px 8px 8px 8px;
 }
+
+.grid-square {
+    padding: 3px 3px 3px 3px;
+    
+}

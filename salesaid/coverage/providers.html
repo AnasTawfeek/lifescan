@@ -8,15 +8,71 @@
   <div class="providers-content fullwidth">
     <div class="selected-plans">
       <img class="productheaders"
-      src="/resources/images/selection/productheaders.png" />
+           src="resources/images/selection/productheaders.png"
+           style="position: relative;
+left: 311px;
+display: block;
+top: 0px;"/>
     </div>
-    <div class="plan-list">
-      <div width="" ng-repeat="provider in grid.unselected_providers"  >
-         <div style="width: 220px; float: left; display: block;">       {{ provider["Provider"] }}</div>
-         <div style="background-color: #3f3a66; width: 150px; color:
-         #fff; float: left; display: block;"> {{ provider[""] }} </div>
+    <div width="900" style="display:block; margin-left: 110px;" ng-repeat="provider in
+                                                       grid.selected_providers " >
+      <div style="font-family: gothammedium; margin-bottom: 12px;
+                  clear: both;"  ng-click="deselect_provider($index)"> 
+        <div style="width: 205px; height: 30px; background-color:
+                    #9bd1ee; color: #666;  float: left; display: block;">{{ provider["Provider"] }}</div>
+        <div align="center" class="plan-square" style="background-color: #3f3a66; width: 103px; height:30px; color: #fff; display: block; float: left;"> <img ng-src="{{ coverage_icon(provider['OneTouch Verio'])} }"   /> </div>
+        <div align="center"  class="plan-square" style="background-color: #2aaff8; width: 103px; color: #fff; float: left; height: 30px; display: block;"> <img ng-src="{{ coverage_icon(provider['OneTouch Ultra']) }}" /></div>
+        <div align="center" class="plan-square" style="background-color: #cccccc; width: 103px; color:
+                                                       #fff; float: left; height: 30px; display: block;">
+          <img ng-src="{{ coverage_icon(provider['Bayer  Contour']) }}" /> </div>
+        <div align="center" class="plan-square" style="background-color: #e9eaea; width: 103px; color:
+                                                       #fff; float: left; height: 30px; display: block;">
+          <img ng-src="{{ coverage_icon(provider['Abbott Freestyle']) }}" /> </div>
+        <div align="center" class="plan-square" style="background-color: #ccc; width: 103px; color:
+                                                       #fff; float: left; height: 30px; display: block;">
+          <img ng-src="{{ coverage_icon(provider['Roche Accu-Check']) }}" /> </div>
+        <div align="center" class="plan-square" style="background-color: #e9eaea; height: 30px; width: 103px; color:  #fff; float: left; display: block;"> <img ng-src="{{ coverage_icon(provider['HDI True Test']) }}" /> </div>
       </div>
+    </div>
 
+      <div class="productkey">
+       <img src="resources/images/selection/productkey.png"
+      style="float: right;" />
+      </div>
+    
+    
+    <div>
+      <h1 style="font-family: gothammedium; color: #3f3a66;">SELECT PLANS</h1>
+    </div>
+    <div class="plan-list unselected-plans" style="height: inherit;">
+      <div width="900" style="display:block;" ng-repeat="provider in
+                                                         grid.unselected_providers
+                                                         "  >
+        <div style="font-family: gothammedium; margin-bottom: 12px;
+        clear: both;"
+        ng-click="select_provider($index)"> 
+          <div style="width: 205px; height: 30px; background-color:
+                      #9bd1ee; color: #666; float: left; display: block;">{{ provider["Provider"] }}</div>
+          <div align="center" class="plan-square" style="background-color: #3f3a66; width: 105px; height:30px; color: #fff; display: block; float: left;"> <img ng-src="{{ coverage_icon(provider['OneTouch Verio']) }}"   /> </div>
+          <div align="center"  class="plan-square" style="background-color: #2aaff8; width: 105px; color: #fff; float: left; height: 30px; display: block;"> <img ng-src="{{ coverage_icon(provider['OneTouch Ultra']) }}" /></div>
+          <div align="center" class="plan-square" style="background-color: #cccccc; width: 105px; color:
+                                                         #fff; float: left; height: 30px; display: block;">
+            <img ng-src="{{ coverage_icon(provider['Bayer
+                      Contour']) }}" /> </div>
+          <div align="center" class="plan-square" style="background-color: #e9eaea; width: 105px; color:
+                                                         #fff; float: left; height: 30px; display: block;">
+            <img ng-src="{{ coverage_icon(provider['Abbott
+                      Freestyle']) }}" /> </div>
+          <div align="center" class="plan-square" style="background-color: #ccc; width: 105px; color:
+                                                         #fff; float: left; height: 30px; display: block;">
+            <img ng-src="{{ coverage_icon(provider['Roche
+                      Accu-Check']) }}" /> </div>
+          <div align="center" class="plan-square" style="background-color: #e9eaea; height: 30px; width: 105px; color:  #fff; float: left; display: block;"> <img ng-src="{{   coverage_icon(provider['HDI True Test']) }}" /> </div>
+        </div>
+      </div>
+      <div class="key">
+        <img src="" />
+      </div>
     </div>
   </div>
   <div class="footer fullwidth">

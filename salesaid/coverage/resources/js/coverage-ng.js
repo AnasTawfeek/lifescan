@@ -102,6 +102,15 @@ app.controller("ProvidersController", ["$scope", "$location", "$http", "$route",
    };
 
    
+   $scope.coverage_icon = function(type) {
+     if (type === "Open Access")
+       return "resources/images/selection/preferred_blue.png";
+     else if (type === "Non Formulary")
+       return "resources/images/selection/xnf.png";
+     else
+       return "resources/images/selection/blank.png";
+   };
+   
    $scope.grid.template = undefined;
    $scope.grid.states = [
     {
@@ -360,14 +369,24 @@ app.controller("ProvidersController", ["$scope", "$location", "$http", "$route",
    
    $scope.grid.unselected_providers = unselected_providers;
    $scope.grid.selected_providers = selected_providers;
-   
 
+   $scope.select_provider = function(planIndex) {
+     if ($scope.grid.selected_providers.length < 5) {
+       $scope.grid.selected_providers.push($scope.grid.unselected_providers[planIndex]);
+       $scope.grid.unselected_providers.splice(planIndex, 1);
+     }
+   };
+   
+   $scope.deselect_provider = function(planIndex) {
+       $scope.grid.unselected_providers.push($scope.grid.selected_providers[planIndex]);
+       $scope.grid.selected_providers.splice(planIndex, 1);
+   };
+
+   
    $scope.changeView = function(view) {
-     
      $location.path(view);     
      unselected_providers = $scope.filter_by_states(providers, $scope.grid.selected_states());
      selected_providers = [];
-
    };
 
 }]);
