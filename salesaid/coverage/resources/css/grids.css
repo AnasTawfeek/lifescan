@@ -160,10 +160,6 @@ body {
     display: block;
 }
 
-.back {
-    background-image: url(../images/global/back.png);
-    float: left;
-}
 
 .selectedgrid {
     background-image: url(../images/grids/gridbg_selected.png);
@@ -313,5 +309,18 @@ select[name=state] {
 
 .grid-square {
     padding: 3px 3px 3px 3px;
+    
+}
+
+.back {
+    background-image: url(../images/global/back.png);
+    float: left;
+}
+
+.cancel {
+    background-image: url(../images/selection/cancel.png);
+    float: left;
+    height: 28px;
+    width: 88px;
     
 }
