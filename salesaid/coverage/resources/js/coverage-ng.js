@@ -347,7 +347,7 @@ app.controller("ProvidersController", ["$scope", "$location", "$http", "$route",
      $scope.grid.template = template;
    };
    
-     $scope.filter_by_states = function(providers, states) {
+   $scope.filter_by_states = function(providers, states) {
      return providers.filter(function(provider) {
        var flag = false;
        states.forEach(function(state) {
@@ -365,7 +365,7 @@ app.controller("ProvidersController", ["$scope", "$location", "$http", "$route",
        return state.selected == true;
      });
    };
- 
+   
    
    $scope.grid.unselected_providers = unselected_providers;
    $scope.grid.selected_providers = selected_providers;
@@ -384,9 +384,21 @@ app.controller("ProvidersController", ["$scope", "$location", "$http", "$route",
 
    
    $scope.changeView = function(view) {
-     $location.path(view);     
-     unselected_providers = $scope.filter_by_states(providers, $scope.grid.selected_states());
-     selected_providers = [];
+     if (view == "/providers") {
+       console.log("view = providers");
+       if ($scope.grid.selected_states().length > 0 && $scope.grid.template != undefined && $scope.grid.template != null) {
+         $location.path(view);     
+         unselected_providers = $scope.filter_by_states(providers, $scope.grid.selected_states());
+         selected_providers = [];
+         gridtemplate = $scope.grid.template;
+       }
+     }
+     else {
+       $location.path(view);     
+       unselected_providers = $scope.filter_by_states(providers, $scope.grid.selected_states());
+       selected_providers = [];
+       gridtemplate = $scope.grid.template;
+     }
    };
 
 }]);

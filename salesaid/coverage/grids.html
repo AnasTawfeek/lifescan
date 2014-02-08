@@ -18,7 +18,7 @@
     <a class="grid-button create-grid-button" ng-click="changeView('/add')"></a>
     <div class="grid-button coverage-grid-button"  ng-class="{selectedgrid: grid.selected && grid.selected == true}" ng-click="select_grid(grid, $index)" ng-model="grid" ng-repeat="grid in grids">
       <div>
-        <img class="gridlabel" src="{{ grid.type_image }}"/>
+        <img class="gridlabel" ng-src="{{ grid.type_image }}"/>
       </div>
     </div>
   </div>
